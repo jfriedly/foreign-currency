@@ -1,0 +1,43 @@
+{
+    "country_name": "morocco", 
+    "divisions": {
+        "santimat": {
+            "value": 1, 
+            "denomination": "santimat"
+        }, 
+        "dirhams": {
+            "value": 100, 
+            "denomination": "santimat"
+        }
+    }, 
+    "inventory": [
+        {
+            "obsolete": false, 
+            "value": 20, 
+            "denomination": "dirhams", 
+            "year": 2005, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "dirhams", 
+            "year": 1987, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "dirhams", 
+            "year": 2002, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "denominations": [
+        "dirhams", 
+        "santimat"
+    ]
+}

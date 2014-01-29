@@ -1,0 +1,27 @@
+{
+    "country_name": "costa-rica", 
+    "divisions": {
+        "colones": {
+            "value": 100, 
+            "denomination": "centimos"
+        }, 
+        "centimos": {
+            "value": 1, 
+            "denomination": "centimos"
+        }
+    }, 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 50, 
+            "denomination": "centimos", 
+            "year": 1948, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "denominations": [
+        "colones", 
+        "centimos"
+    ]
+}

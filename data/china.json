@@ -1,0 +1,448 @@
+{
+    "country_name": "china", 
+    "divisions": {
+        "fen": {
+            "value": 1, 
+            "denomination": "fen"
+        }, 
+        "yuan": {
+            "value": 10, 
+            "denomination": "jiao"
+        }, 
+        "jiao": {
+            "value": 10, 
+            "denomination": "fen"
+        }
+    }, 
+    "inventory": [
+        {
+            "obsolete": false, 
+            "value": 50, 
+            "denomination": "yuan", 
+            "year": 2005, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "jiao", 
+            "year": 2008, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "yuan", 
+            "year": 2006, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 2, 
+            "denomination": "fen", 
+            "year": 1955, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "yuan", 
+            "year": 1999, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "yuan", 
+            "year": 1999, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "yuan", 
+            "year": 1999, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "yuan", 
+            "year": 1999, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "yuan", 
+            "year": 1999, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 1980, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "yuan", 
+            "year": 1980, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "yuan", 
+            "year": 1980, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "yuan", 
+            "year": 2005, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "yuan", 
+            "year": 2005, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "yuan", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "fen", 
+            "year": 1986, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "fen", 
+            "year": 1990, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "fen", 
+            "year": 1987, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "fen", 
+            "year": 1988, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 1992, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 1992, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 1993, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 1994, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2000, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2001, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2005, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2005, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2005, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2005, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2006, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2006, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2006, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2008, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2008, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2008, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2008, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2008, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 2009, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "denominations": [
+        "yuan", 
+        "jiao", 
+        "fen"
+    ]
+}
