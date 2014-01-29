@@ -26,6 +26,11 @@ def parse_args():
                            default=False,
                            action="store_true",
                            help="This currency is a bill.")
+    argparser.add_argument("--obsolete",
+                           required=False,
+                           default=False,
+                           action="store_true",
+                           help="This currency is obsolete.")
     argparser.add_argument("--owner",
                            type=str,
                            required=False,
@@ -51,7 +56,8 @@ def create_currency_unit(args):
         "denomination": args.denomination,
         "year": args.year,
         "type": currency_type,
-        "owner": args.owner
+        "owner": args.owner,
+        "obsolete": args.obsolete
     }
     return currency_unit
 

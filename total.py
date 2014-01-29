@@ -37,7 +37,8 @@ def main():
     country = utils.load_country(args.country)
     totals = {denomination: 0 for denomination in country['denominations']}
     for unit in country['inventory']:
-        totals[unit['denomination']] += unit['value']
+        if not unit['obsolete']:
+            totals[unit['denomination']] += unit['value']
     # The country's denominations should be ordered from largest to smallest
     biggest_unit = country['denominations'][0]
     total = sum_units(biggest_unit, totals, country['divisions'], 1)

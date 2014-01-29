@@ -24,10 +24,10 @@ def save_country(country):
 
 def canadian_coin():
     return {
-        "country": "canada",
         "type": "coin",
         "owner": "Joel Friedly",
-        "denomination": "cents"
+        "denomination": "cents",
+        "obsolete": False
     }
 
 

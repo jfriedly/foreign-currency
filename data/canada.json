@@ -1,1107 +1,1263 @@
 {
     "country_name": "canada", 
     "divisions": {
+        "cents": {
+            "value": 1, 
+            "denomination": "cents"
+        }, 
         "dollars": {
             "value": 100, 
-            "denomination": "cents"
-        },
-        "cents": {
-            "value": 1,
             "denomination": "cents"
         }
     }, 
     "inventory": [
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 50, 
-            "year": 1965
+            "denomination": "cents", 
+            "year": 1965, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 50, 
-            "year": 1964
-        }, 
-        {
-            "owner": "Joel Friedly", 
             "denomination": "cents", 
-            "type": "coin", 
-            "value": 25, 
-            "year": 1977
+            "year": 1964, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
+            "obsolete": false, 
+            "value": 25, 
             "denomination": "cents", 
-            "type": "coin", 
-            "value": 25, 
-            "year": 2003
+            "year": 1977, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
+            "obsolete": false, 
+            "value": 25, 
             "denomination": "cents", 
-            "type": "coin", 
-            "value": 25, 
-            "year": 1976
+            "year": 2003, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
+            "obsolete": false, 
+            "value": 25, 
             "denomination": "cents", 
-            "type": "coin", 
-            "value": 25, 
-            "year": 2000
+            "year": 1976, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
+            "obsolete": false, 
+            "value": 25, 
             "denomination": "cents", 
-            "type": "coin", 
-            "value": 25, 
-            "year": 1968
+            "year": 2000, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
+            "obsolete": false, 
+            "value": 25, 
             "denomination": "cents", 
-            "type": "coin", 
-            "value": 25, 
-            "year": 1981
+            "year": 1968, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
+            "obsolete": false, 
+            "value": 25, 
             "denomination": "cents", 
-            "type": "coin", 
-            "value": 25, 
-            "year": 1994
+            "year": 1981, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
+            "obsolete": false, 
+            "value": 25, 
             "denomination": "cents", 
-            "type": "coin", 
-            "value": 25, 
-            "year": 1985
+            "year": 1994, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
+            "obsolete": false, 
+            "value": 25, 
             "denomination": "cents", 
-            "type": "coin", 
-            "value": 25, 
-            "year": 1974
+            "year": 1985, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
+            "obsolete": false, 
+            "value": 25, 
             "denomination": "cents", 
-            "type": "coin", 
-            "value": 25, 
-            "year": 1994
+            "year": 1974, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
+            "obsolete": false, 
+            "value": 25, 
             "denomination": "cents", 
-            "type": "coin", 
-            "value": 25, 
-            "year": 2000
+            "year": 1994, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
+            "obsolete": false, 
+            "value": 25, 
+            "denomination": "cents", 
+            "year": 2000, 
             "owner": "Joel Friedly", 
-            "denomination": "dollars", 
-            "type": "bill", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
             "value": 2, 
-            "year": 1954
+            "denomination": "dollars", 
+            "year": 1954, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 1968
+            "denomination": "cents", 
+            "year": 1968, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 1976
+            "denomination": "cents", 
+            "year": 1976, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 1939
+            "denomination": "cents", 
+            "year": 1939, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 1975
+            "denomination": "cents", 
+            "year": 1975, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 1978
+            "denomination": "cents", 
+            "year": 1978, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 1958
+            "denomination": "cents", 
+            "year": 1958, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 1976
+            "denomination": "cents", 
+            "year": 1976, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 1993
+            "denomination": "cents", 
+            "year": 1993, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 1969
+            "denomination": "cents", 
+            "year": 1969, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 1969
+            "denomination": "cents", 
+            "year": 1969, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 1974
+            "denomination": "cents", 
+            "year": 1974, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 1974
+            "denomination": "cents", 
+            "year": 1974, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 1995
+            "denomination": "cents", 
+            "year": 1995, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 2000
+            "denomination": "cents", 
+            "year": 2000, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 1968
+            "denomination": "cents", 
+            "year": 1968, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 25, 
-            "year": 1929
+            "denomination": "cents", 
+            "year": 1929, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1987
+            "denomination": "cents", 
+            "year": 1987, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1994
+            "denomination": "cents", 
+            "year": 1994, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1964
+            "denomination": "cents", 
+            "year": 1964, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1961
+            "denomination": "cents", 
+            "year": 1961, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1950
+            "denomination": "cents", 
+            "year": 1950, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1958
+            "denomination": "cents", 
+            "year": 1958, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 2000
+            "denomination": "cents", 
+            "year": 2000, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1999
+            "denomination": "cents", 
+            "year": 1999, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1965
+            "denomination": "cents", 
+            "year": 1965, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1998
+            "denomination": "cents", 
+            "year": 1998, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1965
+            "denomination": "cents", 
+            "year": 1965, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1964
+            "denomination": "cents", 
+            "year": 1964, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1971
+            "denomination": "cents", 
+            "year": 1971, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1931
+            "denomination": "cents", 
+            "year": 1931, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1998
+            "denomination": "cents", 
+            "year": 1998, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1963
+            "denomination": "cents", 
+            "year": 1963, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1988
+            "denomination": "cents", 
+            "year": 1988, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1965
+            "denomination": "cents", 
+            "year": 1965, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1999
+            "denomination": "cents", 
+            "year": 1999, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1945
+            "denomination": "cents", 
+            "year": 1945, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1978
+            "denomination": "cents", 
+            "year": 1978, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 5, 
-            "year": 1947
+            "denomination": "cents", 
+            "year": 1947, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 10, 
-            "year": 1963
+            "denomination": "cents", 
+            "year": 1963, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 10, 
-            "year": 1968
+            "denomination": "cents", 
+            "year": 1968, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 10, 
-            "year": 1960
+            "denomination": "cents", 
+            "year": 1960, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 10, 
-            "year": 1959
+            "denomination": "cents", 
+            "year": 1959, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 10, 
-            "year": 2000
+            "denomination": "cents", 
+            "year": 2000, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 10, 
-            "year": 2001
+            "denomination": "cents", 
+            "year": 2001, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 10, 
-            "year": 1998
+            "denomination": "cents", 
+            "year": 1998, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 10, 
-            "year": 1957
+            "denomination": "cents", 
+            "year": 1957, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 10, 
-            "year": 1984
+            "denomination": "cents", 
+            "year": 1984, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 10, 
-            "year": 1943
+            "denomination": "cents", 
+            "year": 1943, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 10, 
-            "year": 1972
+            "denomination": "cents", 
+            "year": 1972, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 10, 
-            "year": 1979
+            "denomination": "cents", 
+            "year": 1979, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 10, 
-            "year": 1953
+            "denomination": "cents", 
+            "year": 1953, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 10, 
-            "year": 2004
+            "denomination": "cents", 
+            "year": 2004, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1962
+            "denomination": "cents", 
+            "year": 1962, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1981
+            "denomination": "cents", 
+            "year": 1981, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1999
+            "denomination": "cents", 
+            "year": 1999, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1995
+            "denomination": "cents", 
+            "year": 1995, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1961
+            "denomination": "cents", 
+            "year": 1961, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1960
+            "denomination": "cents", 
+            "year": 1960, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1976
+            "denomination": "cents", 
+            "year": 1976, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1998
+            "denomination": "cents", 
+            "year": 1998, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1999
+            "denomination": "cents", 
+            "year": 1999, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1983
+            "denomination": "cents", 
+            "year": 1983, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1959
+            "denomination": "cents", 
+            "year": 1959, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1964
+            "denomination": "cents", 
+            "year": 1964, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1980
+            "denomination": "cents", 
+            "year": 1980, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1985
+            "denomination": "cents", 
+            "year": 1985, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1993
+            "denomination": "cents", 
+            "year": 1993, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1992
+            "denomination": "cents", 
+            "year": 1992, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1977
+            "denomination": "cents", 
+            "year": 1977, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1986
+            "denomination": "cents", 
+            "year": 1986, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1978
+            "denomination": "cents", 
+            "year": 1978, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1980
+            "denomination": "cents", 
+            "year": 1980, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1999
+            "denomination": "cents", 
+            "year": 1999, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1943
+            "denomination": "cents", 
+            "year": 1943, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1976
+            "denomination": "cents", 
+            "year": 1976, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1958
+            "denomination": "cents", 
+            "year": 1958, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1962
+            "denomination": "cents", 
+            "year": 1962, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1994
+            "denomination": "cents", 
+            "year": 1994, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1966
+            "denomination": "cents", 
+            "year": 1966, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1977
+            "denomination": "cents", 
+            "year": 1977, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1979
+            "denomination": "cents", 
+            "year": 1979, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1979
+            "denomination": "cents", 
+            "year": 1979, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1964
+            "denomination": "cents", 
+            "year": 1964, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1982
+            "denomination": "cents", 
+            "year": 1982, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1988
+            "denomination": "cents", 
+            "year": 1988, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1964
+            "denomination": "cents", 
+            "year": 1964, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 2005
+            "denomination": "cents", 
+            "year": 2005, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1982
+            "denomination": "cents", 
+            "year": 1982, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1941
+            "denomination": "cents", 
+            "year": 1941, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1984
+            "denomination": "cents", 
+            "year": 1984, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1938
+            "denomination": "cents", 
+            "year": 1938, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1985
+            "denomination": "cents", 
+            "year": 1985, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1991
+            "denomination": "cents", 
+            "year": 1991, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1962
+            "denomination": "cents", 
+            "year": 1962, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1970
+            "denomination": "cents", 
+            "year": 1970, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1970
+            "denomination": "cents", 
+            "year": 1970, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1964
+            "denomination": "cents", 
+            "year": 1964, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 2000
+            "denomination": "cents", 
+            "year": 2000, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 2001
+            "denomination": "cents", 
+            "year": 2001, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 2000
+            "denomination": "cents", 
+            "year": 2000, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 2007
+            "denomination": "cents", 
+            "year": 2007, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1964
+            "denomination": "cents", 
+            "year": 1964, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1957
+            "denomination": "cents", 
+            "year": 1957, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1989
+            "denomination": "cents", 
+            "year": 1989, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1986
+            "denomination": "cents", 
+            "year": 1986, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1979
+            "denomination": "cents", 
+            "year": 1979, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1981
+            "denomination": "cents", 
+            "year": 1981, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1965
+            "denomination": "cents", 
+            "year": 1965, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1999
+            "denomination": "cents", 
+            "year": 1999, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1964
+            "denomination": "cents", 
+            "year": 1964, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1997
+            "denomination": "cents", 
+            "year": 1997, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1993
+            "denomination": "cents", 
+            "year": 1993, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1982
+            "denomination": "cents", 
+            "year": 1982, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1982
+            "denomination": "cents", 
+            "year": 1982, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1989
+            "denomination": "cents", 
+            "year": 1989, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1967
+            "denomination": "cents", 
+            "year": 1967, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1993
+            "denomination": "cents", 
+            "year": 1993, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1975
+            "denomination": "cents", 
+            "year": 1975, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1978
+            "denomination": "cents", 
+            "year": 1978, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1963
+            "denomination": "cents", 
+            "year": 1963, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1967
+            "denomination": "cents", 
+            "year": 1967, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1932
+            "denomination": "cents", 
+            "year": 1932, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 2001
+            "denomination": "cents", 
+            "year": 2001, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1981
+            "denomination": "cents", 
+            "year": 1981, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1969
+            "denomination": "cents", 
+            "year": 1969, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1996
+            "denomination": "cents", 
+            "year": 1996, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1994
+            "denomination": "cents", 
+            "year": 1994, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1985
+            "denomination": "cents", 
+            "year": 1985, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1995
+            "denomination": "cents", 
+            "year": 1995, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 2002
+            "denomination": "cents", 
+            "year": 2002, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1951
+            "denomination": "cents", 
+            "year": 1951, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1979
+            "denomination": "cents", 
+            "year": 1979, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1977
+            "denomination": "cents", 
+            "year": 1977, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1957
+            "denomination": "cents", 
+            "year": 1957, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1983
+            "denomination": "cents", 
+            "year": 1983, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1981
+            "denomination": "cents", 
+            "year": 1981, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1943
+            "denomination": "cents", 
+            "year": 1943, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1965
+            "denomination": "cents", 
+            "year": 1965, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1968
+            "denomination": "cents", 
+            "year": 1968, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1976
+            "denomination": "cents", 
+            "year": 1976, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 1, 
-            "year": 1973
+            "denomination": "cents", 
+            "year": 1973, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }, 
         {
-            "owner": "Joel Friedly", 
-            "denomination": "cents", 
-            "type": "coin", 
+            "obsolete": false, 
             "value": 10, 
-            "year": 1960
+            "denomination": "cents", 
+            "year": 1960, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }
     ], 
     "denominations": [
