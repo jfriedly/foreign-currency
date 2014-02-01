@@ -34,3 +34,7 @@ These are the 2 and 5 fen coins.
 Costa Rica
 ''''''''''
 I couldn't find it explicitly stated anywhere, but I'm pretty sure that the 50 centimos coin that I have is obsolete.
+
+Indonesia
+'''''''''
+All denominations of less than 50 rupiah have been rendered obsolete by inflation.

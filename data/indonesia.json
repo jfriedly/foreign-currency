@@ -1,0 +1,27 @@
+{
+    "country_name": "indonesia", 
+    "divisions": {
+        "sen": {
+            "value": 1, 
+            "denomination": "sen"
+        }, 
+        "rupiah": {
+            "value": 100, 
+            "denomination": "sen"
+        }
+    }, 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 25, 
+            "denomination": "sen", 
+            "year": 1964, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }
+    ], 
+    "denominations": [
+        "rupiah", 
+        "sen"
+    ]
+}

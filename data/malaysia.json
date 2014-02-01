@@ -1,0 +1,35 @@
+{
+    "country_name": "malaysia", 
+    "divisions": {
+        "ringgit": {
+            "value": 100, 
+            "denomination": "sen"
+        }, 
+        "sen": {
+            "value": 1, 
+            "denomination": "sen"
+        }
+    }, 
+    "inventory": [
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "ringgit", 
+            "year": 1991, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 20, 
+            "denomination": "sen", 
+            "year": 1988, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "denominations": [
+        "ringgit", 
+        "sen"
+    ]
+}
