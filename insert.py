@@ -21,12 +21,12 @@ def parse_args():
                            nargs='?',
                            default=0,
                            help="Year the currency was printed/minted.")
-    argparser.add_argument("--bill",
+    argparser.add_argument("--bill", "-b",
                            required=False,
                            default=False,
                            action="store_true",
                            help="This currency is a bill.")
-    argparser.add_argument("--obsolete",
+    argparser.add_argument("--obsolete", "-o",
                            required=False,
                            default=False,
                            action="store_true",
