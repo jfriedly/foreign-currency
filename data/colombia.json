@@ -1,0 +1,59 @@
+{
+    "country_name": "colombia", 
+    "divisions": {
+        "centavos": {
+            "value": 1, 
+            "denomination": "centavos"
+        }, 
+        "pesos": {
+            "value": 100, 
+            "denomination": "centavos"
+        }
+    }, 
+    "inventory": [
+        {
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "centavos", 
+            "year": 1970, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 50, 
+            "denomination": "centavos", 
+            "year": 1979, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 20, 
+            "denomination": "centavos", 
+            "year": 1970, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "pesos", 
+            "year": 1979, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "pesos", 
+            "year": 1976, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "denominations": [
+        "pesos", 
+        "centavos"
+    ]
+}

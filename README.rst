@@ -38,3 +38,28 @@ I couldn't find it explicitly stated anywhere, but I'm pretty sure that the 50 c
 Indonesia
 '''''''''
 All denominations of less than 50 rupiah have been rendered obsolete by inflation.
+
+Colombia
+''''''''
+Because of the current valuation of around 1900 Colombian pesos to 1 USD, the Colombian senate has debated redenomating the currency by introducing a new peso worth 1000 old pesos.
+This hasn't happened yet, but my coins may soon be obsolete.
+In 1984, production of all coins below 1 peso ended as a result of inflation.
+
+East Africa Protectorate
+''''''''''''''''''''''''
+This country was created during British colonialism and no longer exists.
+In 1920, it became the British colony of Kenya, and in 1963, it became the independent country of Kenya.
+The coins apparently bore the name "East Africa" even after the region became the British colony of Kenya.
+It occupied approximately the same area as modern-day Kenya.
+
+I wasn't able to find actual information about the currency subdivisions of British Kenya, but modern Kenya uses a shilling that breaks down into 100 cents, so I'm reusing that.
+
+Afghanistan
+'''''''''''
+In 2002, a new Afghani was issued following unrestricted printing under Taliban rule and the subsequent US invasion.
+The new Afghanis have no subdivisions and replaced the old ones at two distinct rates (see below).
+I don't know when mine was printed (I should make friends with someone who reads Farsi).
+
+    * Afghanis printed under President Burhanuddin Rabbani before the Taliban captured Kabul were valued at 1000:1
+
+    * Afghanis printed by the Northern Alliance (the government in exile during Taliban rule) were valued at 2000:1

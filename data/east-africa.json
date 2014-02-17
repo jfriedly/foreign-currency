@@ -1,0 +1,27 @@
+{
+    "country_name": "east-africa", 
+    "divisions": {
+        "shillings": {
+            "value": 100, 
+            "denomination": "cents"
+        }, 
+        "cents": {
+            "value": 1, 
+            "denomination": "cents"
+        }
+    }, 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "cents", 
+            "year": 1952, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "denominations": [
+        "shillings", 
+        "cents"
+    ]
+}

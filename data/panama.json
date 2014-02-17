@@ -1,0 +1,27 @@
+{
+    "country_name": "panama", 
+    "divisions": {
+        "balboas": {
+            "value": 100, 
+            "denomination": "centesimos"
+        }, 
+        "centesimos": {
+            "value": 1, 
+            "denomination": "centesimos"
+        }
+    }, 
+    "inventory": [
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "balboas", 
+            "year": 2011, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "denominations": [
+        "balboas", 
+        "centesimos"
+    ]
+}
