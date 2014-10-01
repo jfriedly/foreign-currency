@@ -21,11 +21,19 @@ def sum_units(desired_unit, totals, divisions, divisor):
     if len(divisions) == 0 and len(totals) == 0:
         return 0.0
     elif len(divisions) == 0:
-        raise ValueError("divisions is empty but totals is %s" % totals)
+        raise ValueError("Divisions is empty but totals is %s" % totals)
     elif len(totals) == 0:
-        raise ValueError("totals is empty but divisions is %s" % divisions)
+        raise ValueError("Totals is empty but divisions is %s" % divisions)
     breakdown = divisions.pop(desired_unit)
     this_denomination = float(totals.pop(desired_unit)) / divisor
+    # Exit when we hit a denomination which is subdivided by one of itself
+    if desired_unit == breakdown['denomination']:
+        if breakdown['value'] == 1:
+            return this_denomination
+        else:
+            raise ValueError("Denomination '%s' is broken down into %s %s!" %
+                             (desired_unit, breakdown['value'],
+                              breakdown['denomination']))
     return this_denomination + sum_units(breakdown['denomination'],
                                          totals,
                                          divisions,
