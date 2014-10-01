@@ -8,11 +8,8 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
 def load_country(country_name):
     """ Loads the JSON definition of my inventory for a given country. """
     path = os.path.join(DATA_DIR, "%s.json" % country_name)
-    try:
-        with open(path, 'r') as json_file:
-            return json.loads(json_file.read())
-    except IOError:
-        return []
+    with open(path, 'r') as json_file:
+        return json.loads(json_file.read())
 
 
 def save_country(country):
