@@ -60,6 +60,16 @@ In 2002, a new Afghani was issued following unrestricted printing under Taliban 
 The new Afghanis have no subdivisions and replaced the old ones at two distinct rates (see below).
 I don't know when mine was printed (I should make friends with someone who reads Farsi).
 
-    * Afghanis printed under President Burhanuddin Rabbani before the Taliban captured Kabul were valued at 1000:1
+* Afghanis printed under President Burhanuddin Rabbani before the Taliban captured Kabul were valued at 1000:1
 
-    * Afghanis printed by the Northern Alliance (the government in exile during Taliban rule) were valued at 2000:1
+* Afghanis printed by the Northern Alliance (the government in exile during Taliban rule) were valued at 2000:1
+
+Australia
+'''''''''
+The $5 bill that I have does not have a year printed on it.
+I wrote it down as 1995 because that was the year that they started printing that series of note (and it is still in print).
+
+Brazil
+''''''
+The 2 reais bill that I have does not have a year printed on it.
+I wrote it down as 2000 because that was the first year that they printed 2 reais notes.

@@ -1,0 +1,66 @@
+{
+    "country_name": "australia", 
+    "divisions": {
+        "cents": {
+            "value": 1, 
+            "denomination": "cents"
+        }, 
+        "pence": {
+            "value": 1, 
+            "denomination": "pence"
+        }, 
+        "dollars": {
+            "value": 100, 
+            "denomination": "cents"
+        }, 
+        "shillings": {
+            "value": 12, 
+            "denomination": "pence"
+        }, 
+        "pounds": {
+            "value": 20, 
+            "denomination": "shillings"
+        }
+    }, 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 3, 
+            "denomination": "pence", 
+            "year": 1943, 
+            "owner": "Kay Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 3, 
+            "denomination": "pence", 
+            "year": 1943, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "cents", 
+            "year": 1973, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "dollars", 
+            "year": 1995, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }
+    ], 
+    "denominations": [
+        "dollars", 
+        "cents", 
+        "pounds", 
+        "shillings", 
+        "pence"
+    ]
+}
