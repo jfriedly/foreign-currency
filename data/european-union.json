@@ -1,5 +1,5 @@
 {
-    "country_name": "euro", 
+    "country_name": "european-union", 
     "divisions": {
         "cents": {
             "value": 1, 
@@ -56,6 +56,14 @@
             "value": 2, 
             "denomination": "euros", 
             "year": 2002, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "cents", 
+            "year": 2011, 
             "owner": "Joel Friedly", 
             "type": "coin"
         }
