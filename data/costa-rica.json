@@ -1,5 +1,6 @@
 {
-    "country_name": "costa-rica", 
+    "name": "costa-rica", 
+    "name_long": "Costa Rica", 
     "divisions": {
         "colones": {
             "value": 100, 

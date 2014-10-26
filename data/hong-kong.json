@@ -1,5 +1,6 @@
 {
-    "country_name": "hong-kong", 
+    "name": "hong-kong", 
+    "name_long": "Hong Kong", 
     "divisions": {
         "cents": {
             "value": 1, 

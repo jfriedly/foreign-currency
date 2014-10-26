@@ -1,5 +1,6 @@
 {
-    "country_name": "malaysia", 
+    "name": "malaysia", 
+    "name_long": "Malaysia", 
     "divisions": {
         "ringgit": {
             "value": 100, 

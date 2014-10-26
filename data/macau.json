@@ -1,5 +1,6 @@
 {
-    "country_name": "macau", 
+    "name": "macau", 
+    "name_long": "Macao", 
     "divisions": {
         "patacas": {
             "value": 100, 

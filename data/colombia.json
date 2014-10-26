@@ -1,5 +1,6 @@
 {
-    "country_name": "colombia", 
+    "name": "colombia", 
+    "name_long": "Colombia", 
     "divisions": {
         "centavos": {
             "value": 1, 

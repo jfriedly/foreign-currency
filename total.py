@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import argparse
+
 import utils
 
 
@@ -40,17 +41,27 @@ def sum_units(desired_unit, totals, divisions, divisor):
                                          divisor * breakdown['value'])
 
 
-def main():
-    args = parse_args()
-    country = utils.load_country(args.country)
+def total(country):
+    """ Calculates the non-obsolete total value of a country's inventory
+
+    :param country:  A country dictionary loaded from a file in the data dir
+    :returns:  The non-obsolete total for this country, expressed in terms of
+               the largest unit
+    """
     totals = {denomination: 0 for denomination in country['denominations']}
     for unit in country['inventory']:
         if not unit['obsolete']:
             totals[unit['denomination']] += unit['value']
     # The country's denominations should be ordered from largest to smallest
     biggest_unit = country['denominations'][0]
-    total = sum_units(biggest_unit, totals, country['divisions'], 1)
-    print "%f %s" % (total, biggest_unit)
+    return sum_units(biggest_unit, totals, country['divisions'], 1)
+
+
+def main():
+    args = parse_args()
+    country = utils.load_country(args.country)
+    currency_total = total(country)
+    print "%f %s" % (currency_total, country['denominations'][0])
 
 
 if __name__ == "__main__":

@@ -1,11 +1,14 @@
 {
-    "country_name": "afghanistan", 
     "divisions": {
         "afghanis": {
             "value": 1, 
             "denomination": "afghanis"
         }
     }, 
+    "denominations": [
+        "afghanis"
+    ], 
+    "name": "afghanistan", 
     "inventory": [
         {
             "obsolete": true, 
@@ -14,9 +17,7 @@
             "year": 0, 
             "owner": "Joel Friedly", 
             "type": "bill"
-        }
+        } 
     ], 
-    "denominations": [
-        "afghanis"
-    ]
+    "name_long": "Afghanistan"
 }

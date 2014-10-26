@@ -1,5 +1,6 @@
 {
-    "country_name": "morocco", 
+    "name": "morocco", 
+    "name_long": "Morocco", 
     "divisions": {
         "santimat": {
             "value": 1, 

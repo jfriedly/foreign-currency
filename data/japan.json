@@ -1,5 +1,6 @@
 {
-    "country_name": "japan", 
+    "name": "japan", 
+    "name_long": "Japan", 
     "divisions": {
         "rin": {
             "value": 1, 

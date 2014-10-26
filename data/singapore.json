@@ -1,5 +1,6 @@
 {
-    "country_name": "singapore", 
+    "name": "singapore", 
+    "name_long": "Singapore", 
     "divisions": {
         "cents": {
             "value": 1, 

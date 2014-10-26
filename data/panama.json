@@ -1,5 +1,6 @@
 {
-    "country_name": "panama", 
+    "name": "panama", 
+    "name_long": "Panama", 
     "divisions": {
         "balboas": {
             "value": 100, 

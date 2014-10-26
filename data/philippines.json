@@ -1,5 +1,6 @@
 {
-    "country_name": "philippines", 
+    "name": "philippines", 
+    "name_long": "Philippines", 
     "divisions": {
         "centavos": {
             "value": 1, 

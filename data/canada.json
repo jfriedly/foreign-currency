@@ -1,5 +1,6 @@
 {
-    "country_name": "canada", 
+    "name": "canada", 
+    "name_long": "Canada", 
     "divisions": {
         "cents": {
             "value": 1, 

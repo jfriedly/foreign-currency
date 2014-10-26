@@ -1,5 +1,6 @@
 {
-    "country_name": "china", 
+    "name": "china", 
+    "name_long": "China", 
     "divisions": {
         "fen": {
             "value": 1, 

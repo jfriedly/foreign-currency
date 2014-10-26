@@ -1,5 +1,6 @@
 {
-    "country_name": "indonesia", 
+    "name": "indonesia", 
+    "name_long": "Indonesia", 
     "divisions": {
         "sen": {
             "value": 1, 

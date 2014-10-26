@@ -1,5 +1,6 @@
 {
-    "country_name": "european-union", 
+    "name": "eurozone", 
+    "name_long": "Eurozone", 
     "divisions": {
         "cents": {
             "value": 1, 

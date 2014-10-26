@@ -1,9 +1,56 @@
+.. figure:: map.png
+
+   Incomplete map of countries that I have currency for.
+   Light blue indicates obsolete currency.
+
+
 ==================================
 Joel's Foreign Currency Collection
 ==================================
 
 A set of scripts for tracking my foreign currency collection.
 Most of the countries that I have currency for are not yet tracked digitally with these scripts.
+
+
+Requirements
+------------
+
+Most of the scripts have no requirements other than Python, but generating the world map requires a bunch of libraries to be installed:
+
+* cartopy (>=0.11.2, currently outdated on PyPI)
+
+    * Cython
+
+    * numpy
+
+    * shapely
+
+    * pyshp
+
+    * matplotlib
+    
+        * libpng-dev (debian package)
+
+    * scipy
+
+        * libblas-dev (debian package)
+
+        * liblapack-dev (debian package)
+
+        * gfortran (debian package)
+
+    * six
+
+    * libproj-dev (debian package)
+
+
+TODO
+----
+
+* Replace the word "denomination" with "unit" throughout the code
+
+* Use classes to represent countries and currency pieces
+
 
 Notes by Country
 ----------------
@@ -73,3 +120,7 @@ Philippines
 '''''''''''
 From 1942-1945, Japan occupied the Philippines and distributed fiat banknotes.
 I have some, but these were considered illegal tender immediately following WWII.
+
+Macau
+'''''
+Macau is also spelled Macao, and since Natural Earth uses this name, I have its long name saved as "Macao".

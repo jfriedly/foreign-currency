@@ -1,5 +1,6 @@
 {
-    "country_name": "brazil", 
+    "name": "brazil", 
+    "name_long": "Brazil",
     "divisions": {
         "centavos": {
             "value": 1, 

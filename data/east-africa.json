@@ -1,5 +1,6 @@
 {
-    "country_name": "east-africa", 
+    "name": "east-africa", 
+    "name_long": "Kenya", 
     "divisions": {
         "shillings": {
             "value": 100, 

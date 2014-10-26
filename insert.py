@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import argparse
+
 import utils
 
 
@@ -42,8 +43,8 @@ def parse_args():
 
 def validate(args, country):
     """ Checks that the denomination exists. """
-    if args.denomination not in country['denominations']:
-        raise ValueError("Denomination does not exist.")
+    assert args.denomination in country['denominations'], ("Denomination "
+        "does not exist")
 
 
 def create_currency_unit(args):
