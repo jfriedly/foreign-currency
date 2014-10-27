@@ -1,4 +1,11 @@
 #!/usr/bin/env python
+""" Generate a map of all the countries that we have currency for
+
+This script uses data from Natural Earth for country borders and plots them
+onto a map using Cartopy with matplotlib.
+
+http://www.naturalearthdata.com/
+"""
 import os
 
 from cartopy import crs
@@ -48,11 +55,43 @@ def load_countries():
         # Strip the ".json" suffix
         country = utils.load_country(filename[:-5])
         countries[country['name_long']] = total.total(country)
-    # Handle the Eurozone
-    eu_total = countries.pop("Eurozone")
-    for country in EUROZONE_COUNTRIES:
-        countries[country] = eu_total
-    countries['United States'] = 1.00
+
+    # This map would look pretty silly if the US wasn't blue.
+    countries["United States"] = 1.00
+    return countries
+
+
+def correct_for_mapping(countries):
+    """ Convert currency-oriented data to map-oriented data
+
+    Euros are used by all of the countries in the Eurozone, but Natural Earth
+    treats them all as different countries instead of one.  So we pop the
+    Eurozone "country" here and add in all the real Eurozone countries.
+
+    Natural Earth treats Greenland as separate from Denmark, but Greenland uses
+    the Danish krone, so we add Greenland if Denmark is present.
+
+    The British colony of East Africa, the East Africa Protectorate, no
+    longer exists.  It was basically the same area as modern Kenya though, so
+    we count it as obsolete Kenyan currency for the map.
+
+    Macau can also be spelled Macao, and Natural Earth uses the second form.
+    """
+    if "Eurozone" in countries:
+        eu_total = countries.pop("Eurozone")
+        for country in EUROZONE_COUNTRIES:
+            countries[country] = eu_total
+
+    if "Denmark" in countries:
+        countries["Greenland"] = countries["Denmark"]
+
+    if "East Africa Protectorate" in countries:
+        countries.pop("East Africa Protectorate")
+        countries.setdefault("Kenya", 0)
+
+    if "Macau" in countries:
+        countries["Macao"] = countries.pop("Macau")
+
     return countries
 
 
@@ -66,6 +105,7 @@ def create_world_map(countries_owned):
     """
     # based on http://stackoverflow.com/questions/13397022
     plot = pyplot.axes(projection=crs.PlateCarree())
+    # Use a resolution of 50m or 10m for better precision
     geodata = shapereader.natural_earth(resolution='110m', category='cultural',
                                         name='admin_0_countries')
     georeader = shapereader.Reader(geodata)
@@ -79,13 +119,15 @@ def create_world_map(countries_owned):
         plot.add_geometries(country.geometry, crs.PlateCarree(),
                             facecolor=color, edgecolor='gray')
     plot.coastlines()
+    # Use a larger figure size for more pixels.  4:3 is a nice ratio though
     plot.figure.set_size_inches(16, 12)
     pyplot.savefig("map.png", bbox_inches='tight')
 
 
 def main():
     countries_owned = load_countries()
-    create_world_map(countries_owned)
+    mappable_countries = correct_for_mapping(countries_owned)
+    create_world_map(mappable_countries)
 
 
 if __name__ == "__main__":

@@ -1,3 +1,8 @@
+""" Shared utility functions
+
+Note:  Some of the functions in here aren't used in any of the scripts.
+That's because they're meant to be used from an interactive Python shell.
+"""
 import json
 import os
 import sys
