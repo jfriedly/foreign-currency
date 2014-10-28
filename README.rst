@@ -124,3 +124,7 @@ I have some, but these were considered illegal tender immediately following WWII
 Macau
 '''''
 Macau is also spelled Macao, and since Natural Earth uses this name, I have its long name saved as "Macao".
+
+Malaysia
+''''''''
+The 1 ringgit bill that I have doesn't have a date on it, but it was printed between 2000 and 2012, so I wrote it down as 2000.

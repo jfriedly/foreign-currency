@@ -1,6 +1,4 @@
 {
-    "name": "philippines", 
-    "name_long": "Philippines", 
     "divisions": {
         "centavos": {
             "value": 1, 
@@ -11,6 +9,8 @@
             "denomination": "centavos"
         }
     }, 
+    "name_long": "Philippines", 
+    "name": "philippines", 
     "inventory": [
         {
             "obsolete": true, 
@@ -33,6 +33,22 @@
             "value": 5, 
             "denomination": "centavos", 
             "year": 1949, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "pesos", 
+            "year": 1997, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 20, 
+            "denomination": "pesos", 
+            "year": 2014, 
             "owner": "Joel Friedly", 
             "type": "bill"
         }

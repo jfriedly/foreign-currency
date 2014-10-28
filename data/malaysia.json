@@ -1,6 +1,4 @@
 {
-    "name": "malaysia", 
-    "name_long": "Malaysia", 
     "divisions": {
         "ringgit": {
             "value": 100, 
@@ -11,6 +9,11 @@
             "denomination": "sen"
         }
     }, 
+    "denominations": [
+        "ringgit", 
+        "sen"
+    ], 
+    "name": "malaysia", 
     "inventory": [
         {
             "obsolete": false, 
@@ -27,10 +30,15 @@
             "year": 1988, 
             "owner": "Joel Friedly", 
             "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "ringgit", 
+            "year": 2000, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
         }
     ], 
-    "denominations": [
-        "ringgit", 
-        "sen"
-    ]
+    "name_long": "Malaysia"
 }
