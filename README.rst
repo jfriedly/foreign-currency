@@ -17,31 +17,11 @@ Requirements
 
 Most of the scripts have no requirements other than Python, but generating the world map requires a bunch of libraries to be installed:
 
-* cartopy (>=0.11.2, currently outdated on PyPI)
+* Use ``apt-get install libpng-dev libblas-dev liblapack-dev gfortran libproj-dev`` to get the Debian package dependencies.
 
-    * Cython
+* Use ``pip install Cython numpy shapely pyshp matplotlib scipy six`` to get the Python package dependencies.
 
-    * numpy
-
-    * shapely
-
-    * pyshp
-
-    * matplotlib
-    
-        * libpng-dev (debian package)
-
-    * scipy
-
-        * libblas-dev (debian package)
-
-        * liblapack-dev (debian package)
-
-        * gfortran (debian package)
-
-    * six
-
-    * libproj-dev (debian package)
+* Then you can compile ``cartopy`` (>=0.11.2) from source, because the current version is outdated on PyPI.
 
 
 TODO
@@ -116,11 +96,6 @@ Japan
 While the sen was historically one hundredth of a yen, and the rin was one thousandth of a yen, they were both removed from circulation in 1953.
 The 5 sen coin that I have was only minted in 1941-1942.
 
-Philippines
-'''''''''''
-From 1942-1945, Japan occupied the Philippines and distributed fiat banknotes.
-I have some, but these were considered illegal tender immediately following WWII.
-
 Macau
 '''''
 Macau is also spelled Macao, and since Natural Earth uses this name, I have its long name saved as "Macao".
@@ -128,3 +103,12 @@ Macau is also spelled Macao, and since Natural Earth uses this name, I have its 
 Malaysia
 ''''''''
 The 1 ringgit bill that I have doesn't have a date on it, but it was printed between 2000 and 2012, so I wrote it down as 2000.
+
+Philippines
+'''''''''''
+From 1942-1945, Japan occupied the Philippines and distributed fiat banknotes.
+I have some, but these were considered illegal tender immediately following WWII.
+
+Slovenia
+''''''''
+The 1 tolar bill that I have doesn't have a year on it, but it was first printed in 1991, so I entered it as being from 1991.

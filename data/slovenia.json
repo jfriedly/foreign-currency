@@ -1,0 +1,28 @@
+{
+    "divisions": {
+        "tolars": {
+            "value": 100, 
+            "denomination": "stotins"
+        }, 
+        "stotins": {
+            "value": 1, 
+            "denomination": "stotins"
+        }
+    }, 
+    "denominations": [
+        "tolars", 
+        "stotins"
+    ], 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "tolars", 
+            "year": 1991, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }
+    ], 
+    "name": "slovenia", 
+    "name_long": "Slovenia"
+}
