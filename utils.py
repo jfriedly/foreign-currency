@@ -10,6 +10,27 @@ import sys
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
 
+EUROZONE_COUNTRIES = set([
+    "Austria",
+    "Belgium",
+    "Cyprus",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Greece",
+    "Ireland",
+    "Italy",
+    "Latvia",
+    "Luxembourg",
+    "Malta",
+    "Netherlands",
+    "Portugal",
+    "Slovakia",
+    "Slovenia",
+    "Spain",
+])
+
 
 def load_country(country_name):
     """ Loads the JSON definition of my inventory for a given country. """

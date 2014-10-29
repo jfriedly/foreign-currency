@@ -20,27 +20,6 @@ COLOR_NOT_PRESENT = (1.0, 1.0, 1.0)
 COLOR_OBSOLETE = (0.4, 0.4, 0.8)
 COLOR_PRESENT = (0.2, 0.2, 0.9)
 
-EUROZONE_COUNTRIES = [
-    "Austria",
-    "Belgium",
-    "Cyprus",
-    "Estonia",
-    "Finland",
-    "France",
-    "Germany",
-    "Greece",
-    "Ireland",
-    "Italy",
-    "Latvia",
-    "Luxembourg",
-    "Malta",
-    "Netherlands",
-    "Portugal",
-    "Slovakia",
-    "Slovenia",
-    "Spain",
-]
-
 
 def load_countries():
     """ Loads countries from the data dir and returns them
@@ -79,7 +58,7 @@ def correct_for_mapping(countries):
     """
     if "Eurozone" in countries:
         eu_total = countries.pop("Eurozone")
-        for country in EUROZONE_COUNTRIES:
+        for country in utils.EUROZONE_COUNTRIES:
             countries[country] = eu_total
 
     if "Denmark" in countries:
@@ -95,6 +74,27 @@ def correct_for_mapping(countries):
     return countries
 
 
+def iter_country_shapes():
+    """ Get an iterator of shapereader Records for all Natural Earth countries
+    """
+    # Use a resolution of 50m or 10m for better precision
+    geodata = shapereader.natural_earth(resolution='110m', category='cultural',
+                                        name='admin_0_countries')
+    georeader = shapereader.Reader(geodata)
+    return georeader.records()
+
+
+def natural_earth_country_list():
+    """ Name every country according to Natural Earth
+
+    This function is unused in the code; it's for debugging only.
+    """
+    country_names = []
+    for country in iter_country_shapes():
+        country_names.append(country.attributes['name_long'])
+    return country_names
+
+
 def create_world_map(countries_owned):
     """ Creates a plot object of a world map with present countries highlighted
 
@@ -105,11 +105,7 @@ def create_world_map(countries_owned):
     """
     # based on http://stackoverflow.com/questions/13397022
     plot = pyplot.axes(projection=crs.PlateCarree())
-    # Use a resolution of 50m or 10m for better precision
-    geodata = shapereader.natural_earth(resolution='110m', category='cultural',
-                                        name='admin_0_countries')
-    georeader = shapereader.Reader(geodata)
-    for country in georeader.records():
+    for country in iter_country_shapes():
         color = COLOR_NOT_PRESENT
         if country.attributes['name_long'] in countries_owned:
             if countries_owned[country.attributes['name_long']]:
