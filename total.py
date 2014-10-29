@@ -1,4 +1,46 @@
 #!/usr/bin/env python
+""" Compute and print the total value of present currency for a country
+
+Since currencies often have subdivisions, we need a way to add these up
+correctly.  The ``total`` function in this module does that by calling the
+recursive function ``sum_units`` appropriately.  The ``sum_units`` function
+inspects a currency's subdivisions, and adds up the total in the largest
+unit available.
+
+The data format for divisions is defined as follows:  "divisions" shall map
+to a dictionary which will have one key for each unit.  These keys
+shall map to dictionaries that contain two keys:
+
+* "denomination": the name of the next smaller unit, or the current unit
+                  if this is the smallest
+* "value": the number of the next smallest unit in this unit, or 1 if this
+           is the smallest unit.
+
+For example::
+
+    "denominations": {
+        "dollars": {
+            "denomination": "cents",
+            "value": 100
+        },
+        "cents": {
+            "denomination": "cents",
+            "value": 1
+        }
+    }
+
+The first sub dict above means that there are 100 cents in a dollar,
+and the second subdict means that there are 1 cent in a cent (this is our
+recursive exit condition).
+
+For a more complex example handling three tiers of subdivisions as well as
+obsolete subdivisions, see the Australia data file.  Obsolete totals can still
+be computed by calling total with the desired_unit set to an obsolete one and
+count_obsolete=True::
+
+    total(australia, desired_unit="pounds", count_obsolete=True)
+
+"""
 import argparse
 import copy
 
@@ -49,10 +91,12 @@ def sum_units(desired_unit, totals, divisions, divisor):
                                          divisor * breakdown['value'])
 
 
-def total(country, count_obsolete=False):
+def total(country, desired_unit=None, count_obsolete=False):
     """ Calculates the non-obsolete total value of a country's inventory
 
     :param country:  A country dictionary loaded from a file in the data dir
+    :param desired_unit:  The unit that the total should be expressed in terms
+                          of.  Defaults the the largest unit
     :param count_obsolete:  Boolean whether or not to count obsolete pieces
     :returns:  The non-obsolete total for this country, expressed in terms of
                the largest unit
@@ -62,9 +106,9 @@ def total(country, count_obsolete=False):
         if not unit['obsolete'] or count_obsolete:
             totals[unit['denomination']] += unit['value']
     # The country's denominations should be ordered from largest to smallest
-    biggest_unit = country['denominations'][0]
+    desired_unit = desired_unit or country['denominations'][0]
     divisions = copy.deepcopy(country['divisions'])
-    return sum_units(biggest_unit, totals, divisions, 1)
+    return sum_units(desired_unit, totals, divisions, 1)
 
 
 def format_country(country):

@@ -29,6 +29,8 @@ TODO
 
 * Replace the word "denomination" with "unit" throughout the code
 
+* Replace the word "divisions" with "subdivision" throughout the code
+
 * Use classes to represent countries and currency pieces
 
 
