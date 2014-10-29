@@ -1,0 +1,60 @@
+{
+    "divisions": {
+        "pfennig": {
+            "value": 1, 
+            "denomination": "pfennig"
+        }, 
+        "mark": {
+            "value": 100, 
+            "denomination": "pfennig"
+        }
+    }, 
+    "name_long": "Germany", 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 10, 
+            "denomination": "pfennig", 
+            "year": 1969, 
+            "owner": "Kay Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "pfennig", 
+            "year": 1949, 
+            "owner": "Kay Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 10, 
+            "denomination": "pfennig", 
+            "year": 1949, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 10, 
+            "denomination": "pfennig", 
+            "year": 1950, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "pfennig", 
+            "year": 1987, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "germany", 
+    "denominations": [
+        "mark", 
+        "pfennig"
+    ]
+}

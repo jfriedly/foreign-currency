@@ -1,0 +1,52 @@
+{
+    "divisions": {
+        "cents": {
+            "value": 1, 
+            "denomination": "cents"
+        }, 
+        "dollars": {
+            "value": 100, 
+            "denomination": "cents"
+        }
+    }, 
+    "denominations": [
+        "dollars", 
+        "cents"
+    ], 
+    "inventory": [
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "dollars", 
+            "year": 0, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "dollars", 
+            "year": 0, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "dollars", 
+            "year": 0, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 20, 
+            "denomination": "dollars", 
+            "year": 0, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }
+    ], 
+    "name": "trinidad-and-tobago", 
+    "name_long": "Trinidad and Tobago"
+}

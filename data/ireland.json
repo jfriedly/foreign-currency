@@ -1,0 +1,28 @@
+{
+    "divisions": {
+        "pence": {
+            "value": 1, 
+            "denomination": "pence"
+        }, 
+        "pounds": {
+            "value": 100, 
+            "denomination": "pence"
+        }
+    }, 
+    "name_long": "Ireland", 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 10, 
+            "denomination": "pence", 
+            "year": 1996, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "ireland", 
+    "denominations": [
+        "pounds", 
+        "pence"
+    ]
+}

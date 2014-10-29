@@ -1,0 +1,28 @@
+{
+    "divisions": {
+        "centavos": {
+            "value": 1, 
+            "denomination": "centavos"
+        }, 
+        "cordobas": {
+            "value": 100, 
+            "denomination": "centavos"
+        }
+    }, 
+    "name_long": "Nicaragua", 
+    "inventory": [
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "centavos", 
+            "year": 1991, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }
+    ], 
+    "name": "nicaragua", 
+    "denominations": [
+        "cordobas", 
+        "centavos"
+    ]
+}

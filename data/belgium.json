@@ -1,0 +1,28 @@
+{
+    "divisions": {
+        "centiemen": {
+            "value": 1, 
+            "denomination": "centiemen"
+        }, 
+        "frank": {
+            "value": 100, 
+            "denomination": "centiemen"
+        }
+    }, 
+    "name_long": "Belgium", 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 50, 
+            "denomination": "centiemen", 
+            "year": 1927, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "belgium", 
+    "denominations": [
+        "frank", 
+        "centiemen"
+    ]
+}

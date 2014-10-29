@@ -1,0 +1,28 @@
+{
+    "divisions": {
+        "rappen": {
+            "value": 1, 
+            "denomination": "rappen"
+        }, 
+        "franken": {
+            "value": 100, 
+            "denomination": "rappen"
+        }
+    }, 
+    "name_long": "Switzerland", 
+    "inventory": [
+        {
+            "obsolete": false, 
+            "value": 50, 
+            "denomination": "rappen", 
+            "year": 1970, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "switzerland", 
+    "denominations": [
+        "franken", 
+        "rappen"
+    ]
+}

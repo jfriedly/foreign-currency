@@ -106,6 +106,11 @@ Malaysia
 ''''''''
 The 1 ringgit bill that I have doesn't have a date on it, but it was printed between 2000 and 2012, so I wrote it down as 2000.
 
+Nicaragua
+'''''''''
+The 1 centavo bill that I have doesn't have a date on it, but these bills were only printed between 1991 and 1994, so I put it in as 1991.
+While it's technically still legal tender, it's worth less than a cent, so it's practically obsolete.
+
 Philippines
 '''''''''''
 From 1942-1945, Japan occupied the Philippines and distributed fiat banknotes.

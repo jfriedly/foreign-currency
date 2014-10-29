@@ -1,0 +1,28 @@
+{
+    "divisions": {
+        "pennia": {
+            "value": 1, 
+            "denomination": "pennia"
+        }, 
+        "markaa": {
+            "value": 100, 
+            "denomination": "pennia"
+        }
+    }, 
+    "name_long": "Finland", 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 10, 
+            "denomination": "pennia", 
+            "year": 1990, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "finland", 
+    "denominations": [
+        "markaa", 
+        "pennia"
+    ]
+}

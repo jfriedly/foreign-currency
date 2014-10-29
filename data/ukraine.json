@@ -1,0 +1,33 @@
+{
+    "divisions": {
+        "hryvnia": {
+            "value": 100, 
+            "denomination": "kopiyka"
+        }, 
+        "kopiyka": {
+            "value": 1, 
+            "denomination": "kopiyka"
+        }, 
+        "karbovanets": {
+            "value": 100, 
+            "denomination": "kopikya"
+        }
+    }, 
+    "name_long": "Ukraine", 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 5000, 
+            "denomination": "karbovanets", 
+            "year": 1995, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }
+    ], 
+    "name": "ukraine", 
+    "denominations": [
+        "hryvnia", 
+        "kopiyka", 
+        "karbovanets"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "divisions": {
+        "cents": {
+            "value": 1, 
+            "denomination": "cents"
+        }, 
+        "dollars": {
+            "value": 100, 
+            "denomination": "cents"
+        }
+    }, 
+    "denominations": [
+        "dollars", 
+        "cents"
+    ], 
+    "inventory": [
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "cents", 
+            "year": 2006, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "cents", 
+            "year": 1969, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "bahamas", 
+    "name_long": "Bahamas"
+}

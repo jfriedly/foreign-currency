@@ -1,0 +1,36 @@
+{
+    "divisions": {
+        "cents": {
+            "value": 1, 
+            "denomination": "cents"
+        }, 
+        "guilders": {
+            "value": 100, 
+            "denomination": "cents"
+        }
+    }, 
+    "denominations": [
+        "guilders", 
+        "cents"
+    ], 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "cents", 
+            "year": 1948, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "cents", 
+            "year": 1951, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "netherlands", 
+    "name_long": "Netherlands"
+}

@@ -1,0 +1,28 @@
+{
+    "divisions": {
+        "ore": {
+            "value": 1, 
+            "denomination": "ore"
+        }, 
+        "kroner": {
+            "value": 100, 
+            "denomination": "ore"
+        }
+    }, 
+    "name_long": "Denmark", 
+    "inventory": [
+        {
+            "obsolete": false, 
+            "value": 25, 
+            "denomination": "ore", 
+            "year": 1950, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "denmark", 
+    "denominations": [
+        "kroner", 
+        "ore"
+    ]
+}
