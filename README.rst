@@ -98,6 +98,10 @@ Japan
 While the sen was historically one hundredth of a yen, and the rin was one thousandth of a yen, they were both removed from circulation in 1953.
 The 5 sen coin that I have was only minted in 1941-1942.
 
+Kyrgyzstan
+''''''''''
+The 1 tyiyn note that I have is technically legal tender, but it's worth such a tiny fraction of a cent that I'm counting it as obsolete.
+
 Macau
 '''''
 Macau is also spelled Macao, and since Natural Earth uses this name, I have its long name saved as "Macao".
@@ -110,6 +114,12 @@ Nicaragua
 '''''''''
 The 1 centavo bill that I have doesn't have a date on it, but these bills were only printed between 1991 and 1994, so I put it in as 1991.
 While it's technically still legal tender, it's worth less than a cent, so it's practically obsolete.
+
+Pakistan
+''''''''
+The Pakistani rupee was originally subidivded into 16 annas, each of which was further subidivided into 4 pice, each of which was further subdivided into 3 pie.
+In 1961 though, the currency was decimalised, with one rupee being subdivided into 100 pice.
+Since all of my coins are older than 1961, I have the pre-decimalization subdivision scheme encoded, but I'll need to fix that up if I ever get any new coins.
 
 Philippines
 '''''''''''

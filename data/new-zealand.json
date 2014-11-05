@@ -1,0 +1,28 @@
+{
+    "divisions": {
+        "cents": {
+            "value": 1, 
+            "denomination": "cents"
+        }, 
+        "dollars": {
+            "value": 100, 
+            "denomination": "cents"
+        }
+    }, 
+    "name_long": "New Zealand", 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "cents", 
+            "year": 1994, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "new-zealand", 
+    "denominations": [
+        "dollars", 
+        "cents"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "divisions": {
+        "tyiyn": {
+            "value": 1, 
+            "denomination": "tyiyn"
+        }, 
+        "som": {
+            "value": 100, 
+            "denomination": "tyiyn"
+        }
+    }, 
+    "name_long": "Kyrgyzstan", 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "tyiyn", 
+            "year": 1993, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "kyrgyzstan", 
+    "denominations": [
+        "som", 
+        "tyiyn"
+    ]
+}

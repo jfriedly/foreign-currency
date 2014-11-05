@@ -1,0 +1,76 @@
+{
+    "divisions": {
+        "bolivares": {
+            "value": 100, 
+            "denomination": "centimos"
+        }, 
+        "centimos": {
+            "value": 1, 
+            "denomination": "centimos"
+        }
+    }, 
+    "name_long": "Venezuela", 
+    "inventory": [
+        {
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "bolivares", 
+            "year": 2007, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 500, 
+            "denomination": "bolivares", 
+            "year": 2004, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 2, 
+            "denomination": "bolivares", 
+            "year": 1967, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "bolivares", 
+            "year": 1977, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 50, 
+            "denomination": "centimos", 
+            "year": 1965, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "centimos", 
+            "year": 1977, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 25, 
+            "denomination": "centimos", 
+            "year": 1977, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "venezuela", 
+    "denominations": [
+        "bolivares", 
+        "centimos"
+    ]
+}

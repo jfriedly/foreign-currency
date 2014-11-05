@@ -1,0 +1,44 @@
+{
+    "divisions": {
+        "rupees": {
+            "value": 100, 
+            "denomination": "paise"
+        }, 
+        "paise": {
+            "value": 1, 
+            "denomination": "paise"
+        }
+    }, 
+    "name_long": "India", 
+    "inventory": [
+        {
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "rupees", 
+            "year": 0, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "paise", 
+            "year": 1972, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 25, 
+            "denomination": "paise", 
+            "year": 2000, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "india", 
+    "denominations": [
+        "rupees", 
+        "paise"
+    ]
+}

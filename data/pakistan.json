@@ -1,0 +1,46 @@
+{
+    "divisions": {
+        "annas": {
+            "value": 4, 
+            "denomination": "pice"
+        }, 
+        "pice": {
+            "value": 3, 
+            "denomination": "pie"
+        }, 
+        "rupees": {
+            "value": 16, 
+            "denomination": "annas"
+        }, 
+        "pie": {
+            "value": 1, 
+            "denomination": "pie"
+        }
+    }, 
+    "denominations": [
+        "rupees", 
+        "annas", 
+        "pice", 
+        "pie"
+    ], 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 4, 
+            "denomination": "annas", 
+            "year": 1948, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 2, 
+            "denomination": "pice", 
+            "year": 1951, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "pakistan", 
+    "name_long": "Pakistan"
+}

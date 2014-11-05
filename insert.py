@@ -44,7 +44,7 @@ def parse_args():
 def validate(args, country):
     """ Checks that the denomination exists. """
     assert args.denomination in country['denominations'], ("Denomination "
-        "does not exist")
+        "%s does not exist" % args.denomination)
 
 
 def create_currency_unit(args):
