@@ -1,0 +1,83 @@
+{
+    "divisions": {
+        "centavos": {
+            "value": 1, 
+            "denomination": "centavos"
+        }, 
+        "soles": {
+            "value": 10, 
+            "denomination": "dineros"
+        }, 
+        "neuvo soles": {
+            "value": 100, 
+            "denomination": "centimos"
+        }, 
+        "centimos": {
+            "value": 1, 
+            "denomination": "centimos"
+        }, 
+        "dineros": {
+            "value": 10, 
+            "denomination": "centavos"
+        }
+    }, 
+    "denominations": [
+        "neuvo soles", 
+        "centimos", 
+        "soles", 
+        "dineros", 
+        "centavos"
+    ], 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "dineros", 
+            "year": 1976, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "soles", 
+            "year": 1976, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "soles", 
+            "year": 1979, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 50, 
+            "denomination": "soles", 
+            "year": 1980, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 10, 
+            "denomination": "soles", 
+            "year": 1979, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 100, 
+            "denomination": "soles", 
+            "year": 1980, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "peru", 
+    "name_long": "Peru"
+}
