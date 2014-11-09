@@ -1,0 +1,68 @@
+{
+    "divisions": {
+        "francs": {
+            "value": 100, 
+            "denomination": "centimes"
+        }, 
+        "centimes": {
+            "value": 1, 
+            "denomination": "centimes"
+        }
+    }, 
+    "denominations": [
+        "francs", 
+        "centimes"
+    ], 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 2, 
+            "denomination": "francs", 
+            "year": 1944, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 10, 
+            "denomination": "francs", 
+            "year": 1942, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "francs", 
+            "year": 1943, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 10, 
+            "denomination": "centimes", 
+            "year": 1855, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 2, 
+            "denomination": "francs", 
+            "year": 1943, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "francs", 
+            "year": 1976, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "france", 
+    "name_long": "France"
+}

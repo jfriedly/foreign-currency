@@ -85,6 +85,25 @@ It occupied approximately the same area as modern-day Kenya.
 
 I wasn't able to find actual information about the currency subdivisions of British Kenya, but modern Kenya uses a shilling that breaks down into 100 cents, so I'm reusing that.
 
+France
+''''''
+The 10 centime coin that I have has an unreadable date, but it was actually only minted between 1852 and 1857, so I entered it as 1855.
+It's been obsolete since 1935.
+
+The 2 franc coin that I have is actually from Vichy France.
+This country existed only during the German occupation from 1940-1944 and was only sovereign in southern France.
+Three days after the allied invasion of Normandy though, Germans spread into southern France, and while the continued to mint money, what remained of French autonomy on the continent essentially ended.
+
+The banknotes that I have are all from the WWII period too.
+The small 2 franc bill was actually a series printed by Americans and distributed immediately following the invasion of Normandy.
+Charles De Gaulle, the leader of the Free French movement, objected though, calling it "counterfeit money", and the old franc fell back into circulation naturally.
+The 5 and 10 franc bills that I have were replaced with coins in 1950 and became obsolete in 1960.
+The same year, a "new" franc was introduced at a rate of 100 old francs to 1 new franc.
+The 1 franc coin that I have is from this new series, which lasted until the Euro in 2002.
+
+With so many different franc currencies made obsolete at different times, I've decided to not even attempt to differentiate between the them.
+Everything in my collection for France is either francs or centimes, and they're all obsolete with the Euro.
+
 Hong Kong
 '''''''''
 All coins with denominations less than 10 cents have been taken out of circulation, even though they were minted for circulation as late as 1979.
@@ -120,6 +139,13 @@ Pakistan
 The Pakistani rupee was originally subidivded into 16 annas, each of which was further subidivided into 4 pice, each of which was further subdivided into 3 pie.
 In 1961 though, the currency was decimalised, with one rupee being subdivided into 100 pice.
 Since all of my coins are older than 1961, I have the pre-decimalization subdivision scheme encoded, but I'll need to fix that up if I ever get any new coins.
+
+Peru
+''''
+Peru has gone through three currencies in the last few decades, but unfortunately with naming collisions.
+The nuevo sol is the "new" sol that is in circulation, but officially it's just called "sol".
+Before the new sol was the inti (1985-1991), and before that was the "old" sol, which I have a few of.
+Both the inti and the new sol were subdivided into 100 centimos, so I'm tracking subdivisions for the new sol and the old sol, but I've left the inti and its centimos out entirely.
 
 Philippines
 '''''''''''

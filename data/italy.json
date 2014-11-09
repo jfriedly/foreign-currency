@@ -1,0 +1,36 @@
+{
+    "divisions": {
+        "centesimi": {
+            "value": 1, 
+            "denomination": "centesimi"
+        }, 
+        "lire": {
+            "value": 100, 
+            "denomination": "centesimi"
+        }
+    }, 
+    "denominations": [
+        "lire", 
+        "centesimi"
+    ], 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 10000, 
+            "denomination": "lire", 
+            "year": 1984, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 50, 
+            "denomination": "lire", 
+            "year": 1970, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "italy", 
+    "name_long": "Italy"
+}
