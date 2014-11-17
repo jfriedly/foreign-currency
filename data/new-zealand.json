@@ -9,7 +9,10 @@
             "denomination": "cents"
         }
     }, 
-    "name_long": "New Zealand", 
+    "denominations": [
+        "dollars", 
+        "cents"
+    ], 
     "inventory": [
         {
             "obsolete": true, 
@@ -18,11 +21,16 @@
             "year": 1994, 
             "owner": "Joel Friedly", 
             "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "cents", 
+            "year": 2006, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
         }
     ], 
     "name": "new-zealand", 
-    "denominations": [
-        "dollars", 
-        "cents"
-    ]
+    "name_long": "New Zealand"
 }

@@ -57,6 +57,10 @@ Brazil
 The 2 reais bill that I have does not have a year printed on it.
 I wrote it down as 2000 because that was the first year that they printed 2 reais notes.
 
+Britain
+'''''''
+See `UK`_
+
 Colombia
 ''''''''
 Because of the current valuation of around 1900 Colombian pesos to 1 USD, the Colombian senate has debated redenomating the currency by introducing a new peso worth 1000 old pesos.
@@ -155,3 +159,20 @@ I have some, but these were considered illegal tender immediately following WWII
 Slovenia
 ''''''''
 The 1 tolar bill that I have doesn't have a year on it, but it was first printed in 1991, so I entered it as being from 1991.
+
+UK
+''
+The pound sterling has a long history.
+The pound used to be worth 240 pence, but since decimalisation in 1971, it's been worth 100 pence.
+Unfortunately, I have some pence from both before and after 1971, so I have to count them as different units.
+There's also been a dozen other obsolete units between a pound and a farthing, and I have some of those too.
+In an effort to avoid confusion, I've implemented two different subdivision sets, a current one and an obsolete one.
+The current one consists of "pounds", "pence", and the "halfpenny", while the obsolete one consists of only the units that I've actually heard of:  "farthings", "old pence", "shillings", "crowns", and "sovereigns" (a.k.a. pounds).
+
+I also have a pound note from the British Armed Forces.
+They issued their own banknotes for use on bases between 1946 and 1972.
+
+I also have a 5 pence coin from the Isle of Man.
+The Isle of Man is an island between Britain and Ireland and is an official self-governing Crown dependency.
+The government of the Isle of Man has established a de facto currency union with the UK, where the Manx government has decided to make UK currency legal tender on the island, but also issues its own independent currency.
+The currency units are the same, and I think the coins look similar enough to be spendable anywhere in the UK.

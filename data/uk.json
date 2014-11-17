@@ -1,0 +1,206 @@
+{
+    "divisions": {
+        "halfpenny": {
+            "value": 1, 
+            "denomination": "halfpenny"
+        }, 
+        "pounds": {
+            "value": 100, 
+            "denomination": "pence"
+        }, 
+        "shillings": {
+            "value": 12, 
+            "denomination": "old pence"
+        }, 
+        "crowns": {
+            "value": 5, 
+            "denomination": "shillings"
+        }, 
+        "pence": {
+            "value": 2, 
+            "denomination": "halfpenny"
+        }, 
+        "farthings": {
+            "value": 1, 
+            "denomination": "farthings"
+        }, 
+        "sovereigns": {
+            "value": 4, 
+            "denomination": "crowns"
+        }
+    }, 
+    "denominations": [
+        "pounds", 
+        "pence", 
+        "halfpenny", 
+        "sovereigns", 
+        "crowns", 
+        "shillings", 
+        "old pence", 
+        "farthings"
+    ], 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "pounds", 
+            "year": 1948, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "shillings", 
+            "year": 1964, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "shillings", 
+            "year": 1953, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "shillings", 
+            "year": 1947, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "old pence", 
+            "year": 1939, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "old pence", 
+            "year": 1931, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "pence", 
+            "year": 1997, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "pence", 
+            "year": 1975, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "pence", 
+            "year": 1975, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "pence", 
+            "year": 1975, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "pence", 
+            "year": 1979, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "pence", 
+            "year": 1971, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "pence", 
+            "year": 1971, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "pence", 
+            "year": 1971, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "pence", 
+            "year": 2008, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "pounds", 
+            "year": 1985, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "pounds", 
+            "year": 2003, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "pence", 
+            "year": 1975, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 20, 
+            "denomination": "pence", 
+            "year": 2007, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "halfpenny", 
+            "year": 1974, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "uk", 
+    "name_long": "United Kingdom"
+}
