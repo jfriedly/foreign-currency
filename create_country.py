@@ -1,5 +1,19 @@
 #!/usr/bin/env python
+import argparse
+
 import utils
+
+
+def parse_args():
+    description = ("Add a new country to the collection, creating all the "
+                   "metadata.")
+    argparser = argparse.ArgumentParser(description=description)
+    argparser.add_argument("name",
+                           type=str,
+                           default='',
+                           help="Short name of country")
+    args = argparser.parse_args()
+    return args
 
 
 def create_subdivision(big_unit, small_unit, value):
@@ -19,7 +33,8 @@ def create_subdivision(big_unit, small_unit, value):
 
 
 def main():
-    name = raw_input("Country name (short):  ")
+    args = parse_args()
+    name = args.name or raw_input("Country name (short):  ")
     name_long = name.replace('-', ' ').title()
     name_long_prompt = "Country name (long) [%s]:  " % name_long
     name_long = raw_input(name_long_prompt) or name_long
