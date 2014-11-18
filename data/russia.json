@@ -1,0 +1,44 @@
+{
+    "divisions": {
+        "rubles": {
+            "value": 100, 
+            "denomination": "kopeks"
+        }, 
+        "kopeks": {
+            "value": 1, 
+            "denomination": "kopeks"
+        }
+    }, 
+    "name_long": "Russian Federation", 
+    "inventory": [
+        {
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "rubles", 
+            "year": 1998, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "rubles", 
+            "year": 2005, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "kopeks", 
+            "year": 2005, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "russia", 
+    "denominations": [
+        "rubles", 
+        "kopeks"
+    ]
+}

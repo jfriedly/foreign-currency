@@ -156,9 +156,17 @@ Philippines
 From 1942-1945, Japan occupied the Philippines and distributed fiat banknotes.
 I have some, but these were considered illegal tender immediately following WWII.
 
+Russia
+''''''
+The 10-ruble note that I have is dated 1997, but it was actually release in 1998 after the redenomination.
+
 Slovenia
 ''''''''
 The 1 tolar bill that I have doesn't have a year on it, but it was first printed in 1991, so I entered it as being from 1991.
+
+South Korea
+'''''''''''
+The bills that I have don't have years printed on them in any language I can understand, so I put them in as being from the first year that they were each printed, 1983 and 2006.
 
 UK
 ''

@@ -1,0 +1,36 @@
+{
+    "divisions": {
+        "jeon": {
+            "value": 1, 
+            "denomination": "jeon"
+        }, 
+        "won": {
+            "value": 100, 
+            "denomination": "jeon"
+        }
+    }, 
+    "denominations": [
+        "won", 
+        "jeon"
+    ], 
+    "inventory": [
+        {
+            "obsolete": false, 
+            "value": 1000, 
+            "denomination": "won", 
+            "year": 1983, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 1000, 
+            "denomination": "won", 
+            "year": 2006, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }
+    ], 
+    "name": "south-korea", 
+    "name_long": "Republic of Korea"
+}

@@ -1,0 +1,36 @@
+{
+    "divisions": {
+        "lira": {
+            "value": 100, 
+            "denomination": "kurus"
+        }, 
+        "kurus": {
+            "value": 1, 
+            "denomination": "kurus"
+        }
+    }, 
+    "denominations": [
+        "lira", 
+        "kurus"
+    ], 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "lira", 
+            "year": 1960, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 25, 
+            "denomination": "kurus", 
+            "year": 1960, 
+            "owner": "Joel Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "turkey", 
+    "name_long": "Turkey"
+}
