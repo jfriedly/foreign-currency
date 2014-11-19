@@ -168,6 +168,21 @@ South Korea
 '''''''''''
 The bills that I have don't have years printed on them in any language I can understand, so I put them in as being from the first year that they were each printed, 1983 and 2006.
 
+Taiwan
+''''''
+The New Taiwan Dollar is usually simply referred to as the yuan.
+Because of this, I've set the denominations as yuan, jiao, and cents, but I've also included dollars as equivalent to yuan.
+I expect dollars to remain unused though; the totalling script will ignore them.
+
+I could barely find dates anywhere for Taiwanese currency, but what I have has no dates on it.
+I found a 100 yuan bill from 1972 that looks identical, so I counted mine as from 1972.
+I did the same thing for a 1 yuan bill from 1961.
+The 1 yuan coins are the large shiny ones, and I'm not sure where I got the dates from, but I think I must've actually deciphered the Chinese at some point.
+The half yuan coins are the large brown ones, and the small shiny one is the jiao coin.
+
+For future reference, and the page that had photos of old Taiwanese bills was here:  http://www.banknotes.com/tw.htm.
+Also, search for "yuan", not "New Taiwan Dollar".
+
 UK
 ''
 The pound sterling has a long history.

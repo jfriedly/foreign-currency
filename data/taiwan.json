@@ -1,0 +1,86 @@
+{
+    "divisions": {
+        "cents": {
+            "value": 1, 
+            "denomination": "cents"
+        }, 
+        "dollars": {
+            "value": 10, 
+            "denomination": "jiao"
+        }, 
+        "yuan": {
+            "value": 10, 
+            "denomination": "jiao"
+        }, 
+        "jiao": {
+            "value": 10, 
+            "denomination": "cents"
+        }
+    }, 
+    "name_long": "Taiwan", 
+    "inventory": [
+        {
+            "obsolete": true, 
+            "value": 100, 
+            "denomination": "yuan", 
+            "year": 1972, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "yuan", 
+            "year": 1961, 
+            "owner": "Joel Friedly", 
+            "type": "bill"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "yuan", 
+            "year": 1962, 
+            "owner": "Kay Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "yuan", 
+            "year": 1963, 
+            "owner": "Kay Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "jiao", 
+            "year": 1956, 
+            "owner": "Kay Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "jiao", 
+            "year": 1956, 
+            "owner": "Kay Friedly", 
+            "type": "coin"
+        }, 
+        {
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "jiao", 
+            "year": 1963, 
+            "owner": "Kay Friedly", 
+            "type": "coin"
+        }
+    ], 
+    "name": "taiwan", 
+    "denominations": [
+        "yuan", 
+        "dollars", 
+        "jiao", 
+        "cents"
+    ]
+}
