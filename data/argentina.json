@@ -1,0 +1,210 @@
+{
+    "long_name": "Argentina", 
+    "inventory": [
+        {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1976, 
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "pesos ley"
+        }, 
+        {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1976, 
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "pesos ley"
+        }, 
+        {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1977, 
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "pesos ley"
+        }, 
+        {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1977, 
+            "obsolete": true, 
+            "value": 10, 
+            "denomination": "pesos ley"
+        }, 
+        {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1978, 
+            "obsolete": true, 
+            "value": 50, 
+            "denomination": "pesos ley"
+        }, 
+        {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1981, 
+            "obsolete": true, 
+            "value": 100, 
+            "denomination": "pesos ley"
+        }, 
+        {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1979, 
+            "obsolete": true, 
+            "value": 100, 
+            "denomination": "pesos ley"
+        }, 
+        {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1981, 
+            "obsolete": true, 
+            "value": 100, 
+            "denomination": "pesos ley"
+        }, 
+        {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1979, 
+            "obsolete": true, 
+            "value": 100, 
+            "denomination": "pesos ley"
+        }, 
+        {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1980, 
+            "obsolete": true, 
+            "value": 100, 
+            "denomination": "pesos ley"
+        }, 
+        {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1981, 
+            "obsolete": true, 
+            "value": 100, 
+            "denomination": "pesos ley"
+        }, 
+        {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1979, 
+            "obsolete": true, 
+            "value": 100, 
+            "denomination": "pesos ley"
+        }, 
+        {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1981, 
+            "obsolete": true, 
+            "value": 100, 
+            "denomination": "pesos ley"
+        }, 
+        {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1981, 
+            "obsolete": true, 
+            "value": 100, 
+            "denomination": "pesos ley"
+        }
+    ], 
+    "short_name": "argentina", 
+    "denominations": [
+        {
+            "divisions": {
+                "centavos": {
+                    "subunit": "centavos", 
+                    "value": 1
+                }, 
+                "pesos": {
+                    "subunit": "centavos", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "pesos", 
+                "centavos"
+            ], 
+            "code": "ARS", 
+            "obsolete": false, 
+            "name": "pesos convertible"
+        }, 
+        {
+            "divisions": {
+                "centavos": {
+                    "subunit": "centavos", 
+                    "value": 1
+                }, 
+                "pesos": {
+                    "subunit": "centavos", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "pesos", 
+                "centavos"
+            ], 
+            "code": "ARP", 
+            "obsolete": true, 
+            "name": "pesos argentino"
+        }, 
+        {
+            "divisions": {
+                "centavos": {
+                    "subunit": "centavos", 
+                    "value": 1
+                }, 
+                "australes": {
+                    "subunit": "centavos", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "australes", 
+                "centavos"
+            ], 
+            "code": "ARA", 
+            "obsolete": true, 
+            "name": "australes"
+        }, 
+        {
+            "divisions": {
+                "centavos": {
+                    "subunit": "centavos", 
+                    "value": 1
+                }, 
+                "pesos": {
+                    "subunit": "centavos", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "pesos", 
+                "centavos"
+            ], 
+            "code": "ARL", 
+            "obsolete": true, 
+            "name": "pesos ley"
+        }
+    ]
+}
