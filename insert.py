@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import argparse
 
-import utils
+import models
 
 
 def parse_args():
@@ -13,9 +13,9 @@ def parse_args():
     argparser.add_argument("value",
                            type=int,
                            help="Face value of the currency (integer)")
-    argparser.add_argument("denomination",
+    argparser.add_argument("subunit",
                            type=str,
-                           help=("Plural Denomination of the currency (e.g. "
+                           help=("Plural subunit of the currency (e.g. "
                                  "cents, dollars, etc.)"))
     argparser.add_argument("year",
                            type=int,
@@ -26,6 +26,10 @@ def parse_args():
                            required=False,
                            default=False,
                            action="store_true",
+                           help="This currency is a bill.")
+    argparser.add_argument("--denomination", "-d",
+                           required=False,
+                           default='',
                            help="This currency is a bill.")
     argparser.add_argument("--obsolete", "-o",
                            required=False,
@@ -41,34 +45,30 @@ def parse_args():
     return argparser.parse_args()
 
 
-def validate(args, country):
-    """ Checks that the denomination exists. """
-    assert args.denomination in country['denominations'], ("Denomination "
-        "%s does not exist" % args.denomination)
-
-
 def create_currency_unit(args):
     """ Creates the dict that will be saved for this unit of currency. """
-    currency_type = "coin"
+    piece_type = "coin"
     if args.bill:
-        currency_type = "bill"
+        piece_type = "bill"
     currency_unit = {
         "value": args.value,
+        "subunit": args.subunit,
         "denomination": args.denomination,
         "year": args.year,
-        "type": currency_type,
+        "piece_type": piece_type,
         "owner": args.owner,
         "obsolete": args.obsolete
     }
-    return currency_unit
+    return models.CurrencyPiece.from_dict(currency_unit)
 
 
 def main():
     args = parse_args()
-    country = utils.load_country(args.country)
-    validate(args, country)
-    country['inventory'].append(create_currency_unit(args))
-    utils.save_country(country)
+    country = models.Country.load(args.country)
+    if not args.denomination:
+        args.denomination = country.denominations[0].name
+    country.inventory.append(create_currency_unit(args))
+    country.save()
 
 
 if __name__ == "__main__":

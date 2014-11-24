@@ -6,14 +6,13 @@ onto a map using Cartopy with matplotlib.
 
 http://www.naturalearthdata.com/
 """
-import os
-
 from cartopy import crs
 from cartopy.io import shapereader
 from matplotlib import pyplot
 
+import constants
+import models
 import total
-import utils
 
 
 COLOR_NOT_PRESENT = (1.0, 1.0, 1.0)
@@ -26,18 +25,12 @@ def load_countries():
 
     :returns:  a dictionary of country names mapped to non-obsolete totals
     """
-    countries = dict()
-    for filename in os.listdir(utils.DATA_DIR):
-        # Ignore hidden files -- vim creates hidden temporary swap files
-        if filename.startswith('.'):
-            continue
-        # Strip the ".json" suffix
-        country = utils.load_country(filename[:-5])
-        countries[country['name_long']] = total.total(country)
+    countries = models.Country.load_all()
+    country_totals = {c.long_name: total.total(c) for c in countries}
 
     # This map would look pretty silly if the US wasn't blue.
-    countries["United States"] = 1.00
-    return countries
+    country_totals["United States"] = 1.00
+    return country_totals
 
 
 def correct_for_mapping(countries):
@@ -58,7 +51,7 @@ def correct_for_mapping(countries):
     """
     if "Eurozone" in countries:
         eu_total = countries.pop("Eurozone")
-        for country in utils.EUROZONE_COUNTRIES:
+        for country in constants.EUROZONE_COUNTRIES:
             countries[country] = eu_total
 
     if "Denmark" in countries:
