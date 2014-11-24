@@ -52,7 +52,7 @@ def read_denomination():
     if not name:
         return None
     code = raw_input("    ISO-4217 code:  ").upper()
-    obsolete = parse_bool(raw_input("    Obsolete?  "))
+    obsolete = parse_bool(raw_input("    Obsolete?  [y|n]  "))
     subunits = []
     while True:
         subunit = raw_input("    Subunits (largest first):  ")
