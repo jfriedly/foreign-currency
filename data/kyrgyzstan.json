@@ -1,28 +1,36 @@
 {
-    "divisions": {
-        "tyiyn": {
-            "value": 1, 
-            "denomination": "tyiyn"
-        }, 
-        "som": {
-            "value": 100, 
-            "denomination": "tyiyn"
-        }
-    }, 
-    "name_long": "Kyrgyzstan", 
+    "long_name": "Kyrgyzstan", 
     "inventory": [
         {
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "tyiyn", 
             "year": 1993, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "som", 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "tyiyn"
         }
     ], 
-    "name": "kyrgyzstan", 
+    "short_name": "kyrgyzstan", 
     "denominations": [
-        "som", 
-        "tyiyn"
+        {
+            "name": "som",
+            "code": "KGS",
+            "obsolete": false,
+            "divisions": {
+                "tyiyn": {
+                    "subunit": "tyiyn", 
+                    "value": 1
+                }, 
+                "som": {
+                    "subunit": "tyiyn", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "som",
+                "tyiyn" 
+            ]
+        }
     ]
 }

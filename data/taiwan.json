@@ -1,86 +1,95 @@
 {
-    "divisions": {
-        "cents": {
-            "value": 1, 
-            "denomination": "cents"
-        }, 
-        "dollars": {
-            "value": 10, 
-            "denomination": "jiao"
-        }, 
-        "yuan": {
-            "value": 10, 
-            "denomination": "jiao"
-        }, 
-        "jiao": {
-            "value": 10, 
-            "denomination": "cents"
-        }
-    }, 
-    "name_long": "Taiwan", 
+    "long_name": "Taiwan", 
     "inventory": [
         {
+            "year": 1972, 
             "obsolete": true, 
             "value": 100, 
-            "denomination": "yuan", 
-            "year": 1972, 
+            "denomination": "new taiwan dollars", 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "yuan"
         }, 
         {
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "yuan", 
             "year": 1961, 
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "new taiwan dollars", 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "yuan"
         }, 
         {
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "yuan", 
             "year": 1962, 
-            "owner": "Kay Friedly", 
-            "type": "coin"
-        }, 
-        {
             "obsolete": true, 
             "value": 1, 
-            "denomination": "yuan", 
+            "denomination": "new taiwan dollars", 
+            "piece_type": "coin", 
+            "owner": "Kay Friedly", 
+            "subunit": "yuan"
+        }, 
+        {
             "year": 1963, 
-            "owner": "Kay Friedly", 
-            "type": "coin"
-        }, 
-        {
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "jiao", 
-            "year": 1956, 
-            "owner": "Kay Friedly", 
-            "type": "coin"
-        }, 
-        {
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "jiao", 
-            "year": 1956, 
-            "owner": "Kay Friedly", 
-            "type": "coin"
-        }, 
-        {
             "obsolete": true, 
             "value": 1, 
-            "denomination": "jiao", 
-            "year": 1963, 
+            "denomination": "new taiwan dollars", 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "yuan"
+        }, 
+        {
+            "year": 1956, 
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "new taiwan dollars", 
+            "piece_type": "coin", 
+            "owner": "Kay Friedly", 
+            "subunit": "jiao"
+        }, 
+        {
+            "year": 1956, 
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "new taiwan dollars", 
+            "piece_type": "coin", 
+            "owner": "Kay Friedly", 
+            "subunit": "jiao"
+        }, 
+        {
+            "year": 1963, 
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "new taiwan dollars", 
+            "piece_type": "coin", 
+            "owner": "Kay Friedly", 
+            "subunit": "jiao"
         }
     ], 
-    "name": "taiwan", 
+    "short_name": "taiwan", 
     "denominations": [
-        "yuan", 
-        "dollars", 
-        "jiao", 
-        "cents"
+        {
+            "obsolete": false, 
+            "divisions": {
+                "cents": {
+                    "subunit": "cents", 
+                    "value": 1
+                }, 
+                "yuan": {
+                    "subunit": "jiao", 
+                    "value": 10
+                }, 
+                "jiao": {
+                    "subunit": "cents", 
+                    "value": 10
+                }
+            }, 
+            "code": "TWD", 
+            "name": "new taiwan dollars", 
+            "subunits": [
+                "yuan", 
+                "jiao",
+                "cents"
+            ]
+        }
     ]
 }

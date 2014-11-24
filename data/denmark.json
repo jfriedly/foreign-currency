@@ -1,28 +1,35 @@
 {
-    "divisions": {
-        "ore": {
-            "value": 1, 
-            "denomination": "ore"
-        }, 
-        "kroner": {
-            "value": 100, 
-            "denomination": "ore"
-        }
-    }, 
-    "name_long": "Denmark", 
+    "long_name": "Denmark", 
     "inventory": [
         {
+            "year": 1950, 
             "obsolete": false, 
             "value": 25, 
-            "denomination": "ore", 
-            "year": 1950, 
+            "denomination": "kroner", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "ore"
         }
     ], 
-    "name": "denmark", 
+    "short_name": "denmark", 
     "denominations": [
-        "kroner", 
-        "ore"
+        {
+            "name": "kroner",
+            "code": "DKK",
+            "divisions": {
+                "ore": {
+                    "subunit": "ore", 
+                    "value": 1
+                }, 
+                "kroner": {
+                    "subunit": "ore", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "kroner",
+                "ore"
+            ]
+        }
     ]
 }

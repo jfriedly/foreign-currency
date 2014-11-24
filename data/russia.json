@@ -1,44 +1,54 @@
 {
-    "divisions": {
-        "rubles": {
-            "value": 100, 
-            "denomination": "kopeks"
-        }, 
-        "kopeks": {
-            "value": 1, 
-            "denomination": "kopeks"
-        }
-    }, 
-    "name_long": "Russian Federation", 
+    "long_name": "Russian Federation", 
     "inventory": [
         {
+            "year": 1998, 
             "obsolete": false, 
             "value": 10, 
-            "denomination": "rubles", 
-            "year": 1998, 
+            "denomination": "new rubles", 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "rubles"
         }, 
         {
+            "year": 2005, 
             "obsolete": false, 
             "value": 1, 
-            "denomination": "rubles", 
-            "year": 2005, 
+            "denomination": "new rubles", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "rubles"
         }, 
         {
+            "year": 2005, 
             "obsolete": false, 
             "value": 10, 
-            "denomination": "kopeks", 
-            "year": 2005, 
+            "denomination": "new rubles", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "kopeks"
         }
     ], 
-    "name": "russia", 
+    "short_name": "russia", 
     "denominations": [
-        "rubles", 
-        "kopeks"
+        {
+            "obsolete": false, 
+            "divisions": {
+                "rubles": {
+                    "subunit": "kopeks", 
+                    "value": 100
+                }, 
+                "kopeks": {
+                    "subunit": "kopeks", 
+                    "value": 1
+                }
+            }, 
+            "code": "RUB", 
+            "name": "new rubles", 
+            "subunits": [
+                "rubles", 
+                "kopeks"
+            ]
+        }
     ]
 }

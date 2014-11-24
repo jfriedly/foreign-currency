@@ -1,33 +1,55 @@
 {
-    "divisions": {
-        "hryvnia": {
-            "value": 100, 
-            "denomination": "kopiyka"
-        }, 
-        "kopiyka": {
-            "value": 1, 
-            "denomination": "kopiyka"
-        }, 
-        "karbovanets": {
-            "value": 100, 
-            "denomination": "kopikya"
-        }
-    }, 
-    "name_long": "Ukraine", 
+    "long_name": "Ukraine", 
     "inventory": [
         {
+            "year": 1995, 
             "obsolete": true, 
             "value": 5000, 
-            "denomination": "karbovanets", 
-            "year": 1995, 
+            "denomination": "karbovantsiv", 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "karbovantsiv"
         }
     ], 
-    "name": "ukraine", 
+    "short_name": "ukraine", 
     "denominations": [
-        "hryvnia", 
-        "kopiyka", 
-        "karbovanets"
+        {
+            "obsolete": false, 
+            "divisions": {
+                "hryven'": {
+                    "subunit": "kopiyka", 
+                    "value": 100
+                }, 
+                "kopiyka": {
+                    "subunit": "kopiyka", 
+                    "value": 1
+                }
+            }, 
+            "code": "UAH", 
+            "name": "hyrven'", 
+            "subunits": [
+                "hryven'", 
+                "kopiyka" 
+            ]
+        },
+        {
+            "obsolete": true, 
+            "divisions": {
+                "kopiyka": {
+                    "subunit": "kopiyka", 
+                    "value": 1
+                }, 
+                "karbovantsiv": {
+                    "subunit": "kopiyka", 
+                    "value": 100
+                }
+            }, 
+            "code": "UAK", 
+            "name": "karbovantsiv", 
+            "subunits": [
+                "karbovantsiv",
+                "kopiyka"
+            ]
+        }
     ]
 }

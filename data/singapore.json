@@ -1,36 +1,45 @@
 {
-    "name": "singapore", 
-    "name_long": "Singapore", 
-    "divisions": {
-        "cents": {
-            "value": 1, 
-            "denomination": "cents"
-        }, 
-        "dollars": {
-            "value": 100, 
-            "denomination": "cents"
-        }
-    }, 
+    "long_name": "Singapore", 
     "inventory": [
         {
+            "year": 1987, 
             "obsolete": false, 
             "value": 10, 
-            "denomination": "cents", 
-            "year": 1987, 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }, 
         {
+            "year": 1987, 
             "obsolete": false, 
             "value": 50, 
-            "denomination": "cents", 
-            "year": 1987, 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }
     ], 
+    "short_name": "singapore", 
     "denominations": [
-        "dollars", 
-        "cents"
+        {
+            "obsolete": false, 
+            "divisions": {
+                "cents": {
+                    "subunit": "cents", 
+                    "value": 1
+                }, 
+                "dollars": {
+                    "subunit": "cents", 
+                    "value": 100
+                }
+            }, 
+            "code": "SGD", 
+            "name": "dollars", 
+            "subunits": [
+                "dollars",
+                "cents"
+            ]
+        }
     ]
 }

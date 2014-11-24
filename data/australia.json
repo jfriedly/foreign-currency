@@ -1,67 +1,86 @@
 {
-    "name": "australia", 
-    "name_long": "Australia", 
-    "divisions": {
-        "cents": {
-            "value": 1, 
-            "denomination": "cents"
-        }, 
-        "pence": {
-            "value": 1, 
-            "denomination": "pence"
-        }, 
-        "dollars": {
-            "value": 100, 
-            "denomination": "cents"
-        }, 
-        "shillings": {
-            "value": 12, 
-            "denomination": "pence"
-        }, 
-        "pounds": {
-            "value": 20, 
-            "denomination": "shillings"
+    "short_name": "australia", 
+    "long_name": "Australia", 
+    "denominations": [
+        {
+            "name": "dollars",
+            "code": "AUD",
+            "subunits": [
+                "dollars",
+                "cents"
+            ],
+            "divisions": {
+                "dollars": {
+                    "value": 100, 
+                    "subunit": "cents"
+                }, 
+                "cents": {
+                    "value": 1, 
+                    "subunit": "cents"
+                } 
+            }
+        },
+        {
+            "name": "pounds",
+            "code": "",
+            "obsolete": true,
+            "subunits": [
+                "pounds",
+                "shillings",
+                "pence"
+            ],
+            "divisions": {
+                "pence": {
+                    "value": 1, 
+                    "subunit": "pence"
+                }, 
+                "shillings": {
+                    "value": 12, 
+                    "subunit": "pence"
+                }, 
+                "pounds": {
+                    "value": 20, 
+                    "subunit": "shillings"
+                }
+            }
         }
-    }, 
+    ],
     "inventory": [
         {
             "obsolete": true, 
             "value": 3, 
-            "denomination": "pence", 
+            "denomination": "pounds", 
+            "subunit": "pence",
             "year": 1943, 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "piece_type": "coin"
         }, 
         {
             "obsolete": true, 
             "value": 3, 
-            "denomination": "pence", 
+            "denomination": "pounds", 
+            "subunit": "pence",
             "year": 1943, 
             "owner": "Joel Friedly", 
-            "type": "coin"
-        }, 
-        {
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "cents", 
-            "year": 1973, 
-            "owner": "Joel Friedly", 
-            "type": "coin"
+            "piece_type": "coin"
         }, 
         {
             "obsolete": false, 
             "value": 5, 
             "denomination": "dollars", 
+            "subunit": "cents", 
+            "year": 1973, 
+            "owner": "Joel Friedly", 
+            "piece_type": "coin"
+        }, 
+        {
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "dollars", 
+            "subunit": "dollars", 
             "year": 1995, 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "piece_type": "bill"
         }
-    ], 
-    "denominations": [
-        "dollars", 
-        "cents", 
-        "pounds", 
-        "shillings", 
-        "pence"
-    ]
+    ] 
 }

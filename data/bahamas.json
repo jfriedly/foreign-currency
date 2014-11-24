@@ -1,36 +1,44 @@
 {
-    "divisions": {
-        "cents": {
-            "value": 1, 
-            "denomination": "cents"
-        }, 
-        "dollars": {
-            "value": 100, 
-            "denomination": "cents"
-        }
-    }, 
-    "denominations": [
-        "dollars", 
-        "cents"
-    ], 
+    "long_name": "Bahamas", 
     "inventory": [
         {
+            "year": 2006, 
             "obsolete": false, 
             "value": 1, 
-            "denomination": "cents", 
-            "year": 2006, 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }, 
         {
+            "year": 1969, 
             "obsolete": false, 
             "value": 5, 
-            "denomination": "cents", 
-            "year": 1969, 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }
     ], 
-    "name": "bahamas", 
-    "name_long": "Bahamas"
+    "short_name": "bahamas", 
+    "denominations": [
+        {
+            "divisions": {
+                "cents": {
+                    "subunit": "cents", 
+                    "value": 1
+                }, 
+                "dollars": {
+                    "subunit": "cents", 
+                    "value": 100
+                }
+            }, 
+            "name": "dollars",
+            "code": "BSD",
+            "subunits": [
+                "dollars",
+                "cents"
+            ]
+        }
+    ]
 }

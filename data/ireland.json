@@ -1,28 +1,36 @@
 {
-    "divisions": {
-        "pence": {
-            "value": 1, 
-            "denomination": "pence"
-        }, 
-        "pounds": {
-            "value": 100, 
-            "denomination": "pence"
-        }
-    }, 
-    "name_long": "Ireland", 
+    "long_name": "Ireland", 
     "inventory": [
         {
+            "year": 1996, 
             "obsolete": true, 
             "value": 10, 
-            "denomination": "pence", 
-            "year": 1996, 
+            "denomination": "pounds", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "pence"
         }
     ], 
-    "name": "ireland", 
+    "short_name": "ireland", 
     "denominations": [
-        "pounds", 
-        "pence"
+        {
+            "name": "pounds",
+            "code": "IEP",
+            "obsolete": true,
+            "divisions": {
+                "pence": {
+                    "subunit": "pence", 
+                    "value": 1
+                }, 
+                "pounds": {
+                    "subunit": "pence", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "pounds",
+                "pence"
+            ]
+        }
     ]
 }

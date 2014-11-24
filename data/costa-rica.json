@@ -1,28 +1,35 @@
 {
-    "name": "costa-rica", 
-    "name_long": "Costa Rica", 
-    "divisions": {
-        "colones": {
-            "value": 100, 
-            "denomination": "centimos"
-        }, 
-        "centimos": {
-            "value": 1, 
-            "denomination": "centimos"
-        }
-    }, 
+    "long_name": "Costa Rica", 
     "inventory": [
         {
+            "year": 1948, 
             "obsolete": true, 
             "value": 50, 
-            "denomination": "centimos", 
-            "year": 1948, 
+            "denomination": "colones", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "centimos"
         }
     ], 
+    "short_name": "costa-rica", 
     "denominations": [
-        "colones", 
-        "centimos"
+        {
+            "name": "colones",
+            "code": "CRC",
+            "divisions": {
+                "colones": {
+                    "subunit": "centimos", 
+                    "value": 100
+                }, 
+                "centimos": {
+                    "subunit": "centimos", 
+                    "value": 1
+                }
+            }, 
+            "subunits": [
+                "colones", 
+                "centimos"
+            ]
+        }
     ]
 }

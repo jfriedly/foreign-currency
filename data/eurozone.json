@@ -1,76 +1,90 @@
 {
-    "name": "eurozone", 
-    "name_long": "Eurozone", 
-    "divisions": {
-        "cents": {
-            "value": 1, 
-            "denomination": "cents"
-        }, 
-        "euros": {
-            "value": 100, 
-            "denomination": "cents"
-        }
-    }, 
+    "long_name": "Eurozone", 
     "inventory": [
         {
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "cents", 
             "year": 2011, 
-            "owner": "Joel Friedly", 
-            "type": "coin"
-        }, 
-        {
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "cents", 
-            "year": 2002, 
-            "owner": "Joel Friedly", 
-            "type": "coin"
-        }, 
-        {
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "cents", 
-            "year": 2005, 
-            "owner": "Joel Friedly", 
-            "type": "coin"
-        }, 
-        {
-            "obsolete": false, 
-            "value": 20, 
-            "denomination": "cents", 
-            "year": 1999, 
-            "owner": "Joel Friedly", 
-            "type": "coin"
-        }, 
-        {
             "obsolete": false, 
             "value": 1, 
             "denomination": "euros", 
-            "year": 2002, 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }, 
         {
+            "year": 2002, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "euros", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "subunit": "cents"
+        }, 
+        {
+            "year": 2005, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "euros", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "subunit": "cents"
+        }, 
+        {
+            "year": 1999, 
+            "obsolete": false, 
+            "value": 20, 
+            "denomination": "euros", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "subunit": "cents"
+        }, 
+        {
+            "year": 2002, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "euros", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "subunit": "euros"
+        }, 
+        {
+            "year": 2002, 
             "obsolete": false, 
             "value": 2, 
             "denomination": "euros", 
-            "year": 2002, 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "euros"
         }, 
         {
+            "year": 2011, 
             "obsolete": false, 
             "value": 5, 
-            "denomination": "cents", 
-            "year": 2011, 
+            "denomination": "euros", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }
     ], 
+    "short_name": "eurozone", 
     "denominations": [
-        "euros", 
-        "cents"
+        {
+            "name": "euros",
+            "code": "EUR",
+            "obsolete": false,
+            "divisions": {
+                "cents": {
+                    "subunit": "cents", 
+                    "value": 1
+                }, 
+                "euros": {
+                    "subunit": "cents", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "euros",
+                "cents" 
+            ]
+        }
     ]
 }

@@ -1,36 +1,44 @@
 {
-    "name": "brazil", 
-    "name_long": "Brazil",
-    "divisions": {
-        "centavos": {
-            "value": 1, 
-            "denomination": "centavos"
-        }, 
-        "reais": {
-            "value": 100, 
-            "denomination": "centavos"
-        }
-    }, 
+    "long_name": "Brazil", 
     "inventory": [
         {
+            "year": 2000, 
             "obsolete": false, 
             "value": 2, 
             "denomination": "reais", 
-            "year": 2000, 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "reais"
         }, 
         {
+            "year": 2010, 
             "obsolete": false, 
             "value": 20, 
             "denomination": "reais", 
-            "year": 2010, 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "reais"
         }
     ], 
+    "short_name": "brazil", 
     "denominations": [
-        "reais", 
-        "centavos"
+        {
+            "name": "reais",
+            "code": "BRL",
+            "divisions": {
+                "centavos": {
+                    "subunit": "centavos", 
+                    "value": 1
+                }, 
+                "reais": {
+                    "subunit": "centavos", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "reais",
+                "centavos" 
+            ]
+        }
     ]
 }

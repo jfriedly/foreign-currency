@@ -1,52 +1,63 @@
 {
-    "divisions": {
-        "cents": {
-            "value": 1, 
-            "denomination": "cents"
-        }, 
-        "dollars": {
-            "value": 100, 
-            "denomination": "cents"
-        }
-    }, 
-    "denominations": [
-        "dollars", 
-        "cents"
-    ], 
+    "long_name": "Trinidad and Tobago", 
     "inventory": [
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 1, 
             "denomination": "dollars", 
-            "year": 0, 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "dollars"
         }, 
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 5, 
             "denomination": "dollars", 
-            "year": 0, 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "dollars"
         }, 
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 10, 
             "denomination": "dollars", 
-            "year": 0, 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "dollars"
         }, 
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 20, 
             "denomination": "dollars", 
-            "year": 0, 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "dollars"
         }
     ], 
-    "name": "trinidad-and-tobago", 
-    "name_long": "Trinidad and Tobago"
+    "short_name": "trinidad-and-tobago", 
+    "denominations": [
+        {
+            "obsolete": false, 
+            "divisions": {
+                "cents": {
+                    "subunit": "cents", 
+                    "value": 1
+                }, 
+                "dollars": {
+                    "subunit": "cents", 
+                    "value": 100
+                }
+            }, 
+            "code": "TTD", 
+            "name": "dollars", 
+            "subunits": [
+                "dollars",
+                "cents"
+            ]
+        }
+    ]
 }

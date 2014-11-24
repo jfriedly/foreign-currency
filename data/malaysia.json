@@ -1,44 +1,54 @@
 {
-    "divisions": {
-        "ringgit": {
-            "value": 100, 
-            "denomination": "sen"
-        }, 
-        "sen": {
-            "value": 1, 
-            "denomination": "sen"
-        }
-    }, 
-    "denominations": [
-        "ringgit", 
-        "sen"
-    ], 
-    "name": "malaysia", 
+    "long_name": "Malaysia", 
     "inventory": [
         {
+            "year": 1991, 
             "obsolete": false, 
             "value": 1, 
             "denomination": "ringgit", 
-            "year": 1991, 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "ringgit"
         }, 
         {
+            "year": 1988, 
             "obsolete": false, 
             "value": 20, 
-            "denomination": "sen", 
-            "year": 1988, 
+            "denomination": "ringgit", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "sen"
         }, 
         {
+            "year": 2000, 
             "obsolete": false, 
             "value": 1, 
             "denomination": "ringgit", 
-            "year": 2000, 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "ringgit"
         }
     ], 
-    "name_long": "Malaysia"
+    "short_name": "malaysia", 
+    "denominations": [
+        {
+            "name": "ringgit",
+            "code": "",
+            "obsolete": false,
+            "divisions": {
+                "ringgit": {
+                    "subunit": "sen", 
+                    "value": 100
+                }, 
+                "sen": {
+                    "subunit": "sen", 
+                    "value": 1
+                }
+            }, 
+            "subunits": [
+                "ringgit", 
+                "sen"
+            ]
+        }
+    ]
 }

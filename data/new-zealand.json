@@ -1,36 +1,45 @@
 {
-    "divisions": {
-        "cents": {
-            "value": 1, 
-            "denomination": "cents"
-        }, 
-        "dollars": {
-            "value": 100, 
-            "denomination": "cents"
-        }
-    }, 
-    "denominations": [
-        "dollars", 
-        "cents"
-    ], 
+    "long_name": "New Zealand", 
     "inventory": [
         {
+            "year": 1994, 
             "obsolete": true, 
             "value": 5, 
-            "denomination": "cents", 
-            "year": 1994, 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }, 
         {
+            "year": 2006, 
             "obsolete": false, 
             "value": 10, 
-            "denomination": "cents", 
-            "year": 2006, 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }
     ], 
-    "name": "new-zealand", 
-    "name_long": "New Zealand"
+    "short_name": "new-zealand", 
+    "denominations": [
+        {
+            "obsolete": false, 
+            "divisions": {
+                "cents": {
+                    "subunit": "cents", 
+                    "value": 1
+                }, 
+                "dollars": {
+                    "subunit": "cents", 
+                    "value": 100
+                }
+            }, 
+            "code": "NZD", 
+            "name": "dollars", 
+            "subunits": [
+                "dollars",
+                "cents"
+            ]
+        }
+    ]
 }

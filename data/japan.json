@@ -1,153 +1,176 @@
 {
-    "name": "japan", 
-    "name_long": "Japan", 
-    "divisions": {
-        "rin": {
-            "value": 1, 
-            "denomination": "rin"
-        }, 
-        "sen": {
-            "value": 10, 
-            "denomination": "rin"
-        }, 
-        "yen": {
-            "value": 100, 
-            "denomination": "sen"
-        }
-    }, 
+    "long_name": "Japan", 
     "inventory": [
         {
+            "year": 1943, 
             "obsolete": false, 
             "value": 5, 
             "denomination": "yen", 
-            "year": 1943, 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "yen"
         }, 
         {
+            "year": 0, 
             "obsolete": true, 
             "value": 50, 
-            "denomination": "sen", 
-            "year": 0, 
+            "denomination": "yen", 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "sen"
         }, 
         {
-            "obsolete": true, 
-            "value": 10, 
-            "denomination": "sen", 
             "year": 1942, 
+            "obsolete": true, 
+            "value": 10, 
+            "denomination": "yen", 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "sen"
         }, 
         {
+            "year": 0, 
             "obsolete": true, 
             "value": 5, 
-            "denomination": "sen", 
-            "year": 0, 
+            "denomination": "yen", 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "sen"
         }, 
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 1, 
             "denomination": "yen", 
-            "year": 0, 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "yen"
         }, 
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 1, 
             "denomination": "yen", 
-            "year": 0, 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "yen"
         }, 
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 1, 
             "denomination": "yen", 
-            "year": 0, 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "yen"
         }, 
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 1, 
             "denomination": "yen", 
-            "year": 0, 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "yen"
         }, 
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 5, 
             "denomination": "yen", 
-            "year": 0, 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "yen"
         }, 
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 5, 
             "denomination": "yen", 
-            "year": 0, 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "yen"
         }, 
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 5, 
             "denomination": "yen", 
-            "year": 0, 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "yen"
         }, 
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 5, 
             "denomination": "yen", 
-            "year": 0, 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "yen"
         }, 
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 10, 
             "denomination": "yen", 
-            "year": 0, 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "yen"
         }, 
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 10, 
             "denomination": "yen", 
-            "year": 0, 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "yen"
         }, 
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 10, 
             "denomination": "yen", 
-            "year": 0, 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "yen"
         }, 
         {
+            "year": 0, 
             "obsolete": false, 
             "value": 10, 
             "denomination": "yen", 
-            "year": 0, 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "yen"
         }
     ], 
+    "short_name": "japan", 
     "denominations": [
-        "yen", 
-        "sen", 
-        "rin"
+        {
+            "name": "yen",
+            "code": "JPY",
+            "obsolete": false,
+            "divisions": {
+                "rin": {
+                    "subunit": "rin", 
+                    "value": 1
+                }, 
+                "sen": {
+                    "subunit": "rin", 
+                    "value": 10
+                }, 
+                "yen": {
+                    "subunit": "sen", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "yen",
+                "sen", 
+                "rin" 
+            ]
+        }
     ]
 }

@@ -1,68 +1,153 @@
 {
-    "divisions": {
-        "francs": {
-            "value": 100, 
-            "denomination": "centimes"
-        }, 
-        "centimes": {
-            "value": 1, 
-            "denomination": "centimes"
-        }
-    }, 
-    "denominations": [
-        "francs", 
-        "centimes"
-    ], 
+    "long_name": "France", 
     "inventory": [
         {
+            "year": 1944, 
             "obsolete": true, 
             "value": 2, 
-            "denomination": "francs", 
-            "year": 1944, 
+            "denomination": "us occupation francs", 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "francs"
         }, 
         {
+            "year": 1942, 
             "obsolete": true, 
             "value": 10, 
-            "denomination": "francs", 
-            "year": 1942, 
+            "denomination": "old francs", 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "francs"
         }, 
         {
+            "year": 1943, 
             "obsolete": true, 
             "value": 5, 
-            "denomination": "francs", 
-            "year": 1943, 
+            "denomination": "old francs", 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "francs"
         }, 
         {
+            "year": 1855, 
             "obsolete": true, 
             "value": 10, 
-            "denomination": "centimes", 
-            "year": 1855, 
+            "denomination": "second french empire francs", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "centimes"
         }, 
         {
+            "year": 1943, 
             "obsolete": true, 
             "value": 2, 
-            "denomination": "francs", 
-            "year": 1943, 
+            "denomination": "vichy francs", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "francs"
         }, 
         {
+            "year": 1976, 
             "obsolete": true, 
             "value": 1, 
-            "denomination": "francs", 
-            "year": 1976, 
+            "denomination": "new francs", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "francs"
         }
     ], 
-    "name": "france", 
-    "name_long": "France"
+    "short_name": "france", 
+    "denominations": [
+        {
+            "name": "new francs",
+            "code": "FRF",
+            "obsolete": true,
+            "divisions": {
+                "francs": {
+                    "subunit": "centimes", 
+                    "value": 100
+                }, 
+                "centimes": {
+                    "subunit": "centimes", 
+                    "value": 1
+                }
+            }, 
+            "subunits": [
+                "francs", 
+                "centimes"
+            ]
+        },
+        {
+            "name": "old francs",
+            "obsolete": true,
+            "divisions": {
+                "francs": {
+                    "subunit": "centimes", 
+                    "value": 100
+                }, 
+                "centimes": {
+                    "subunit": "centimes", 
+                    "value": 1
+                }
+            }, 
+            "subunits": [
+                "francs", 
+                "centimes"
+            ]
+        },
+        {
+            "name": "us occupation francs",
+            "obsolete": true,
+            "divisions": {
+                "francs": {
+                    "subunit": "centimes", 
+                    "value": 100
+                }, 
+                "centimes": {
+                    "subunit": "centimes", 
+                    "value": 1
+                }
+            }, 
+            "subunits": [
+                "francs", 
+                "centimes"
+            ]
+        },
+        {
+            "name": "vichy francs",
+            "obsolete": true,
+            "divisions": {
+                "francs": {
+                    "subunit": "centimes", 
+                    "value": 100
+                }, 
+                "centimes": {
+                    "subunit": "centimes", 
+                    "value": 1
+                }
+            }, 
+            "subunits": [
+                "francs", 
+                "centimes"
+            ]
+        },
+        {
+            "name": "second french empire francs",
+            "obsolete": true,
+            "divisions": {
+                "francs": {
+                    "subunit": "centimes", 
+                    "value": 100
+                }, 
+                "centimes": {
+                    "subunit": "centimes", 
+                    "value": 1
+                }
+            }, 
+            "subunits": [
+                "francs", 
+                "centimes"
+            ]
+        }
+    ]
 }

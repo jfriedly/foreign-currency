@@ -1,28 +1,36 @@
 {
-    "name": "indonesia", 
-    "name_long": "Indonesia", 
-    "divisions": {
-        "sen": {
-            "value": 1, 
-            "denomination": "sen"
-        }, 
-        "rupiah": {
-            "value": 100, 
-            "denomination": "sen"
-        }
-    }, 
+    "long_name": "Indonesia", 
     "inventory": [
         {
+            "year": 1964, 
             "obsolete": true, 
             "value": 25, 
-            "denomination": "sen", 
-            "year": 1964, 
+            "denomination": "rupiah", 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "sen"
         }
     ], 
+    "short_name": "indonesia", 
     "denominations": [
-        "rupiah", 
-        "sen"
+        {
+            "name": "rupiah",
+            "code": "IDR",
+            "obsolete": false,
+            "divisions": {
+                "sen": {
+                    "subunit": "sen", 
+                    "value": 1
+                }, 
+                "rupiah": {
+                    "subunit": "sen", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "rupiah",
+                "sen"
+            ]
+        }
     ]
 }

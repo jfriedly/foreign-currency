@@ -1,36 +1,45 @@
 {
-    "divisions": {
-        "cents": {
-            "value": 1, 
-            "denomination": "cents"
-        }, 
-        "guilders": {
-            "value": 100, 
-            "denomination": "cents"
-        }
-    }, 
-    "denominations": [
-        "guilders", 
-        "cents"
-    ], 
+    "long_name": "Netherlands", 
     "inventory": [
         {
+            "year": 1948, 
             "obsolete": true, 
             "value": 1, 
-            "denomination": "cents", 
-            "year": 1948, 
+            "denomination": "guilders", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }, 
         {
+            "year": 1951, 
             "obsolete": true, 
             "value": 5, 
-            "denomination": "cents", 
-            "year": 1951, 
+            "denomination": "guilders", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }
     ], 
-    "name": "netherlands", 
-    "name_long": "Netherlands"
+    "short_name": "netherlands", 
+    "denominations": [
+        {
+            "obsolete": true, 
+            "divisions": {
+                "cents": {
+                    "subunit": "cents", 
+                    "value": 1
+                }, 
+                "guilders": {
+                    "subunit": "cents", 
+                    "value": 100
+                }
+            }, 
+            "code": "NLG", 
+            "name": "guilders", 
+            "subunits": [
+                "guilders",
+                "cents"
+            ]
+        }
+    ]
 }

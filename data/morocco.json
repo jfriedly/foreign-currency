@@ -1,44 +1,54 @@
 {
-    "name": "morocco", 
-    "name_long": "Morocco", 
-    "divisions": {
-        "santimat": {
-            "value": 1, 
-            "denomination": "santimat"
-        }, 
-        "dirhams": {
-            "value": 100, 
-            "denomination": "santimat"
-        }
-    }, 
+    "long_name": "Morocco", 
     "inventory": [
         {
+            "year": 2005, 
             "obsolete": false, 
             "value": 20, 
             "denomination": "dirhams", 
-            "year": 2005, 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "dirhams"
         }, 
         {
+            "year": 1987, 
             "obsolete": false, 
             "value": 1, 
             "denomination": "dirhams", 
-            "year": 1987, 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "dirhams"
         }, 
         {
+            "year": 2002, 
             "obsolete": false, 
             "value": 5, 
             "denomination": "dirhams", 
-            "year": 2002, 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "dirhams"
         }
     ], 
+    "short_name": "morocco", 
     "denominations": [
-        "dirhams", 
-        "santimat"
+        {
+            "obsolete": false, 
+            "divisions": {
+                "santimat": {
+                    "subunit": "santimat", 
+                    "value": 1
+                }, 
+                "dirhams": {
+                    "subunit": "santimat", 
+                    "value": 100
+                }
+            }, 
+            "code": "MAD", 
+            "name": "dirhams", 
+            "subunits": [
+                "dirhams",
+                "santimat" 
+            ]
+        }
     ]
 }

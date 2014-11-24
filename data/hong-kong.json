@@ -1,172 +1,198 @@
 {
-    "name": "hong-kong", 
-    "name_long": "Hong Kong", 
-    "divisions": {
-        "cents": {
-            "value": 1, 
-            "denomination": "cents"
-        }, 
-        "dollars": {
-            "value": 100, 
-            "denomination": "cents"
-        }
-    }, 
+    "long_name": "Hong Kong", 
     "inventory": [
         {
+            "year": 2009, 
             "obsolete": false, 
             "value": 20, 
             "denomination": "dollars", 
-            "year": 2009, 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "dollars"
         }, 
         {
+            "year": 1972, 
             "obsolete": true, 
             "value": 5, 
-            "denomination": "cents", 
-            "year": 1972, 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }, 
         {
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "cents", 
             "year": 1963, 
-            "owner": "Kay Friedly", 
-            "type": "coin"
-        }, 
-        {
             "obsolete": false, 
             "value": 10, 
-            "denomination": "cents", 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
+            "owner": "Kay Friedly", 
+            "subunit": "cents"
+        }, 
+        {
             "year": 1963, 
-            "owner": "Kay Friedly", 
-            "type": "coin"
-        }, 
-        {
             "obsolete": false, 
             "value": 10, 
-            "denomination": "cents", 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
+            "owner": "Kay Friedly", 
+            "subunit": "cents"
+        }, 
+        {
             "year": 1965, 
-            "owner": "Kay Friedly", 
-            "type": "coin"
-        }, 
-        {
             "obsolete": false, 
             "value": 10, 
-            "denomination": "cents", 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
+            "owner": "Kay Friedly", 
+            "subunit": "cents"
+        }, 
+        {
             "year": 1968, 
-            "owner": "Kay Friedly", 
-            "type": "coin"
-        }, 
-        {
             "obsolete": false, 
             "value": 10, 
-            "denomination": "cents", 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
+            "owner": "Kay Friedly", 
+            "subunit": "cents"
+        }, 
+        {
             "year": 1971, 
-            "owner": "Kay Friedly", 
-            "type": "coin"
-        }, 
-        {
             "obsolete": false, 
             "value": 10, 
-            "denomination": "cents", 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
+            "owner": "Kay Friedly", 
+            "subunit": "cents"
+        }, 
+        {
             "year": 1973, 
-            "owner": "Kay Friedly", 
-            "type": "coin"
-        }, 
-        {
             "obsolete": false, 
             "value": 10, 
-            "denomination": "cents", 
-            "year": 1975, 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }, 
         {
+            "year": 1975, 
             "obsolete": false, 
             "value": 10, 
-            "denomination": "cents", 
-            "year": 1975, 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }, 
         {
+            "year": 1975, 
             "obsolete": false, 
-            "value": 50, 
-            "denomination": "cents", 
+            "value": 10, 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
+            "owner": "Kay Friedly", 
+            "subunit": "cents"
+        }, 
+        {
             "year": 1961, 
+            "obsolete": false, 
+            "value": 50, 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
             "owner": "Kay Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }, 
         {
-            "obsolete": false, 
-            "value": 20, 
-            "denomination": "cents", 
             "year": 1998, 
-            "owner": "Joel Friedly", 
-            "type": "coin"
-        }, 
-        {
             "obsolete": false, 
             "value": 20, 
-            "denomination": "cents", 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "subunit": "cents"
+        }, 
+        {
             "year": 1998, 
-            "owner": "Joel Friedly", 
-            "type": "coin"
-        }, 
-        {
             "obsolete": false, 
             "value": 20, 
-            "denomination": "cents", 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "subunit": "cents"
+        }, 
+        {
             "year": 1998, 
-            "owner": "Joel Friedly", 
-            "type": "coin"
-        }, 
-        {
             "obsolete": false, 
             "value": 20, 
-            "denomination": "cents", 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "subunit": "cents"
+        }, 
+        {
             "year": 1997, 
+            "obsolete": false, 
+            "value": 20, 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }, 
         {
+            "year": 1998, 
             "obsolete": false, 
             "value": 50, 
-            "denomination": "cents", 
-            "year": 1998, 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }, 
         {
+            "year": 1998, 
             "obsolete": false, 
             "value": 50, 
-            "denomination": "cents", 
-            "year": 1998, 
+            "denomination": "dollars", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "cents"
         }, 
         {
+            "year": 1994, 
             "obsolete": false, 
             "value": 1, 
             "denomination": "dollars", 
-            "year": 1994, 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "dollars"
         }, 
         {
+            "year": 1998, 
             "obsolete": false, 
             "value": 5, 
             "denomination": "dollars", 
-            "year": 1998, 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "dollars"
         }
     ], 
+    "short_name": "hong-kong", 
     "denominations": [
-        "dollars", 
-        "cents"
+        {
+            "name": "dollars",
+            "code": "HKD",
+            "obsolete": false,
+            "divisions": {
+                "cents": {
+                    "subunit": "cents", 
+                    "value": 1
+                }, 
+                "dollars": {
+                    "subunit": "cents", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "dollars",
+                "cents"
+            ]
+        }
     ]
 }

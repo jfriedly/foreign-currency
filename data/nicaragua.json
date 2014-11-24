@@ -1,28 +1,36 @@
 {
-    "divisions": {
-        "centavos": {
-            "value": 1, 
-            "denomination": "centavos"
-        }, 
-        "cordobas": {
-            "value": 100, 
-            "denomination": "centavos"
-        }
-    }, 
-    "name_long": "Nicaragua", 
+    "long_name": "Nicaragua", 
     "inventory": [
         {
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "centavos", 
             "year": 1991, 
+            "obsolete": true, 
+            "value": 1, 
+            "denomination": "third cordobas", 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "centavos"
         }
     ], 
-    "name": "nicaragua", 
+    "short_name": "nicaragua", 
     "denominations": [
-        "cordobas", 
-        "centavos"
+        {
+            "obsolete": false, 
+            "divisions": {
+                "centavos": {
+                    "subunit": "centavos", 
+                    "value": 1
+                }, 
+                "cordobas": {
+                    "subunit": "centavos", 
+                    "value": 100
+                }
+            }, 
+            "code": "NIO", 
+            "name": "third cordobas", 
+            "subunits": [
+                "cordobas",
+                "centavos" 
+            ]
+        }
     ]
 }

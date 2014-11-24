@@ -1,36 +1,45 @@
 {
-    "name": "macau", 
-    "name_long": "Macau", 
-    "divisions": {
-        "patacas": {
-            "value": 100, 
-            "denomination": "avos"
-        }, 
-        "avos": {
-            "value": 1, 
-            "denomination": "avos"
-        }
-    }, 
+    "long_name": "Macau", 
     "inventory": [
         {
+            "year": 1998, 
             "obsolete": false, 
             "value": 1, 
             "denomination": "patacas", 
-            "year": 1998, 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "patacas"
         }, 
         {
+            "year": 2005, 
             "obsolete": false, 
             "value": 1, 
             "denomination": "patacas", 
-            "year": 2005, 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "patacas"
         }
     ], 
+    "short_name": "macau", 
     "denominations": [
-        "patacas", 
-        "avos"
+        {
+            "name": "patacas",
+            "code": "MOP",
+            "obsolete": false,
+            "divisions": {
+                "patacas": {
+                    "subunit": "avos", 
+                    "value": 100
+                }, 
+                "avos": {
+                    "subunit": "avos", 
+                    "value": 1
+                }
+            }, 
+            "subunits": [
+                "patacas", 
+                "avos"
+            ]
+        }
     ]
 }

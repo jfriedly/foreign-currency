@@ -1,83 +1,124 @@
 {
-    "divisions": {
-        "centavos": {
-            "value": 1, 
-            "denomination": "centavos"
-        }, 
-        "soles": {
-            "value": 10, 
-            "denomination": "dineros"
-        }, 
-        "neuvo soles": {
-            "value": 100, 
-            "denomination": "centimos"
-        }, 
-        "centimos": {
-            "value": 1, 
-            "denomination": "centimos"
-        }, 
-        "dineros": {
-            "value": 10, 
-            "denomination": "centavos"
-        }
-    }, 
-    "denominations": [
-        "neuvo soles", 
-        "centimos", 
-        "soles", 
-        "dineros", 
-        "centavos"
-    ], 
+    "long_name": "Peru", 
     "inventory": [
         {
+            "year": 1976, 
             "obsolete": true, 
             "value": 5, 
-            "denomination": "dineros", 
-            "year": 1976, 
+            "denomination": "old soles", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "dineros"
         }, 
         {
+            "year": 1976, 
             "obsolete": true, 
             "value": 1, 
-            "denomination": "soles", 
-            "year": 1976, 
+            "denomination": "old soles", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "soles"
         }, 
         {
+            "year": 1979, 
             "obsolete": true, 
             "value": 5, 
-            "denomination": "soles", 
-            "year": 1979, 
+            "denomination": "old soles", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "soles"
         }, 
         {
+            "year": 1980, 
             "obsolete": true, 
             "value": 50, 
-            "denomination": "soles", 
-            "year": 1980, 
+            "denomination": "old soles", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "soles"
         }, 
         {
+            "year": 1979, 
             "obsolete": true, 
             "value": 10, 
-            "denomination": "soles", 
-            "year": 1979, 
+            "denomination": "old soles", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "soles"
         }, 
         {
+            "year": 1980, 
             "obsolete": true, 
             "value": 100, 
-            "denomination": "soles", 
-            "year": 1980, 
+            "denomination": "old soles", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "soles"
         }
     ], 
-    "name": "peru", 
-    "name_long": "Peru"
+    "short_name": "peru", 
+    "denominations": [
+        {
+            "obsolete": false, 
+            "divisions": {
+                "soles": {
+                    "subunit": "centimos", 
+                    "value": 100
+                }, 
+                "centimos": {
+                    "subunit": "centimos", 
+                    "value": 1
+                } 
+            }, 
+            "code": "PEN", 
+            "name": "neuvo soles", 
+            "subunits": [
+                "soles", 
+                "centimos"
+            ]
+        },
+        {
+            "obsolete": true, 
+            "divisions": {
+                "intis": {
+                    "subunit": "centimos", 
+                    "value": 100
+                }, 
+                "centimos": {
+                    "subunit": "centimos", 
+                    "value": 1
+                } 
+            }, 
+            "code": "PEI", 
+            "name": "inti", 
+            "subunits": [
+                "intis",
+                "centimos"
+            ]
+        },
+        {
+            "obsolete": true, 
+            "divisions": {
+                "centavos": {
+                    "subunit": "centavos", 
+                    "value": 1
+                }, 
+                "soles": {
+                    "subunit": "dineros", 
+                    "value": 10
+                }, 
+                "dineros": {
+                    "subunit": "centavos", 
+                    "value": 10
+                }
+            }, 
+            "code": "PEH", 
+            "name": "old soles", 
+            "subunits": [
+                "soles", 
+                "dineros",
+                "centavos" 
+            ]
+        }
+    ]
 }

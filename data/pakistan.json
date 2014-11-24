@@ -1,46 +1,74 @@
 {
-    "divisions": {
-        "annas": {
-            "value": 4, 
-            "denomination": "pice"
-        }, 
-        "pice": {
-            "value": 3, 
-            "denomination": "pie"
-        }, 
-        "rupees": {
-            "value": 16, 
-            "denomination": "annas"
-        }, 
-        "pie": {
-            "value": 1, 
-            "denomination": "pie"
-        }
-    }, 
-    "denominations": [
-        "rupees", 
-        "annas", 
-        "pice", 
-        "pie"
-    ], 
+    "long_name": "Pakistan", 
     "inventory": [
         {
+            "year": 1948, 
             "obsolete": true, 
             "value": 4, 
-            "denomination": "annas", 
-            "year": 1948, 
+            "denomination": "old rupees", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "annas"
         }, 
         {
+            "year": 1951, 
             "obsolete": true, 
             "value": 2, 
-            "denomination": "pice", 
-            "year": 1951, 
+            "denomination": "old rupees", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "pice"
         }
     ], 
-    "name": "pakistan", 
-    "name_long": "Pakistan"
+    "short_name": "pakistan", 
+    "denominations": [
+        {
+            "name": "new rupees",
+            "code": "PKR",
+            "obsolete": false,
+            "divisions": {
+                "rupees": {
+                    "subunit": "paise", 
+                    "value": 100
+                }, 
+                "paise": {
+                    "subunit": "paise", 
+                    "value": 1
+                }
+            }, 
+            "subunits": [
+                "rupees", 
+                "paise"
+            ]
+        },
+        {
+            "obsolete": true, 
+            "divisions": {
+                "annas": {
+                    "subunit": "pice", 
+                    "value": 4
+                }, 
+                "pice": {
+                    "subunit": "pie", 
+                    "value": 3
+                }, 
+                "rupees": {
+                    "subunit": "annas", 
+                    "value": 16
+                }, 
+                "pie": {
+                    "subunit": "pie", 
+                    "value": 1
+                }
+            }, 
+            "code": "", 
+            "name": "old rupees", 
+            "subunits": [
+                "rupees", 
+                "annas", 
+                "pice", 
+                "pie"
+            ]
+        }
+    ]
 }

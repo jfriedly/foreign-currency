@@ -1,60 +1,71 @@
 {
-    "name": "colombia", 
-    "name_long": "Colombia", 
-    "divisions": {
-        "centavos": {
-            "value": 1, 
-            "denomination": "centavos"
-        }, 
-        "pesos": {
-            "value": 100, 
-            "denomination": "centavos"
-        }
-    }, 
+    "long_name": "Colombia", 
     "inventory": [
         {
+            "year": 1970, 
             "obsolete": false, 
             "value": 10, 
-            "denomination": "centavos", 
-            "year": 1970, 
+            "denomination": "pesos", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "centavos"
         }, 
         {
+            "year": 1979, 
             "obsolete": false, 
             "value": 50, 
-            "denomination": "centavos", 
-            "year": 1979, 
+            "denomination": "pesos", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "centavos"
         }, 
         {
+            "year": 1970, 
             "obsolete": false, 
             "value": 20, 
-            "denomination": "centavos", 
-            "year": 1970, 
+            "denomination": "pesos", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "centavos"
         }, 
         {
+            "year": 1979, 
             "obsolete": false, 
             "value": 2, 
             "denomination": "pesos", 
-            "year": 1979, 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "pesos"
         }, 
         {
+            "year": 1976, 
             "obsolete": false, 
             "value": 1, 
             "denomination": "pesos", 
-            "year": 1976, 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "pesos"
         }
     ], 
+    "short_name": "colombia", 
     "denominations": [
-        "pesos", 
-        "centavos"
+        {
+            "name": "pesos",
+            "code": "COP",
+            "divisions": {
+                "centavos": {
+                    "subunit": "centavos", 
+                    "value": 1
+                }, 
+                "pesos": {
+                    "subunit": "centavos", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "pesos",
+                "centavos" 
+            ]
+        }
     ]
 }

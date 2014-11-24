@@ -1,28 +1,36 @@
 {
-    "divisions": {
-        "centiemen": {
-            "value": 1, 
-            "denomination": "centiemen"
-        }, 
-        "frank": {
-            "value": 100, 
-            "denomination": "centiemen"
-        }
-    }, 
-    "name_long": "Belgium", 
+    "long_name": "Belgium", 
     "inventory": [
         {
+            "year": 1927, 
             "obsolete": true, 
             "value": 50, 
-            "denomination": "centiemen", 
-            "year": 1927, 
+            "denomination": "frank", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "centiemen"
         }
     ], 
-    "name": "belgium", 
+    "short_name": "belgium", 
     "denominations": [
-        "frank", 
-        "centiemen"
+        {
+            "name": "frank",
+            "code": "BEF",
+            "obsolete": true,
+            "divisions": {
+                "centiemen": {
+                    "subunit": "centiemen", 
+                    "value": 1
+                }, 
+                "frank": {
+                    "subunit": "centiemen", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "frank",
+                "centiemen" 
+            ]
+        }
     ]
 }

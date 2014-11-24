@@ -1,36 +1,45 @@
 {
-    "divisions": {
-        "centesimi": {
-            "value": 1, 
-            "denomination": "centesimi"
-        }, 
-        "lire": {
-            "value": 100, 
-            "denomination": "centesimi"
-        }
-    }, 
-    "denominations": [
-        "lire", 
-        "centesimi"
-    ], 
+    "long_name": "Italy", 
     "inventory": [
         {
+            "year": 1984, 
             "obsolete": true, 
             "value": 10000, 
             "denomination": "lire", 
-            "year": 1984, 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "lire"
         }, 
         {
+            "year": 1970, 
             "obsolete": true, 
             "value": 50, 
             "denomination": "lire", 
-            "year": 1970, 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "type": "coin"
+            "subunit": "lire"
         }
     ], 
-    "name": "italy", 
-    "name_long": "Italy"
+    "short_name": "italy", 
+    "denominations": [
+        {
+            "name": "lire",
+            "code": "ITL",
+            "obsolete": true,
+            "divisions": {
+                "centesimi": {
+                    "subunit": "centesimi", 
+                    "value": 1
+                }, 
+                "lire": {
+                    "subunit": "centesimi", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "lire",
+                "centesimi"
+            ]
+        }
+    ]
 }

@@ -1,36 +1,45 @@
 {
-    "divisions": {
-        "jeon": {
-            "value": 1, 
-            "denomination": "jeon"
-        }, 
-        "won": {
-            "value": 100, 
-            "denomination": "jeon"
-        }
-    }, 
-    "denominations": [
-        "won", 
-        "jeon"
-    ], 
+    "long_name": "Republic of Korea", 
     "inventory": [
         {
+            "year": 1983, 
             "obsolete": false, 
             "value": 1000, 
             "denomination": "won", 
-            "year": 1983, 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "won"
         }, 
         {
+            "year": 2006, 
             "obsolete": false, 
             "value": 1000, 
             "denomination": "won", 
-            "year": 2006, 
+            "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "type": "bill"
+            "subunit": "won"
         }
     ], 
-    "name": "south-korea", 
-    "name_long": "Republic of Korea"
+    "short_name": "south-korea", 
+    "denominations": [
+        {
+            "obsolete": false, 
+            "divisions": {
+                "jeon": {
+                    "subunit": "jeon", 
+                    "value": 1
+                }, 
+                "won": {
+                    "subunit": "jeon", 
+                    "value": 100
+                }
+            }, 
+            "code": "KRW", 
+            "name": "won", 
+            "subunits": [
+                "won",
+                "jeon" 
+            ]
+        }
+    ]
 }
