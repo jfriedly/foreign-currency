@@ -1,0 +1,90 @@
+{
+    "long_name": "Spain", 
+    "inventory": [
+        {
+            "subunit": "pesetas", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1975, 
+            "obsolete": true, 
+            "value": 25, 
+            "denomination": "pesetas"
+        }, 
+        {
+            "subunit": "pesetas", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1975, 
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "pesetas"
+        }, 
+        {
+            "subunit": "pesetas", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1975, 
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "pesetas"
+        }, 
+        {
+            "subunit": "pesetas", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1975, 
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "pesetas"
+        }, 
+        {
+            "subunit": "pesetas", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1957, 
+            "obsolete": true, 
+            "value": 25, 
+            "denomination": "pesetas"
+        }, 
+        {
+            "subunit": "pesetas", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1957, 
+            "obsolete": true, 
+            "value": 25, 
+            "denomination": "pesetas"
+        }, 
+        {
+            "subunit": "pesetas", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1957, 
+            "obsolete": true, 
+            "value": 5, 
+            "denomination": "pesetas"
+        }
+    ], 
+    "short_name": "spain", 
+    "denominations": [
+        {
+            "divisions": {
+                "pesetas": {
+                    "subunit": "centimos", 
+                    "value": 100
+                }, 
+                "centimos": {
+                    "subunit": "centimos", 
+                    "value": 1
+                }
+            }, 
+            "subunits": [
+                "pesetas", 
+                "centimos"
+            ], 
+            "code": "ESP", 
+            "obsolete": true, 
+            "name": "pesetas"
+        }
+    ]
+}

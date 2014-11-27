@@ -27,8 +27,6 @@ Most of the scripts have no requirements other than Python, but generating the w
 TODO
 ----
 
-* Use date ranges on Denominations to try to guess whether a currency piece is obsolete.
-
 * Use a shell to iterate over every inventory piece and assert that it's denomination is valid (``assert piece.denomination in (d['name'] for d in country.denominations)``)
 
 * Make sure that all the Eurozone countries have obsolete set to true on their most recent denomination.
@@ -132,6 +130,10 @@ Macau is also spelled Macao, and since Natural Earth uses this name, I have its 
 Malaysia
 ''''''''
 The 1 ringgit bill that I have doesn't have a date on it, but it was printed between 2000 and 2012, so I wrote it down as 2000.
+
+Mexico
+''''''
+The giant 25 peso coin that I have from 1968 is actually 72% silver, containing 0.5208 troy ounces of silver (about $8 worth, right now).
 
 Nicaragua
 '''''''''
