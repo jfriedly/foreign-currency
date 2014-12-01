@@ -211,7 +211,7 @@ The bills being printed before the redenomination all had face values in the tho
 Glossary
 --------
 
-* *denomination* - One value-distinct series of a country's currency.  Every coin or bill comes from exactly one *denomination*.  I do not use the word to refer to the face value of a coin or bill, nor do I use it to refer to different printing series of value-equivalent currency pieces.  Examples:
+* *denomination* - One value-distinct series of a country's currency.  Every coin or bill comes from exactly one *denomination*.  I use the word to differentiate between currencies that have been redenominated.  I do not use the word to refer to the face value of a coin or bill, nor do I use it to refer to different printing series of value-equivalent currency pieces.  Examples:
 
     * Argentina has redenominated it's currency four times since 1969, and these are the most recent four *denominations* of Argentine currency:  the peso ley, the peso argentino, the austral, and the peso convertible.  The peso ley was replaced at a ratio of 10000:1 by the peso argentino in 1983, the peso argentino was replaced at a ratio of 1000:1 by the austral in 1985, and the austral was replaced at a rate of 10000:1 by the peso convertible in 1992.  As a rule of thumb, I ignore denominations for which I have no currency pieces, but I've included the Argentinian ones as a codified example.
 
