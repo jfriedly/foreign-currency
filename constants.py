@@ -23,3 +23,8 @@ EUROZONE_COUNTRIES = set([
     "Slovenia",
     "Spain",
 ])
+COMMON_MONETARY_AREA_COUNTRIES = set([
+    "South Africa",
+    "Swaziland",
+    "Lesotho",
+])

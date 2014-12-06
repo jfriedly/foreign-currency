@@ -1,0 +1,171 @@
+{
+    "long_name": "South Africa", 
+    "inventory": [
+        {
+            "subunit": "rand", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2009, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "rand", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1989, 
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "rand", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1991, 
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "rand", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2002, 
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "rand", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2008, 
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "rand", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2008, 
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "rand", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2009, 
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "rand", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2008, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "rand", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2005, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "rand", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1991, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "cents", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2008, 
+            "obsolete": false, 
+            "value": 50, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "cents", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2007, 
+            "obsolete": false, 
+            "value": 50, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "cents", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2008, 
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "cents", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2006, 
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "cents", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2011, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "cents", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2003, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "rand"
+        }
+    ], 
+    "short_name": "south-africa", 
+    "denominations": [
+        {
+            "divisions": {
+                "cents": {
+                    "subunit": "cents", 
+                    "value": 1
+                }, 
+                "rand": {
+                    "subunit": "cents", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "rand", 
+                "cents"
+            ], 
+            "code": "ZAR", 
+            "obsolete": false, 
+            "name": "rand"
+        }
+    ]
+}

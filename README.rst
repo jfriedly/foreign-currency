@@ -191,6 +191,12 @@ Slovenia
 ''''''''
 The 1 tolar bill that I have doesn't have a year on it, but it was first printed in 1991, so I entered it as being from 1991.
 
+South Africa
+''''''''''''
+The South African rand is the currency of South Africa, and both of the countries that South Africa surrounds, Lesotho and Swaziland.
+It was also the currency of Namibia until 1993, when Namibia withdrew from the Common Monetary Area, but the rand is still legal tender there, and is exchanged on par with the Namibian dollar.
+Since the currency is in circulation in each of these countries, I've marked them all as dark blue on the map, but the currency "lives" under South Africa.
+
 South Korea
 '''''''''''
 The bills that I have don't have years printed on them in any language I can understand, so I put them in as being from the first year that they were each printed, 1983 and 2006.
@@ -227,6 +233,11 @@ I also have a 5 pence coin from the Isle of Man.
 The Isle of Man is an island between Britain and Ireland and is an official self-governing Crown dependency.
 The government of the Isle of Man has established a de facto currency union with the UK, where the Manx government has decided to make UK currency legal tender on the island, but also issues its own independent currency.
 The currency units are the same, and I think the coins look similar enough to be spendable anywhere in the UK, so I've counted it as the same denomination as modern British pounds.
+
+Ukraine
+'''''''
+I have a 5 kopiyka coin from 1992 that is actually legal tender.
+In 1996, the Ukrainian government redenominated the currency from karbovanets into hyrven', but they had actually begun printing and minting the new currency all the way back in 1992.
 
 Venezuela
 '''''''''

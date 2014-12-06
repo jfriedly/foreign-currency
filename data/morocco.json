@@ -2,37 +2,45 @@
     "long_name": "Morocco", 
     "inventory": [
         {
+            "subunit": "dirhams", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
             "year": 2005, 
             "obsolete": false, 
             "value": 20, 
-            "denomination": "dirhams", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "dirhams"
+            "denomination": "dirhams"
         }, 
         {
+            "subunit": "dirhams", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1987, 
             "obsolete": false, 
             "value": 1, 
-            "denomination": "dirhams", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "dirhams"
+            "denomination": "dirhams"
         }, 
         {
+            "subunit": "dirhams", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 2002, 
             "obsolete": false, 
             "value": 5, 
-            "denomination": "dirhams", 
+            "denomination": "dirhams"
+        }, 
+        {
+            "subunit": "dirhams", 
             "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "subunit": "dirhams"
+            "year": 2002, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "dirhams"
         }
     ], 
     "short_name": "morocco", 
     "denominations": [
         {
-            "obsolete": false, 
             "divisions": {
                 "santimat": {
                     "subunit": "santimat", 
@@ -43,12 +51,13 @@
                     "value": 100
                 }
             }, 
-            "code": "MAD", 
-            "name": "dirhams", 
             "subunits": [
-                "dirhams",
-                "santimat" 
-            ]
+                "dirhams", 
+                "santimat"
+            ], 
+            "code": "MAD", 
+            "obsolete": false, 
+            "name": "dirhams"
         }
     ]
 }

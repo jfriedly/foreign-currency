@@ -48,6 +48,16 @@ def correct_for_mapping(countries):
     we count it as obsolete Kenyan currency for the map.
 
     Macau can also be spelled Macao, and Natural Earth uses the second form.
+
+    The Dutch East Indies no longer exist; Indonesia won independence from the
+    Dutch in 1949.  I count the Dutch East Indies currency that I have as
+    obsolete Indonesian currency for the purpose of mapping.
+
+    The Common Monetary Area of southern Africa is a Eurozone-like entity where
+    multiple countries share a currency.  In this case, they share the South
+    African rand.  Namibia is no longer a member of the CMA, but the rand is
+    still legal tender there and is exchanged on par with the Namibian dollar,
+    so I also count Namibia as blue.
     """
     if "Eurozone" in countries:
         eu_total = countries.pop("Eurozone")
@@ -63,6 +73,15 @@ def correct_for_mapping(countries):
 
     if "Macau" in countries:
         countries["Macao"] = countries.pop("Macau")
+
+    if "Dutch East Indies" in countries:
+        countries.pop("Dutch East Indies")
+        countries.setdefault("Indonesia", 0)
+
+    if "South Africa" in countries:
+        for country in constants.COMMON_MONETARY_AREA_COUNTRIES:
+            countries[country] = countries["South Africa"]
+        countries["Namibia"] = countries["South Africa"]
 
     return countries
 

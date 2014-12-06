@@ -2,54 +2,72 @@
     "long_name": "Ukraine", 
     "inventory": [
         {
+            "subunit": "karbovantsiv", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
             "year": 1995, 
             "obsolete": true, 
             "value": 5000, 
-            "denomination": "karbovantsiv", 
-            "piece_type": "bill", 
+            "denomination": "karbovantsiv"
+        }, 
+        {
+            "subunit": "kopiyka", 
+            "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "subunit": "karbovantsiv"
+            "year": 1992, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "hyrven'"
+        }, 
+        {
+            "subunit": "kopiyka", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2008, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "hyrven'"
         }
     ], 
     "short_name": "ukraine", 
     "denominations": [
         {
-            "obsolete": false, 
             "divisions": {
+                "kopiyka": {
+                    "subunit": "kopiyka", 
+                    "value": 1
+                }, 
                 "hryven'": {
                     "subunit": "kopiyka", 
                     "value": 100
-                }, 
-                "kopiyka": {
-                    "subunit": "kopiyka", 
-                    "value": 1
                 }
             }, 
-            "code": "UAH", 
-            "name": "hyrven'", 
             "subunits": [
                 "hryven'", 
-                "kopiyka" 
-            ]
-        },
+                "kopiyka"
+            ], 
+            "code": "UAH", 
+            "obsolete": false, 
+            "name": "hyrven'"
+        }, 
         {
-            "obsolete": true, 
             "divisions": {
-                "kopiyka": {
-                    "subunit": "kopiyka", 
-                    "value": 1
-                }, 
                 "karbovantsiv": {
                     "subunit": "kopiyka", 
                     "value": 100
+                }, 
+                "kopiyka": {
+                    "subunit": "kopiyka", 
+                    "value": 1
                 }
             }, 
-            "code": "UAK", 
-            "name": "karbovantsiv", 
             "subunits": [
-                "karbovantsiv",
+                "karbovantsiv", 
                 "kopiyka"
-            ]
+            ], 
+            "code": "UAK", 
+            "obsolete": true, 
+            "name": "karbovantsiv"
         }
     ]
 }
