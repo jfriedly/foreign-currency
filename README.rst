@@ -1,6 +1,6 @@
 .. figure:: map.png
 
-   Incomplete map of countries that I have currency for.
+   Map of countries that I have currency for.
    Light blue indicates obsolete currency.
 
 
@@ -9,7 +9,6 @@ Joel's Foreign Currency Collection
 ==================================
 
 A set of scripts for tracking my foreign currency collection.
-Some of the countries that I have currency for are not yet tracked digitally with these scripts.
 
 
 Requirements
