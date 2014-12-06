@@ -1,0 +1,36 @@
+{
+    "long_name": "Saudi Arabia", 
+    "inventory": [
+        {
+            "subunit": "riyals", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1984, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "riyals"
+        }
+    ], 
+    "short_name": "saudi-arabia", 
+    "denominations": [
+        {
+            "divisions": {
+                "riyals": {
+                    "subunit": "halalas", 
+                    "value": 100
+                }, 
+                "halalas": {
+                    "subunit": "halalas", 
+                    "value": 1
+                }
+            }, 
+            "subunits": [
+                "riyals", 
+                "halalas"
+            ], 
+            "code": "SAR", 
+            "obsolete": false, 
+            "name": "riyals"
+        }
+    ]
+}

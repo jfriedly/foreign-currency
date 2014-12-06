@@ -1,0 +1,74 @@
+{
+    "long_name": "Mozambique", 
+    "inventory": [
+        {
+            "subunit": "escudos", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
+            "year": 1967, 
+            "obsolete": true, 
+            "value": 500, 
+            "denomination": "escudos"
+        }
+    ], 
+    "short_name": "mozambique", 
+    "denominations": [
+        {
+            "divisions": {
+                "centavos": {
+                    "subunit": "centavos", 
+                    "value": 1
+                }, 
+                "meticals": {
+                    "subunit": "centavos", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "meticals", 
+                "centavos"
+            ], 
+            "code": "MZN", 
+            "obsolete": false, 
+            "name": "second meticals"
+        }, 
+        {
+            "divisions": {
+                "centavos": {
+                    "subunit": "centavos", 
+                    "value": 1
+                }, 
+                "meticals": {
+                    "subunit": "centavos", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "meticals", 
+                "centavos"
+            ], 
+            "code": "MZM", 
+            "obsolete": true, 
+            "name": "first meticals"
+        }, 
+        {
+            "divisions": {
+                "centavos": {
+                    "subunit": "centavos", 
+                    "value": 1
+                }, 
+                "escudos": {
+                    "subunit": "centavos", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "escudos", 
+                "centavos"
+            ], 
+            "code": "MZE", 
+            "obsolete": true, 
+            "name": "escudos"
+        }
+    ]
+}

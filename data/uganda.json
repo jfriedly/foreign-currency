@@ -1,0 +1,36 @@
+{
+    "long_name": "Uganda", 
+    "inventory": [
+        {
+            "subunit": "shillings", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
+            "year": 1993, 
+            "obsolete": false, 
+            "value": 5000, 
+            "denomination": "shillings"
+        }
+    ], 
+    "short_name": "uganda", 
+    "denominations": [
+        {
+            "divisions": {
+                "cents": {
+                    "subunit": "cents", 
+                    "value": 1
+                }, 
+                "shillings": {
+                    "subunit": "cents", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "shillings", 
+                "cents"
+            ], 
+            "code": "UGX", 
+            "obsolete": false, 
+            "name": "shillings"
+        }
+    ]
+}

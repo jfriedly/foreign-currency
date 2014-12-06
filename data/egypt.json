@@ -1,0 +1,50 @@
+{
+    "long_name": "Egypt", 
+    "inventory": [
+        {
+            "subunit": "milliemes", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1966, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "pounds"
+        }, 
+        {
+            "subunit": "milliemes", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1972, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "pounds"
+        }
+    ], 
+    "short_name": "egypt", 
+    "denominations": [
+        {
+            "divisions": {
+                "milliemes": {
+                    "subunit": "milliemes", 
+                    "value": 1
+                }, 
+                "pounds": {
+                    "subunit": "piastres", 
+                    "value": 100
+                }, 
+                "piastres": {
+                    "subunit": "milliemes", 
+                    "value": 10
+                }
+            }, 
+            "subunits": [
+                "pounds", 
+                "piastres", 
+                "milliemes"
+            ], 
+            "code": "EGP", 
+            "obsolete": false, 
+            "name": "pounds"
+        }
+    ]
+}

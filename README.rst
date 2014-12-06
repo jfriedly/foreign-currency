@@ -79,6 +79,13 @@ The second series was completely recalled in 2007.
 I have some coins that are actually from the second series of the renminbi, but they're still legal tender.
 These are the 2 and 5 fen coins.
 
+I have one very old coin from the Qing Dynasty (Guangxu Emperor, 1875-1908).
+It's the large brown coin with the square hole in the center.
+This coin was minted between 1889 and 1908, and it probably had a denomination of the Qing yuan from 1889.
+I've entered it with a date of 1889.
+To find it on Google, search for "guang xu tong bao".
+There were a number of denominations between this yuan and the modern renminbi, but I don't have any currency pieces from those, so I've ignored them.
+
 East Africa Protectorate
 ''''''''''''''''''''''''
 This country was created during British colonialism and no longer exists.
@@ -87,6 +94,11 @@ The coins apparently bore the name "East Africa" even after the region became th
 It occupied approximately the same area as modern-day Kenya.
 
 I wasn't able to find actual information about the currency subdivisions of British Kenya, but modern Kenya uses a shilling that breaks down into 100 cents, so I'm reusing that.
+
+Egypt
+'''''
+The years on the Egyptian coins that I have are a bit cryptic, but I apparently deciphered them at one point.
+The gold-colored 1 milliemes coin that I have is from 1966, and the silver colored one is from 1972.
 
 France
 ''''''
@@ -123,6 +135,10 @@ Kyrgyzstan
 ''''''''''
 The 1 tyiyn note that I have is technically legal tender, but it's worth such a tiny fraction of a cent that it's hardly ever used.
 
+Lebanon
+'''''''
+While the 1 piastre coin that I have is still technically legal tender, inflation has rendered it valueless, so I marked it as obsolete.
+
 Macau
 '''''
 Macau is also spelled Macao, and since Natural Earth uses this name, I have its long name saved as "Macao".
@@ -134,6 +150,11 @@ The 1 ringgit bill that I have doesn't have a date on it, but it was printed bet
 Mexico
 ''''''
 The giant 25 peso coin that I have from 1968 is actually 72% silver, containing 0.5208 troy ounces of silver (about $8 worth, right now).
+
+Mozambique
+''''''''''
+The 500 escudo bill that I have bears the date "22 de Marco de 1967", but so does every 500 escudo bill that I could find online.
+I entered it with a printing date of 1967, but it's probably inaccurate.
 
 Nicaragua
 '''''''''
@@ -160,6 +181,11 @@ I have some, but these were considered illegal tender immediately following WWII
 Russia
 ''''''
 The 10-ruble note that I have is dated 1997, but it was actually release in 1998 after the redenomination.
+
+Saudi Arabia
+''''''''''''
+The 1 riyal bill that I have doesn't bear a date in any language that I can read.
+It was printed between 1984 and 2007, so I entered it as 1984.
 
 Slovenia
 ''''''''
