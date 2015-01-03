@@ -18,6 +18,11 @@ import total
 COLOR_NOT_PRESENT = (1.0, 1.0, 1.0)
 COLOR_OBSOLETE = (0.4, 0.4, 0.8)
 COLOR_PRESENT = (0.2, 0.2, 0.9)
+NATURAL_EARTH_SCALES = {
+    "HIGH_RES": "10m",
+    "MED_RES": "50m",
+    "LOW_RES": "110m",
+}
 
 
 def load_countries():
@@ -89,8 +94,10 @@ def correct_for_mapping(countries):
 def iter_country_shapes():
     """ Get an iterator of shapereader Records for all Natural Earth countries
     """
-    # Use a resolution of 50m or 10m for better precision
-    geodata = shapereader.natural_earth(resolution='110m', category='cultural',
+    # Use "MED_RES" or "HIGH_RES" for more detailed maps
+    resolution = NATURAL_EARTH_SCALES['LOW_RES']
+    geodata = shapereader.natural_earth(resolution=resolution,
+                                        category='cultural',
                                         name='admin_0_countries')
     georeader = shapereader.Reader(geodata)
     return georeader.records()
