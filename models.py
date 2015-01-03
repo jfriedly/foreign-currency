@@ -44,8 +44,6 @@ class Country(object):
         for denom in self.denominations:
             denom.validate()
         non_obsolete = [d for d in self.denominations if not d.obsolete]
-        assert len(non_obsolete) < 2, (
-            "No more than one denomination can be non-obsolete")
         for piece in self.inventory:
             piece.validate()
             # Ensure that the piece's denomination exists
