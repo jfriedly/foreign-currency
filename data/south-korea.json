@@ -2,28 +2,171 @@
     "long_name": "Republic of Korea", 
     "inventory": [
         {
+            "subunit": "won", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
             "year": 1983, 
             "obsolete": false, 
             "value": 1000, 
-            "denomination": "won", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "won"
+            "denomination": "won"
         }, 
         {
+            "subunit": "won", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
             "year": 2006, 
             "obsolete": false, 
             "value": 1000, 
-            "denomination": "won", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "won"
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2004, 
+            "obsolete": false, 
+            "value": 500, 
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2003, 
+            "obsolete": false, 
+            "value": 500, 
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2002, 
+            "obsolete": false, 
+            "value": 100, 
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2007, 
+            "obsolete": false, 
+            "value": 100, 
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2008, 
+            "obsolete": false, 
+            "value": 100, 
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2003, 
+            "obsolete": false, 
+            "value": 100, 
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2008, 
+            "obsolete": false, 
+            "value": 100, 
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2002, 
+            "obsolete": false, 
+            "value": 100, 
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 1996, 
+            "obsolete": false, 
+            "value": 100, 
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 1997, 
+            "obsolete": false, 
+            "value": 100, 
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 1995, 
+            "obsolete": false, 
+            "value": 100, 
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2004, 
+            "obsolete": false, 
+            "value": 100, 
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2003, 
+            "obsolete": false, 
+            "value": 50, 
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 1989, 
+            "obsolete": false, 
+            "value": 50, 
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2009, 
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "won"
+        }, 
+        {
+            "subunit": "won", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2009, 
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "won"
         }
     ], 
     "short_name": "south-korea", 
     "denominations": [
         {
-            "obsolete": false, 
             "divisions": {
                 "jeon": {
                     "subunit": "jeon", 
@@ -34,12 +177,13 @@
                     "value": 100
                 }
             }, 
-            "code": "KRW", 
-            "name": "won", 
             "subunits": [
-                "won",
-                "jeon" 
-            ]
+                "won", 
+                "jeon"
+            ], 
+            "code": "KRW", 
+            "obsolete": false, 
+            "name": "won"
         }
     ]
 }

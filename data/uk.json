@@ -2,269 +2,371 @@
     "long_name": "United Kingdom", 
     "inventory": [
         {
+            "subunit": "pounds", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
             "year": 1948, 
             "obsolete": true, 
             "value": 1, 
-            "denomination": "british armed forces pounds", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "pounds"
+            "denomination": "british armed forces pounds"
         }, 
         {
+            "subunit": "shillings", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1964, 
             "obsolete": true, 
             "value": 1, 
-            "denomination": "pre-decimal pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "shillings"
+            "denomination": "pre-decimal pounds"
         }, 
         {
+            "subunit": "shillings", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1953, 
             "obsolete": true, 
             "value": 1, 
-            "denomination": "pre-decimal pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "shillings"
+            "denomination": "pre-decimal pounds"
         }, 
         {
+            "subunit": "shillings", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1947, 
             "obsolete": true, 
             "value": 1, 
-            "denomination": "pre-decimal pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "shillings"
+            "denomination": "pre-decimal pounds"
         }, 
         {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1939, 
             "obsolete": true, 
             "value": 1, 
-            "denomination": "pre-decimal pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pence"
+            "denomination": "pre-decimal pounds"
         }, 
         {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1931, 
             "obsolete": true, 
             "value": 1, 
-            "denomination": "pre-decimal pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pence"
+            "denomination": "pre-decimal pounds"
         }, 
         {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1997, 
             "obsolete": false, 
             "value": 2, 
-            "denomination": "pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pence"
+            "denomination": "pounds"
         }, 
         {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1975, 
             "obsolete": false, 
             "value": 2, 
-            "denomination": "pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pence"
+            "denomination": "pounds"
         }, 
         {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1975, 
             "obsolete": false, 
             "value": 2, 
-            "denomination": "pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pence"
+            "denomination": "pounds"
         }, 
         {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1975, 
             "obsolete": false, 
             "value": 2, 
-            "denomination": "pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pence"
+            "denomination": "pounds"
         }, 
         {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1979, 
             "obsolete": false, 
             "value": 1, 
-            "denomination": "pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pence"
+            "denomination": "pounds"
         }, 
         {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1971, 
             "obsolete": false, 
             "value": 1, 
-            "denomination": "pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pence"
+            "denomination": "pounds"
         }, 
         {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1971, 
             "obsolete": false, 
             "value": 1, 
-            "denomination": "pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pence"
+            "denomination": "pounds"
         }, 
         {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1971, 
             "obsolete": false, 
             "value": 1, 
-            "denomination": "pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pence"
+            "denomination": "pounds"
         }, 
         {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 2008, 
             "obsolete": false, 
             "value": 1, 
-            "denomination": "pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pence"
+            "denomination": "pounds"
         }, 
         {
+            "subunit": "pounds", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1985, 
             "obsolete": false, 
             "value": 1, 
-            "denomination": "pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pounds"
+            "denomination": "pounds"
         }, 
         {
+            "subunit": "pounds", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 2003, 
             "obsolete": false, 
             "value": 1, 
-            "denomination": "pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pounds"
+            "denomination": "pounds"
         }, 
         {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1975, 
             "obsolete": false, 
             "value": 5, 
-            "denomination": "pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pence"
+            "denomination": "Isle of Man pounds"
         }, 
         {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 2007, 
             "obsolete": false, 
             "value": 20, 
-            "denomination": "pounds", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pence"
+            "denomination": "pounds"
         }, 
         {
+            "subunit": "halfpenny", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1974, 
             "obsolete": false, 
             "value": 1, 
-            "denomination": "pounds", 
+            "denomination": "pounds"
+        }, 
+        {
+            "subunit": "pence", 
             "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "halfpenny"
+            "owner": "Dan Faber", 
+            "year": 2012, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "pounds"
+        }, 
+        {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2013, 
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "pounds"
+        }, 
+        {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2004, 
+            "obsolete": false, 
+            "value": 2, 
+            "denomination": "pounds"
+        }, 
+        {
+            "subunit": "pence", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2011, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "Isle of Man pounds"
+        }, 
+        {
+            "subunit": "pounds", 
+            "piece_type": "bill", 
+            "owner": "Dan Faber", 
+            "year": 2011, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "Gibraltar pounds"
+        }, 
+        {
+            "subunit": "pounds", 
+            "piece_type": "bill", 
+            "owner": "Dan Faber", 
+            "year": 2010, 
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "Gibraltar pounds"
         }
     ], 
     "short_name": "uk", 
     "denominations": [
         {
-            "obsolete": false, 
             "divisions": {
+                "pence": {
+                    "subunit": "halfpenny", 
+                    "value": 2
+                }, 
+                "halfpenny": {
+                    "subunit": "halfpenny", 
+                    "value": 1
+                }, 
                 "pounds": {
                     "subunit": "pence", 
                     "value": 100
-                }, 
-                "pence": {
-                    "subunit": "halfpenny", 
-                    "value": 2
-                },
-                "halfpenny": {
-                    "subunit": "halfpenny",
-                    "value": 1
                 }
             }, 
-            "code": "GBP", 
-            "name": "pounds", 
             "subunits": [
                 "pounds", 
                 "pence", 
                 "halfpenny"
-            ]
-        },
+            ], 
+            "code": "GBP", 
+            "obsolete": false, 
+            "name": "pounds"
+        }, 
         {
-            "obsolete": true, 
             "divisions": {
+                "pence": {
+                    "subunit": "halfpenny", 
+                    "value": 2
+                }, 
                 "halfpenny": {
                     "subunit": "halfpenny", 
                     "value": 1
                 }, 
                 "pounds": {
-                    "subunit": "shillings", 
-                    "value": 20
-                }, 
-                "shillings": {
                     "subunit": "pence", 
-                    "value": 12
-                }, 
-                "pence": {
-                    "subunit": "halfpenny", 
-                    "value": 2
-                } 
+                    "value": 100
+                }
             }, 
-            "code": "GBP", 
-            "name": "pre-decimal pounds", 
             "subunits": [
                 "pounds", 
-                "shillings", 
                 "pence", 
                 "halfpenny"
-            ]
-        },
-        {
-            "obsolete": true, 
-            "divisions": {
-                "halfpenny": {
-                    "subunit": "halfpenny", 
-                    "value": 1
-                }, 
-                "pounds": {
-                    "subunit": "shillings", 
-                    "value": 20
-                }, 
-                "shillings": {
-                    "subunit": "pence", 
-                    "value": 12
-                }, 
-                "pence": {
-                    "subunit": "halfpenny", 
-                    "value": 2
-                } 
-            }, 
+            ], 
             "code": "", 
-            "name": "british armed forces pounds", 
+            "obsolete": false, 
+            "name": "Isle of Man pounds"
+        }, 
+        {
+            "divisions": {
+                "pence": {
+                    "subunit": "halfpenny", 
+                    "value": 2
+                }, 
+                "halfpenny": {
+                    "subunit": "halfpenny", 
+                    "value": 1
+                }, 
+                "pounds": {
+                    "subunit": "pence", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "pounds", 
+                "pence", 
+                "halfpenny"
+            ], 
+            "code": "", 
+            "obsolete": false, 
+            "name": "Gibraltar pounds"
+        }, 
+        {
+            "divisions": {
+                "shillings": {
+                    "subunit": "pence", 
+                    "value": 12
+                }, 
+                "pence": {
+                    "subunit": "halfpenny", 
+                    "value": 2
+                }, 
+                "halfpenny": {
+                    "subunit": "halfpenny", 
+                    "value": 1
+                }, 
+                "pounds": {
+                    "subunit": "shillings", 
+                    "value": 20
+                }
+            }, 
             "subunits": [
                 "pounds", 
                 "shillings", 
                 "pence", 
                 "halfpenny"
-            ]
+            ], 
+            "code": "GBP", 
+            "obsolete": true, 
+            "name": "pre-decimal pounds"
+        }, 
+        {
+            "divisions": {
+                "shillings": {
+                    "subunit": "pence", 
+                    "value": 12
+                }, 
+                "pence": {
+                    "subunit": "halfpenny", 
+                    "value": 2
+                }, 
+                "halfpenny": {
+                    "subunit": "halfpenny", 
+                    "value": 1
+                }, 
+                "pounds": {
+                    "subunit": "shillings", 
+                    "value": 20
+                }
+            }, 
+            "subunits": [
+                "pounds", 
+                "shillings", 
+                "pence", 
+                "halfpenny"
+            ], 
+            "code": "", 
+            "obsolete": true, 
+            "name": "british armed forces pounds"
         }
     ]
 }

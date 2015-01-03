@@ -228,10 +228,15 @@ I also have a pound note from the British Armed Forces.
 They issued their own banknotes for use on bases between 1946 and 1972.
 This is a separate denomination, because these pounds were only usable on British military bases.
 
-I also have a 5 pence coin from the Isle of Man.
+I also have a 5 pence coin from the Isle of Man, and so does Dan Faber.
 The Isle of Man is an island between Britain and Ireland and is an official self-governing Crown dependency.
 The government of the Isle of Man has established a de facto currency union with the UK, where the Manx government has decided to make UK currency legal tender on the island, but also issues its own independent currency.
-The currency units are the same, and I think the coins look similar enough to be spendable anywhere in the UK, so I've counted it as the same denomination as modern British pounds.
+While the currency units are the same, and I think the coins look similar enough to be spendable anywhere in the UK, I'm not counting them as the same denomination for consistency with Gibraltar (see below).
+
+Dan also has 15 pounds of Gibraltar currency, which is another semi-autonomous island controller by the UK.
+British currency is legal tender there, just as it is in the Isle of Man, and the Gibraltar is issued on par with the British pound against reserves of sterling.
+Many Gibraltar shops also accept Euros, due to the tourist economy.
+Dan only has bills, and the bills look nothing like their British counterparts, so I have a separate denomination for them.
 
 Ukraine
 '''''''

@@ -2,56 +2,81 @@
     "long_name": "Colombia", 
     "inventory": [
         {
+            "subunit": "centavos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1970, 
             "obsolete": false, 
             "value": 10, 
-            "denomination": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "centavos"
+            "denomination": "pesos"
         }, 
         {
+            "subunit": "centavos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1979, 
             "obsolete": false, 
             "value": 50, 
-            "denomination": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "centavos"
+            "denomination": "pesos"
         }, 
         {
+            "subunit": "centavos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1970, 
             "obsolete": false, 
             "value": 20, 
-            "denomination": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "centavos"
+            "denomination": "pesos"
         }, 
         {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1979, 
             "obsolete": false, 
             "value": 2, 
-            "denomination": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pesos"
+            "denomination": "pesos"
         }, 
         {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1976, 
             "obsolete": false, 
             "value": 1, 
-            "denomination": "pesos", 
+            "denomination": "pesos"
+        }, 
+        {
+            "subunit": "pesos", 
+            "piece_type": "bill", 
+            "owner": "Dan Faber", 
+            "year": 2009, 
+            "obsolete": false, 
+            "value": 2000, 
+            "denomination": "pesos"
+        }, 
+        {
+            "subunit": "pesos", 
             "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pesos"
+            "owner": "Dan Faber", 
+            "year": 2006, 
+            "obsolete": false, 
+            "value": 200, 
+            "denomination": "pesos"
+        }, 
+        {
+            "subunit": "pesos", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 1995, 
+            "obsolete": false, 
+            "value": 200, 
+            "denomination": "pesos"
         }
     ], 
     "short_name": "colombia", 
     "denominations": [
         {
-            "name": "pesos",
-            "code": "COP",
             "divisions": {
                 "centavos": {
                     "subunit": "centavos", 
@@ -63,9 +88,12 @@
                 }
             }, 
             "subunits": [
-                "pesos",
-                "centavos" 
-            ]
+                "pesos", 
+                "centavos"
+            ], 
+            "code": "COP", 
+            "obsolete": false, 
+            "name": "pesos"
         }
     ]
 }

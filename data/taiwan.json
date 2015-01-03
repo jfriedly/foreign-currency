@@ -2,73 +2,126 @@
     "long_name": "Taiwan", 
     "inventory": [
         {
+            "subunit": "yuan", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
             "year": 1972, 
             "obsolete": true, 
             "value": 100, 
-            "denomination": "new taiwan dollars", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "yuan"
+            "denomination": "new taiwan dollars"
         }, 
         {
+            "subunit": "yuan", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
             "year": 1961, 
             "obsolete": true, 
             "value": 1, 
-            "denomination": "new taiwan dollars", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "yuan"
+            "denomination": "new taiwan dollars"
         }, 
         {
+            "subunit": "yuan", 
+            "piece_type": "coin", 
+            "owner": "Kay Friedly", 
             "year": 1962, 
             "obsolete": true, 
             "value": 1, 
-            "denomination": "new taiwan dollars", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "yuan"
+            "denomination": "new taiwan dollars"
         }, 
         {
+            "subunit": "yuan", 
+            "piece_type": "coin", 
+            "owner": "Kay Friedly", 
             "year": 1963, 
             "obsolete": true, 
             "value": 1, 
-            "denomination": "new taiwan dollars", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "yuan"
+            "denomination": "new taiwan dollars"
         }, 
         {
+            "subunit": "jiao", 
+            "piece_type": "coin", 
+            "owner": "Kay Friedly", 
             "year": 1956, 
             "obsolete": true, 
             "value": 5, 
-            "denomination": "new taiwan dollars", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "jiao"
+            "denomination": "new taiwan dollars"
         }, 
         {
+            "subunit": "jiao", 
+            "piece_type": "coin", 
+            "owner": "Kay Friedly", 
             "year": 1956, 
             "obsolete": true, 
             "value": 5, 
-            "denomination": "new taiwan dollars", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "jiao"
+            "denomination": "new taiwan dollars"
         }, 
         {
+            "subunit": "jiao", 
+            "piece_type": "coin", 
+            "owner": "Kay Friedly", 
             "year": 1963, 
             "obsolete": true, 
             "value": 1, 
-            "denomination": "new taiwan dollars", 
+            "denomination": "new taiwan dollars"
+        }, 
+        {
+            "subunit": "yuan", 
+            "piece_type": "bill", 
+            "owner": "Dan Faber", 
+            "year": 0, 
+            "obsolete": false, 
+            "value": 100, 
+            "denomination": "new taiwan dollars"
+        }, 
+        {
+            "subunit": "yuan", 
+            "piece_type": "bill", 
+            "owner": "Dan Faber", 
+            "year": 0, 
+            "obsolete": false, 
+            "value": 100, 
+            "denomination": "new taiwan dollars"
+        }, 
+        {
+            "subunit": "yuan", 
             "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "jiao"
+            "owner": "Dan Faber", 
+            "year": 0, 
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "new taiwan dollars"
+        }, 
+        {
+            "subunit": "yuan", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 0, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "new taiwan dollars"
+        }, 
+        {
+            "subunit": "yuan", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 0, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "new taiwan dollars"
+        }, 
+        {
+            "subunit": "yuan", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 0, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "new taiwan dollars"
         }
     ], 
     "short_name": "taiwan", 
     "denominations": [
         {
-            "obsolete": false, 
             "divisions": {
                 "cents": {
                     "subunit": "cents", 
@@ -83,13 +136,14 @@
                     "value": 10
                 }
             }, 
-            "code": "TWD", 
-            "name": "new taiwan dollars", 
             "subunits": [
                 "yuan", 
-                "jiao",
+                "jiao", 
                 "cents"
-            ]
+            ], 
+            "code": "TWD", 
+            "obsolete": false, 
+            "name": "new taiwan dollars"
         }
     ]
 }

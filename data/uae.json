@@ -1,0 +1,63 @@
+{
+    "long_name": "United Arab Emirates", 
+    "inventory": [
+        {
+            "subunit": "dirhams", 
+            "piece_type": "bill", 
+            "owner": "Dan Faber", 
+            "year": 2006, 
+            "obsolete": false, 
+            "value": 50, 
+            "denomination": "dirhams"
+        }, 
+        {
+            "subunit": "dirhams", 
+            "piece_type": "bill", 
+            "owner": "Dan Faber", 
+            "year": 2007, 
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "dirhams"
+        }, 
+        {
+            "subunit": "dirhams", 
+            "piece_type": "bill", 
+            "owner": "Dan Faber", 
+            "year": 2001, 
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "dirhams"
+        }, 
+        {
+            "subunit": "dirhams", 
+            "piece_type": "bill", 
+            "owner": "Dan Faber", 
+            "year": 2009, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "dirhams"
+        }
+    ], 
+    "short_name": "uae", 
+    "denominations": [
+        {
+            "divisions": {
+                "fils": {
+                    "subunit": "fils", 
+                    "value": 1
+                }, 
+                "dirhams": {
+                    "subunit": "fils", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "dirhams", 
+                "fils"
+            ], 
+            "code": "AED", 
+            "obsolete": false, 
+            "name": "dirhams"
+        }
+    ]
+}

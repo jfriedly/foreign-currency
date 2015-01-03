@@ -2,20 +2,117 @@
     "long_name": "Denmark", 
     "inventory": [
         {
+            "subunit": "ore", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1950, 
             "obsolete": false, 
             "value": 25, 
-            "denomination": "kroner", 
+            "denomination": "kroner"
+        }, 
+        {
+            "subunit": "kroner", 
+            "piece_type": "bill", 
+            "owner": "Dan Faber", 
+            "year": 2009, 
+            "obsolete": false, 
+            "value": 50, 
+            "denomination": "kroner"
+        }, 
+        {
+            "subunit": "kroner", 
             "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "ore"
+            "owner": "Dan Faber", 
+            "year": 1990, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "kroner"
+        }, 
+        {
+            "subunit": "kroner", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 1994, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "kroner"
+        }, 
+        {
+            "subunit": "kroner", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 1998, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "kroner"
+        }, 
+        {
+            "subunit": "kroner", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2002, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "kroner"
+        }, 
+        {
+            "subunit": "kroner", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 1992, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "kroner"
+        }, 
+        {
+            "subunit": "kroner", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 1992, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "kroner"
+        }, 
+        {
+            "subunit": "kroner", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 1993, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "kroner"
+        }, 
+        {
+            "subunit": "kroner", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 1992, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "kroner"
+        }, 
+        {
+            "subunit": "kroner", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2004, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "kroner"
+        }, 
+        {
+            "subunit": "kroner", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2005, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "kroner"
         }
     ], 
     "short_name": "denmark", 
     "denominations": [
         {
-            "name": "kroner",
-            "code": "DKK",
             "divisions": {
                 "ore": {
                     "subunit": "ore", 
@@ -27,9 +124,12 @@
                 }
             }, 
             "subunits": [
-                "kroner",
+                "kroner", 
                 "ore"
-            ]
+            ], 
+            "code": "DKK", 
+            "obsolete": false, 
+            "name": "kroner"
         }
     ]
 }

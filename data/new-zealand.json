@@ -2,28 +2,72 @@
     "long_name": "New Zealand", 
     "inventory": [
         {
+            "subunit": "cents", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 1994, 
             "obsolete": true, 
             "value": 5, 
-            "denomination": "dollars", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "cents"
+            "denomination": "dollars"
         }, 
         {
+            "subunit": "cents", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 2006, 
             "obsolete": false, 
             "value": 10, 
-            "denomination": "dollars", 
+            "denomination": "dollars"
+        }, 
+        {
+            "subunit": "cents", 
             "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "cents"
+            "owner": "Dan Faber", 
+            "year": 2006, 
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "dollars"
+        }, 
+        {
+            "subunit": "cents", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2006, 
+            "obsolete": false, 
+            "value": 20, 
+            "denomination": "dollars"
+        }, 
+        {
+            "subunit": "cents", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2006, 
+            "obsolete": false, 
+            "value": 50, 
+            "denomination": "dollars"
+        }, 
+        {
+            "subunit": "dollars", 
+            "piece_type": "coin", 
+            "owner": "Dan Faber", 
+            "year": 2000, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "dollars"
+        }, 
+        {
+            "subunit": "dollars", 
+            "piece_type": "bill", 
+            "owner": "Dan Faber", 
+            "year": 0, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "dollars"
         }
     ], 
     "short_name": "new-zealand", 
     "denominations": [
         {
-            "obsolete": false, 
             "divisions": {
                 "cents": {
                     "subunit": "cents", 
@@ -34,12 +78,13 @@
                     "value": 100
                 }
             }, 
-            "code": "NZD", 
-            "name": "dollars", 
             "subunits": [
-                "dollars",
+                "dollars", 
                 "cents"
-            ]
+            ], 
+            "code": "NZD", 
+            "obsolete": false, 
+            "name": "dollars"
         }
     ]
 }
