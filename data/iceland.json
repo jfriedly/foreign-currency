@@ -1,0 +1,81 @@
+{
+    "long_name": "Iceland", 
+    "inventory": [
+        {
+            "subunit": "kronur", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
+            "year": 2001, 
+            "obsolete": false, 
+            "value": 500, 
+            "denomination": "kronur"
+        }, 
+        {
+            "subunit": "kronur", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2008, 
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "kronur"
+        }, 
+        {
+            "subunit": "kronur", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2004, 
+            "obsolete": false, 
+            "value": 100, 
+            "denomination": "kronur"
+        }, 
+        {
+            "subunit": "kronur", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1981, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "kronur"
+        }, 
+        {
+            "subunit": "kronur", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1992, 
+            "obsolete": false, 
+            "value": 50, 
+            "denomination": "kronur"
+        }, 
+        {
+            "subunit": "kronur", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2011, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "kronur"
+        }
+    ], 
+    "short_name": "iceland", 
+    "denominations": [
+        {
+            "divisions": {
+                "aurar": {
+                    "subunit": "aurar", 
+                    "value": 1
+                }, 
+                "kronur": {
+                    "subunit": "aurar", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "kronur", 
+                "aurar"
+            ], 
+            "code": "ISK", 
+            "obsolete": false, 
+            "name": "kronur"
+        }
+    ]
+}
