@@ -1,0 +1,36 @@
+{
+    "long_name": "Barbados", 
+    "inventory": [
+        {
+            "subunit": "cents", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2009, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "dollars"
+        }
+    ], 
+    "short_name": "barbados", 
+    "denominations": [
+        {
+            "divisions": {
+                "cents": {
+                    "subunit": "cents", 
+                    "value": 1
+                }, 
+                "dollars": {
+                    "subunit": "cents", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "dollars", 
+                "cents"
+            ], 
+            "code": "BBD", 
+            "obsolete": false, 
+            "name": "dollars"
+        }
+    ]
+}
