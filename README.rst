@@ -16,11 +16,14 @@ Requirements
 
 Most of the scripts have no requirements other than Python, but generating the world map requires a bunch of libraries to be installed:
 
-* Use ``apt-get install libpng-dev libblas-dev liblapack-dev gfortran libproj-dev`` to get the Debian package dependencies.
+* Use ``sudo apt-get install python-dev libproj-dev libgeos-dev libblas-dev gfortran libpng-dev libfreetype6-dv``
 
-* Use ``pip install Cython numpy shapely pyshp matplotlib scipy six`` to get the Python package dependencies.
+* Use ``sudo pip install Cython numpy scipy matplotlib shapely==1.5.12``
 
-* Then you can compile ``cartopy`` (>=0.11.2) from source, because the current version is outdated on PyPI.
+* Use ``sudo pip install Cartopy``
+
+Note:  Cartopy has `a known issue`_ that makes map drawing fail with Shapely 1.5.13.
+For now, the recommendation is to just use 1.5.12.
 
 
 TODO
@@ -265,3 +268,6 @@ Glossary
     * The US dollar has the cent as a *subunit*, with one dollar composed of 100 cents.
 
     * Before 1971, the pound sterling had shillings and pence as *subunits*, with one pound composed of 20 shillings, which were each composed of 12 pence.  After 1971, the new denomination had new pence as a *subunit*, with one pound composed of 100 pence.
+
+
+.. _`a known issue`: https://github.com/SciTools/cartopy/issues/682

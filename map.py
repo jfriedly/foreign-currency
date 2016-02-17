@@ -25,6 +25,18 @@ NATURAL_EARTH_SCALES = {
 }
 
 
+def _get_long_name(country):
+    """ Retrieve the long name of a country from Natural Earth data
+
+    Their low-res (110m) data uses the attribute name 'name_long', while
+    their high-res (10m) data uses the attribute name 'NAME_LONG'.
+    """
+    try:
+        return country.attributes['name_long']
+    except KeyError:
+        return country.attributes['NAME_LONG']
+
+
 def load_countries():
     """ Loads countries from the data dir and returns them
 
@@ -110,7 +122,7 @@ def natural_earth_country_list():
     """
     country_names = []
     for country in iter_country_shapes():
-        country_names.append(country.attributes['name_long'])
+        country_names.append(_get_long_name(country))
     return country_names
 
 
@@ -126,8 +138,9 @@ def create_world_map(countries_owned):
     plot = pyplot.axes(projection=crs.PlateCarree())
     for country in iter_country_shapes():
         color = COLOR_NOT_PRESENT
-        if country.attributes['name_long'] in countries_owned:
-            if countries_owned[country.attributes['name_long']]:
+        long_name = _get_long_name(country)
+        if long_name in countries_owned:
+            if countries_owned[long_name]:
                 color = COLOR_PRESENT
             else:
                 color = COLOR_OBSOLETE
