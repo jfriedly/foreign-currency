@@ -6,6 +6,7 @@ onto a map using Cartopy with matplotlib.
 
 http://www.naturalearthdata.com/
 """
+import argparse
 from cartopy import crs
 from cartopy.io import shapereader
 from matplotlib import pyplot
@@ -18,11 +19,6 @@ import total
 COLOR_NOT_PRESENT = (1.0, 1.0, 1.0)
 COLOR_OBSOLETE = (0.4, 0.4, 0.8)
 COLOR_PRESENT = (0.2, 0.2, 0.9)
-NATURAL_EARTH_SCALES = {
-    "HIGH_RES": "10m",
-    "MED_RES": "50m",
-    "LOW_RES": "110m",
-}
 
 
 def _get_long_name(country):
@@ -35,6 +31,22 @@ def _get_long_name(country):
         return country.attributes['name_long']
     except KeyError:
         return country.attributes['NAME_LONG']
+
+
+def parse_args():
+    description = "Generate a map of countries that I have currency pieces for"
+    argparser = argparse.ArgumentParser(description=description)
+    argparser.add_argument("--med-res", "-m", "-M",
+                           required=False,
+                           default=False,
+                           action="store_true",
+                           help="use medium resolution map data")
+    argparser.add_argument("--high-res", "-H",
+                           required=False,
+                           default=False,
+                           action="store_true",
+                           help="use high resolution map data")
+    return argparser.parse_args()
 
 
 def load_countries():
@@ -103,11 +115,16 @@ def correct_for_mapping(countries):
     return countries
 
 
-def iter_country_shapes():
+def iter_country_shapes(args):
     """ Get an iterator of shapereader Records for all Natural Earth countries
     """
-    # Use "MED_RES" or "HIGH_RES" for more detailed maps
-    resolution = NATURAL_EARTH_SCALES['LOW_RES']
+    if args.med_res:
+        resolution = "50m"
+    elif args.high_res:
+        resolution = "10m"
+    else:
+        resolution = "110m"
+
     geodata = shapereader.natural_earth(resolution=resolution,
                                         category='cultural',
                                         name='admin_0_countries')
@@ -126,7 +143,7 @@ def natural_earth_country_list():
     return country_names
 
 
-def create_world_map(countries_owned):
+def create_world_map(args, countries_owned):
     """ Creates a plot object of a world map with present countries highlighted
 
     :param countries_owned:  A dictionary of country names mapped to boolean
@@ -136,7 +153,7 @@ def create_world_map(countries_owned):
     """
     # based on http://stackoverflow.com/questions/13397022
     plot = pyplot.axes(projection=crs.PlateCarree())
-    for country in iter_country_shapes():
+    for country in iter_country_shapes(args):
         color = COLOR_NOT_PRESENT
         long_name = _get_long_name(country)
         if long_name in countries_owned:
@@ -153,9 +170,10 @@ def create_world_map(countries_owned):
 
 
 def main():
+    args = parse_args()
     countries_owned = load_countries()
     mappable_countries = correct_for_mapping(countries_owned)
-    create_world_map(mappable_countries)
+    create_world_map(args, mappable_countries)
 
 
 if __name__ == "__main__":
