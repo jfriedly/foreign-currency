@@ -2,21 +2,72 @@
     "long_name": "Indonesia", 
     "inventory": [
         {
+            "subunit": "sen", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
             "year": 1964, 
             "obsolete": true, 
             "value": 25, 
-            "denomination": "rupiah", 
+            "denomination": "old rupiah"
+        }, 
+        {
+            "subunit": "rupiah", 
             "piece_type": "bill", 
             "owner": "Joel Friedly", 
-            "subunit": "sen"
+            "year": 2011, 
+            "obsolete": false, 
+            "value": 1000, 
+            "denomination": "new rupiah"
+        }, 
+        {
+            "subunit": "rupiah", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
+            "year": 2012, 
+            "obsolete": false, 
+            "value": 2000, 
+            "denomination": "new rupiah"
+        }, 
+        {
+            "subunit": "rupiah", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
+            "year": 2013, 
+            "obsolete": false, 
+            "value": 5000, 
+            "denomination": "new rupiah"
+        }, 
+        {
+            "subunit": "rupiah", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
+            "year": 2012, 
+            "obsolete": false, 
+            "value": 10000, 
+            "denomination": "new rupiah"
+        }, 
+        {
+            "subunit": "rupiah", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
+            "year": 2012, 
+            "obsolete": false, 
+            "value": 20000, 
+            "denomination": "new rupiah"
+        }, 
+        {
+            "subunit": "rupiah", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
+            "year": 2011, 
+            "obsolete": false, 
+            "value": 100000, 
+            "denomination": "new rupiah"
         }
     ], 
     "short_name": "indonesia", 
     "denominations": [
         {
-            "name": "rupiah",
-            "code": "IDR",
-            "obsolete": false,
             "divisions": {
                 "sen": {
                     "subunit": "sen", 
@@ -28,9 +79,31 @@
                 }
             }, 
             "subunits": [
-                "rupiah",
+                "rupiah", 
                 "sen"
-            ]
+            ], 
+            "code": "IDR", 
+            "obsolete": false, 
+            "name": "new rupiah"
+        }, 
+        {
+            "divisions": {
+                "sen": {
+                    "subunit": "sen", 
+                    "value": 1
+                }, 
+                "rupiah": {
+                    "subunit": "sen", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "rupiah", 
+                "sen"
+            ], 
+            "code": "IDR", 
+            "obsolete": true, 
+            "name": "old rupiah"
         }
     ]
 }

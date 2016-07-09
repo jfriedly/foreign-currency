@@ -126,7 +126,9 @@ All coins with denominations less than 10 cents have been taken out of circulati
 
 Indonesia
 '''''''''
-All denominations of less than 50 rupiah have been rendered obsolete by inflation.
+The 25 rupiah bill is officially obsolete, replaced by new rupiah in 1965.
+The new rupiah is still valid, but it has suffered and denominations of less than 50 rupiah have been rendered obsolete by inflation.
+Bank Indonesia has announced plans to redenominate at 1000:1, but they probably won't take effect until 2020.
 
 Japan
 '''''
