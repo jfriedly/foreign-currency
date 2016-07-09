@@ -180,6 +180,15 @@
             "obsolete": false, 
             "value": 1, 
             "denomination": "euros"
+        }, 
+        {
+            "subunit": "euros", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2008, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "euros"
         }
     ], 
     "short_name": "eurozone", 
