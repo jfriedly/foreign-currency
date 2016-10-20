@@ -7,6 +7,7 @@ onto a map using Cartopy with matplotlib.
 http://www.naturalearthdata.com/
 """
 import argparse
+import logging
 from cartopy import crs
 from cartopy.io import shapereader
 from matplotlib import pyplot
@@ -19,6 +20,8 @@ import total
 COLOR_NOT_PRESENT = (1.0, 1.0, 1.0)
 COLOR_OBSOLETE = (0.4, 0.4, 0.8)
 COLOR_PRESENT = (0.2, 0.2, 0.9)
+
+LOGGER = logging.getLogger('map')
 
 
 def _get_long_name(country):
@@ -158,8 +161,10 @@ def create_world_map(args, countries_owned):
         long_name = _get_long_name(country)
         if long_name in countries_owned:
             if countries_owned[long_name]:
+                LOGGER.info("Adding %s", long_name)
                 color = COLOR_PRESENT
             else:
+                LOGGER.info("Adding %s as obsolete", long_name)
                 color = COLOR_OBSOLETE
         plot.add_geometries(country.geometry, crs.PlateCarree(),
                             facecolor=color, edgecolor='gray')
@@ -170,6 +175,8 @@ def create_world_map(args, countries_owned):
 
 
 def main():
+    logging.basicConfig(level='INFO')
+    LOGGER.info("Generating map")
     args = parse_args()
     countries_owned = load_countries()
     mappable_countries = correct_for_mapping(countries_owned)
