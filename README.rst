@@ -167,7 +167,7 @@ While it's technically still legal tender, it's worth less than a cent, so it's 
 
 Pakistan
 ''''''''
-The Pakistani rupee was originally subidivded into 16 annas, each of which was further subidivided into 4 pice, each of which was further subdivided into 3 pie.
+The Pakistani rupee was originally subdivided into 16 annas, each of which was further subdivided into 4 pice, each of which was further subdivided into 3 pie.
 In 1961 though, the currency was decimalised, with one rupee being subdivided into 100 pice.
 
 Peru
@@ -221,6 +221,10 @@ Also, search for "yuan", not "New Taiwan Dollar".
 
 Unfortunately, the central bank began issuing new bills and coins in 2000, and they withdrew all of the old ones from circulation.
 Since everything I have is older than that, it's all practically speaking obsolete.
+
+Thailand
+''''''''
+The coin that I have doesn't have a year on it in a language that I can understand, so I put it in as being from the first year that it was minted, 1986.
 
 UK
 ''
