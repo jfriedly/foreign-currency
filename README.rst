@@ -29,6 +29,10 @@ For now, the recommendation is to just use 1.5.12.
 TODO
 ----
 
+* Add a git commit hook that generates the summary of all countries and inserts it into the README.
+
+* Add a git commit hook to generate the map.
+
 * Use a shell to iterate over every inventory piece and assert that it's denomination is valid (``assert piece.denomination in (d['name'] for d in country.denominations)``)
 
 * Make sure that all the Eurozone countries have obsolete set to true on their most recent denomination.
