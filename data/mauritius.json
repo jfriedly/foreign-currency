@@ -1,0 +1,45 @@
+{
+    "long_name": "Mauritius", 
+    "inventory": [
+        {
+            "subunit": "rupees", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2005, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "rupees"
+        }, 
+        {
+            "subunit": "rupees", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1997, 
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "rupees"
+        }
+    ], 
+    "short_name": "mauritius", 
+    "denominations": [
+        {
+            "divisions": {
+                "cents": {
+                    "subunit": "cents", 
+                    "value": 1
+                }, 
+                "rupees": {
+                    "subunit": "cents", 
+                    "value": 100
+                }
+            }, 
+            "subunits": [
+                "rupees", 
+                "cents"
+            ], 
+            "code": "MUR", 
+            "obsolete": false, 
+            "name": "rupees"
+        }
+    ]
+}

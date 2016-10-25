@@ -144,6 +144,24 @@
             "obsolete": false, 
             "value": 5, 
             "denomination": "rand"
+        }, 
+        {
+            "subunit": "rand", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2005, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "rand"
+        }, 
+        {
+            "subunit": "rand", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2009, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "rand"
         }
     ], 
     "short_name": "south-africa", 
