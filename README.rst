@@ -18,7 +18,7 @@ Most of the scripts have no requirements other than Python, but generating the w
 
 * Use ``sudo apt-get install python-dev libproj-dev libgeos-dev libblas-dev gfortran libpng-dev libfreetype6-dv``
 
-* Use ``sudo pip install Cython numpy scipy matplotlib shapely==1.5.12``
+* Use ``sudo pip install Cython numpy scipy matplotlib shapely==1.5.12 enum34``
 
 * Use ``sudo pip install Cartopy``
 

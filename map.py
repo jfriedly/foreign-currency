@@ -8,6 +8,7 @@ http://www.naturalearthdata.com/
 """
 import argparse
 import logging
+import enum
 from cartopy import crs
 from cartopy.io import shapereader
 from matplotlib import pyplot
@@ -21,6 +22,13 @@ COLOR_NOT_PRESENT = (1.0, 1.0, 1.0)
 COLOR_OBSOLETE = (0.4, 0.4, 0.8)
 COLOR_PRESENT = (0.2, 0.2, 0.9)
 
+class Resolutions(enum.Enum):
+    low_res = '110m'
+    med_res = '50m'
+    high_res = '10m'
+
+
+logging.basicConfig(level=logging.INFO)
 LOGGER = logging.getLogger('map')
 
 
@@ -50,6 +58,16 @@ def parse_args():
                            action="store_true",
                            help="use high resolution map data")
     return argparser.parse_args()
+
+
+def get_resolution(args):
+    """ Given an argparse Namespace args object, return the Resolution desired.
+    """
+    if args.med_res:
+        return Resolutions.med_res
+    if args.high_res:
+        return Resolutions.high_res
+    return Resolutions.low_res
 
 
 def load_countries():
@@ -118,30 +136,27 @@ def correct_for_mapping(countries):
     return countries
 
 
-def iter_country_shapes(args):
+def iter_country_shapes(resolution):
     """ Get an iterator of shapereader Records for all Natural Earth countries
-    """
-    if args.med_res:
-        resolution = "50m"
-    elif args.high_res:
-        resolution = "10m"
-    else:
-        resolution = "110m"
 
-    geodata = shapereader.natural_earth(resolution=resolution,
+    :param resolution: an instance of Resolutions to iterate countries at.
+    """
+    geodata = shapereader.natural_earth(resolution=resolution.value,
                                         category='cultural',
                                         name='admin_0_countries')
     georeader = shapereader.Reader(geodata)
     return georeader.records()
 
 
-def natural_earth_country_list():
+def natural_earth_country_list(resolution):
     """ Name every country according to Natural Earth
 
     This function is unused in the code; it's for debugging only.
+
+    :param resolution: an instance of Resolutions to iterate countries at.
     """
     country_names = []
-    for country in iter_country_shapes():
+    for country in iter_country_shapes(resolution):
         country_names.append(_get_long_name(country))
     return country_names
 
@@ -156,9 +171,10 @@ def create_world_map(args, countries_owned):
     """
     # based on http://stackoverflow.com/questions/13397022
     plot = pyplot.axes(projection=crs.PlateCarree())
-    for country in iter_country_shapes(args):
+    for country in iter_country_shapes(get_resolution(args)):
         color = COLOR_NOT_PRESENT
         long_name = _get_long_name(country)
+        LOGGER.debug("Examining country from Natural Earth:  %s", long_name)
         if long_name in countries_owned:
             if countries_owned[long_name]:
                 LOGGER.info("Adding %s", long_name)
