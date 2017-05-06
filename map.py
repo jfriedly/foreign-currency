@@ -103,6 +103,12 @@ def correct_for_mapping(countries):
     Dutch in 1949.  I count the Dutch East Indies currency that I have as
     obsolete Indonesian currency for the purpose of mapping.
 
+    The CFA administers two monetary unions in central and western Africa,
+    both of which use CFA francs that trade at 1:1, but are not legal tender
+    in each other's areas.  At the time of writing, I only have Central
+    African CFA francs, so for now I'm only implementing an exception for
+    them.
+
     The Common Monetary Area of southern Africa is a Eurozone-like entity where
     multiple countries share a currency.  In this case, they share the South
     African rand.  Namibia is no longer a member of the CMA, but the rand is
@@ -127,6 +133,10 @@ def correct_for_mapping(countries):
     if "Dutch East Indies" in countries:
         countries.pop("Dutch East Indies")
         countries.setdefault("Indonesia", 0)
+
+    if constants.CEMAC_LONG_NAME in countries:
+        for country in constants.CEMAC_COUNTRIES:
+            countries[country] = countries[constants.CEMAC_LONG_NAME]
 
     if "South Africa" in countries:
         for country in constants.COMMON_MONETARY_AREA_COUNTRIES:

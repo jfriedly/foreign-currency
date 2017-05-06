@@ -63,7 +63,17 @@ I wrote it down as 2000 because that was the first year that they printed 2 reai
 
 Britain
 '''''''
-See `UK`_
+See `UK`_.
+
+CEMAC
+'''''
+The Communauté Économique et Monétaire de l'Afrique Centrale is a group of six countries administered by Coopération financière en Afrique (CFA).
+The six countries are Cameroon, Central African Republic, Chad, Republic of the Congo, Equatorial Guinea and Gabon, but the Republic of Congo apparently *de facto* uses USD.
+I went ahead and colored all of them as dark blue because I have both the official and unofficial currencies of Republic of the Congo.
+
+Note that CFA also administers a separate group of 8 countries that form a western African monetary union, the Union Économique et Monétaire Ouest Africaine (UEMOA), and they also use a CFA franc.
+Both are in fact called CFA francs and they trade at a 1:1 ratio, which leads to some confusion.
+I've called the Central African CFA francs "CEMAC" francs, and if I get any of the West African CFA francs, I'll call them UEMOA francs.
 
 Colombia
 ''''''''
@@ -185,6 +195,10 @@ Philippines
 '''''''''''
 From 1942-1945, Japan occupied the Philippines and distributed fiat banknotes.
 I have some, but these were considered illegal tender immediately following WWII.
+
+Republic of the Congo
+'''''''''''''''''''''
+See `CEMAC`_.
 
 Russia
 ''''''

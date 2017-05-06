@@ -23,6 +23,15 @@ EUROZONE_COUNTRIES = set([
     "Slovenia",
     "Spain",
 ])
+CEMAC_LONG_NAME = u"Communaut\xe9 \xc9conomique et Mon\xe9taire de l'Afrique Centrale"
+CEMAC_COUNTRIES = set([
+    "Cameroon",
+    "Central African Republic",
+    "Chad",
+    "Republic of Congo",
+    "Equatorial Guinea",
+    "Gabon",
+])
 COMMON_MONETARY_AREA_COUNTRIES = set([
     "South Africa",
     "Swaziland",

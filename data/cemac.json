@@ -1,0 +1,144 @@
+{
+    "long_name": "Communaut\u00e9 \u00c9conomique et Mon\u00e9taire de l'Afrique Centrale", 
+    "inventory": [
+        {
+            "subunit": "francs", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
+            "year": 2002, 
+            "obsolete": false, 
+            "value": 5000, 
+            "denomination": "francs"
+        }, 
+        {
+            "subunit": "francs", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
+            "year": 2002, 
+            "obsolete": false, 
+            "value": 5000, 
+            "denomination": "francs"
+        }, 
+        {
+            "subunit": "francs", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
+            "year": 2002, 
+            "obsolete": false, 
+            "value": 5000, 
+            "denomination": "francs"
+        }, 
+        {
+            "subunit": "francs", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
+            "year": 2002, 
+            "obsolete": false, 
+            "value": 2000, 
+            "denomination": "francs"
+        }, 
+        {
+            "subunit": "francs", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
+            "year": 2002, 
+            "obsolete": false, 
+            "value": 500, 
+            "denomination": "francs"
+        }, 
+        {
+            "subunit": "francs", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 1984, 
+            "obsolete": false, 
+            "value": 100, 
+            "denomination": "francs"
+        }, 
+        {
+            "subunit": "francs", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2006, 
+            "obsolete": false, 
+            "value": 500, 
+            "denomination": "francs"
+        }, 
+        {
+            "subunit": "francs", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2006, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "francs"
+        }, 
+        {
+            "subunit": "francs", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2006, 
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "francs"
+        }, 
+        {
+            "subunit": "francs", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2006, 
+            "obsolete": false, 
+            "value": 1, 
+            "denomination": "francs"
+        }, 
+        {
+            "subunit": "francs", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2006, 
+            "obsolete": false, 
+            "value": 25, 
+            "denomination": "francs"
+        }, 
+        {
+            "subunit": "francs", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2006, 
+            "obsolete": false, 
+            "value": 50, 
+            "denomination": "francs"
+        }, 
+        {
+            "subunit": "francs", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2006, 
+            "obsolete": false, 
+            "value": 100, 
+            "denomination": "francs"
+        }
+    ], 
+    "short_name": "cemac", 
+    "denominations": [
+        {
+            "divisions": {
+                "francs": {
+                    "subunit": "centimes", 
+                    "value": 100
+                }, 
+                "centimes": {
+                    "subunit": "centimes", 
+                    "value": 1
+                }
+            }, 
+            "subunits": [
+                "francs", 
+                "centimes"
+            ], 
+            "code": "XAF", 
+            "obsolete": false, 
+            "name": "francs"
+        }
+    ]
+}
