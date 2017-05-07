@@ -15,6 +15,7 @@ EUROZONE_COUNTRIES = set([
     "Ireland",
     "Italy",
     "Latvia",
+    "Lithuania",
     "Luxembourg",
     "Malta",
     "Netherlands",
