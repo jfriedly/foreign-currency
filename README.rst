@@ -16,14 +16,17 @@ Requirements
 
 Most of the scripts have no requirements other than Python, but generating the world map requires a bunch of libraries to be installed:
 
-* Use ``sudo apt-get install python-dev libproj-dev libgeos-dev libblas-dev gfortran libpng-dev libfreetype6-dv``
+* Use ``sudo apt-get install python-tk``
 
-* Use ``sudo pip install Cython numpy scipy matplotlib shapely==1.5.12 enum34``
+.. I think I used to have cartopy or shapely or something compiling from source.
+   An older version of this section said that these packages were required, but none of them seem to be required anymore:
+   python-dev libproj-dev libgeos-dev libblas-dev gfortran libpng-dev libfreetype6-dev 
 
-* Use ``sudo pip install Cartopy``
+.. NOTE(jfriedly):  I grew up and started using a virtualenv for this:  ``workon foreign-currency``
 
-Note:  Cartopy has `a known issue`_ that makes map drawing fail with Shapely 1.5.13.
-For now, the recommendation is to just use 1.5.12.
+* Use ``pip install Cython numpy scipy matplotlib enum34``
+
+* Use ``pip install Cartopy``
 
 
 TODO
