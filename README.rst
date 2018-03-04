@@ -40,6 +40,8 @@ TODO
 
 * Make sure that all the Eurozone countries have obsolete set to true on their most recent denomination.
 
+* Store the data files with everything in some sorted order.  It'll make manual edits easier.
+
 
 Notes by Country
 ----------------
@@ -98,12 +100,14 @@ The second series was completely recalled in 2007.
 I have some coins that are actually from the second series of the renminbi, but they're still legal tender.
 These are the 2 and 5 fen coins.
 
-I have one very old coin from the Qing Dynasty (Guangxu Emperor, 1875-1908).
+I used to have one very old coin from the Qing Dynasty (Guangxu Emperor, 1875-1908).
 It's the large brown coin with the square hole in the center.
 This coin was minted between 1889 and 1908, and it probably had a denomination of the Qing yuan from 1889.
 I've entered it with a date of 1889.
 To find it on Google, search for "guang xu tong bao".
 There were a number of denominations between this yuan and the modern renminbi, but I don't have any currency pieces from those, so I've ignored them.
+
+*Update 2018-03-03:  I gave a bunch of coins to Lusann for Chinese New Year, including this one from the Qing Dynasty.*
 
 East Africa Protectorate
 ''''''''''''''''''''''''
