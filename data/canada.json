@@ -1584,6 +1584,15 @@
             "obsolete": false, 
             "value": 20, 
             "denomination": "dollars"
+        }, 
+        {
+            "subunit": "dollars", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
+            "year": 2008, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "dollars"
         }
     ], 
     "short_name": "canada", 
