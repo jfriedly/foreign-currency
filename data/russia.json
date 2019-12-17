@@ -2,37 +2,63 @@
     "long_name": "Russian Federation", 
     "inventory": [
         {
+            "subunit": "rubles", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
             "year": 1998, 
             "obsolete": false, 
             "value": 10, 
-            "denomination": "new rubles", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "rubles"
+            "denomination": "new rubles"
         }, 
         {
+            "subunit": "rubles", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 2005, 
             "obsolete": false, 
             "value": 1, 
-            "denomination": "new rubles", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "rubles"
+            "denomination": "new rubles"
         }, 
         {
+            "subunit": "kopeks", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
             "year": 2005, 
             "obsolete": false, 
             "value": 10, 
-            "denomination": "new rubles", 
+            "denomination": "new rubles"
+        }, 
+        {
+            "subunit": "rubles", 
+            "piece_type": "bill", 
+            "owner": "Joel Friedly", 
+            "year": 1997, 
+            "obsolete": false, 
+            "value": 50, 
+            "denomination": "new rubles"
+        }, 
+        {
+            "subunit": "rubles", 
             "piece_type": "coin", 
             "owner": "Joel Friedly", 
-            "subunit": "kopeks"
+            "year": 1997, 
+            "obsolete": false, 
+            "value": 5, 
+            "denomination": "new rubles"
+        }, 
+        {
+            "subunit": "rubles", 
+            "piece_type": "coin", 
+            "owner": "Joel Friedly", 
+            "year": 2016, 
+            "obsolete": false, 
+            "value": 10, 
+            "denomination": "new rubles"
         }
     ], 
     "short_name": "russia", 
     "denominations": [
         {
-            "obsolete": false, 
             "divisions": {
                 "rubles": {
                     "subunit": "kopeks", 
@@ -43,12 +69,13 @@
                     "value": 1
                 }
             }, 
-            "code": "RUB", 
-            "name": "new rubles", 
             "subunits": [
                 "rubles", 
                 "kopeks"
-            ]
+            ], 
+            "code": "RUB", 
+            "obsolete": false, 
+            "name": "new rubles"
         }
     ]
 }
