@@ -44,7 +44,6 @@ class Country(object):
         assert len(self.denominations), "Must have at least one denomination"
         for denom in self.denominations:
             denom.validate()
-        non_obsolete = [d for d in self.denominations if not d.obsolete]
         for piece in self.inventory:
             piece.validate()
             # Ensure that the piece's denomination exists
@@ -197,8 +196,8 @@ class Denomination(object):
     to a dictionary which will have one key for each unit.  These keys must map
     to dictionaries that contain two keys:
 
-    * "denomination": the name of the next smaller unit, or None if this is the
-                      smallest
+    * "subunit": the name of the next smaller unit, or None if this is the
+                 smallest
     * "value": the number of the next smallest unit in this unit, or 1 if this
                is the smallest unit.
 
@@ -273,8 +272,9 @@ class Denomination(object):
                 assert value == 1, (
                     "Self-mapping division must have a value of 1")
             subunits_seen.add(subunit)
-        assert set(self.subunits[1:]) == subunits_seen, (
-            "Subunits do not perfectly match division values")
+        assert len(self.subunits) == 1 or set(
+            self.subunits[1:]) == subunits_seen, (
+                "Subunits do not perfectly match division values")
         assert self.obsolete is True or self.obsolete is False, (
             "Denomination's obsolete attribute must be True or False")
 

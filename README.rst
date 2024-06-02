@@ -36,8 +36,6 @@ TODO
 
 * Add a git commit hook to generate the map.
 
-* Use a shell to iterate over every inventory piece and assert that it's denomination is valid (``assert piece.denomination in (d['name'] for d in country.denominations)``)
-
 * Make sure that all the Eurozone countries have obsolete set to true on their most recent denomination.
 
 * Store the data files with everything in some sorted order.  It'll make manual edits easier.
