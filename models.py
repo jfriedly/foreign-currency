@@ -7,6 +7,7 @@ import constants
 
 class Country(object):
     """ Class to represent one country, handling many denominations """
+
     def __init__(self,
                  short_name='',
                  long_name='',
@@ -108,6 +109,7 @@ class Country(object):
 
 class CurrencyPiece(object):
     """ Class to represent one piece of currency:  a bill or a coin """
+
     def __init__(self,
                  piece_type='bill',
                  obsolete=False,
@@ -224,6 +226,7 @@ class Denomination(object):
 
         total(australia, desired_unit="pounds", count_obsolete=True)
     """
+
     def __init__(self,
                  name='',
                  code='',

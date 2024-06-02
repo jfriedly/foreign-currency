@@ -38,12 +38,7 @@ def create_subdivision(big_unit, small_unit, value):
     but the tl;dr is there are <value> <small_units> in a <big_unit>.
     Ex:  There are <100> <cents> in a <dollar>.
     """
-    division = {
-        big_unit: {
-            "subunit": small_unit,
-            "value": value
-        }
-    }
+    division = {big_unit: {"subunit": small_unit, "value": value}}
     return division
 
 
@@ -63,9 +58,9 @@ def read_denomination():
     divisions = create_subdivision(smallest_unit, smallest_unit, 1)
     subunits.reverse()
     for i, unit in enumerate(subunits[:-1]):
-        bigger_unit = subunits[i+1]
-        value = int(raw_input("        How many %s in %s?  " %
-                              (unit, bigger_unit)))
+        bigger_unit = subunits[i + 1]
+        value = int(
+            raw_input("        How many %s in %s?  " % (unit, bigger_unit)))
         divisions.update(create_subdivision(bigger_unit, unit, value))
     subunits.reverse()
     return dict(name=name,
@@ -94,10 +89,11 @@ def read_input(short_name):
         if not confirm:
             denominations[0]['obsolete'] = False
 
-    country = models.Country.from_dict(dict(short_name=short_name,
-                                            long_name=long_name,
-                                            denominations=denominations,
-                                            inventory=[]))
+    country = models.Country.from_dict(
+        dict(short_name=short_name,
+             long_name=long_name,
+             denominations=denominations,
+             inventory=[]))
     country.save()
 
 

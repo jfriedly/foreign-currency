@@ -17,10 +17,10 @@ import constants
 import models
 import total
 
-
 COLOR_NOT_PRESENT = (1.0, 1.0, 1.0)
 COLOR_OBSOLETE = (0.4, 0.4, 0.8)
 COLOR_PRESENT = (0.2, 0.2, 0.9)
+
 
 class Resolutions(enum.Enum):
     low_res = '110m'
@@ -47,12 +47,15 @@ def _get_long_name(country):
 def parse_args():
     description = "Generate a map of countries that I have currency pieces for"
     argparser = argparse.ArgumentParser(description=description)
-    argparser.add_argument("--med-res", "-m", "-M",
+    argparser.add_argument("--med-res",
+                           "-m",
+                           "-M",
                            required=False,
                            default=False,
                            action="store_true",
                            help="use medium resolution map data")
-    argparser.add_argument("--high-res", "-H",
+    argparser.add_argument("--high-res",
+                           "-H",
                            required=False,
                            default=False,
                            action="store_true",
@@ -192,8 +195,10 @@ def create_world_map(args, countries_owned):
             else:
                 LOGGER.info("Adding %s as obsolete", long_name)
                 color = COLOR_OBSOLETE
-        plot.add_geometries(country.geometry, crs.PlateCarree(),
-                            facecolor=color, edgecolor='gray')
+        plot.add_geometries(country.geometry,
+                            crs.PlateCarree(),
+                            facecolor=color,
+                            edgecolor='gray')
     plot.coastlines()
     # Use a larger figure size for more pixels.  4:3 is a nice ratio though
     plot.figure.set_size_inches(16, 12)

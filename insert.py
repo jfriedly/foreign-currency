@@ -22,16 +22,19 @@ def parse_args():
                            nargs='?',
                            default=0,
                            help="Year the piece was printed/minted.")
-    argparser.add_argument("--bill", "-b",
+    argparser.add_argument("--bill",
+                           "-b",
                            required=False,
                            default=False,
                            action="store_true",
                            help="The piece is a bill.")
-    argparser.add_argument("--denomination", "-d",
+    argparser.add_argument("--denomination",
+                           "-d",
                            required=False,
                            default='',
                            help="Denomination of the piece. See the glossary.")
-    argparser.add_argument("--obsolete", "-o",
+    argparser.add_argument("--obsolete",
+                           "-o",
                            required=False,
                            default=False,
                            action="store_true",

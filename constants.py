@@ -1,6 +1,5 @@
 import os
 
-
 DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
 COUNTRY_DIR = DATA_DIR
 EUROZONE_COUNTRIES = set([

@@ -22,10 +22,9 @@ def parse_args():
     description = ("Print the total value of the currency that I have for a "
                    "country.")
     argparser = argparse.ArgumentParser(description=description)
-    argparser.add_argument("country",
-                           type=str,
-                           help="Country to sum.")
-    argparser.add_argument("--verbose", "-v",
+    argparser.add_argument("country", type=str, help="Country to sum.")
+    argparser.add_argument("--verbose",
+                           "-v",
                            required=False,
                            default=False,
                            action="store_true",
@@ -60,13 +59,11 @@ def sum_units(desired_unit, totals, divisions, divisor):
         if breakdown['value'] == 1:
             return this_denomination
         else:
-            raise ValueError("Denomination '%s' is broken down into %s %s!" %
-                             (desired_unit, breakdown['value'],
-                              breakdown['subunit']))
-    return this_denomination + sum_units(breakdown['subunit'],
-                                         totals,
-                                         divisions,
-                                         divisor * breakdown['value'])
+            raise ValueError(
+                "Denomination '%s' is broken down into %s %s!" %
+                (desired_unit, breakdown['value'], breakdown['subunit']))
+    return this_denomination + sum_units(
+        breakdown['subunit'], totals, divisions, divisor * breakdown['value'])
 
 
 def total(country, denomination=None, count_obsolete=False):
