@@ -114,9 +114,7 @@ def correct_for_mapping(countries):
 
     The Common Monetary Area of southern Africa is a Eurozone-like entity where
     multiple countries share a currency.  In this case, they share the South
-    African rand.  Namibia is no longer a member of the CMA, but the rand is
-    still legal tender there and is exchanged on par with the Namibian dollar,
-    so I also count Namibia as blue.
+    African rand.
     """
     if "Eurozone" in countries:
         eu_total = countries.pop("Eurozone")
@@ -144,7 +142,6 @@ def correct_for_mapping(countries):
     if "South Africa" in countries:
         for country in constants.COMMON_MONETARY_AREA_COUNTRIES:
             countries[country] = countries["South Africa"]
-        countries["Namibia"] = countries["South Africa"]
 
     return countries
 
