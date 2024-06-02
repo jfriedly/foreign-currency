@@ -35,6 +35,6 @@ CEMAC_COUNTRIES = set([
 COMMON_MONETARY_AREA_COUNTRIES = set([
     "South Africa",
     "Namibia",
-    "Swaziland",
+    "Kingdom of eSwatini",
     "Lesotho",
 ])

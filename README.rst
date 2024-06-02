@@ -222,8 +222,7 @@ The 1 tolar bill that I have doesn't have a year on it, but it was first printed
 
 South Africa
 ''''''''''''
-The South African rand is the currency of South Africa, and both of the countries that South Africa surrounds, Lesotho and Swaziland.
-It was also the currency of Namibia until 1993, when Namibia withdrew from the Common Monetary Area, but the rand is still legal tender there, and is exchanged on par with the Namibian dollar.
+The South African rand is the currency of South Africa, and of the Common Monetary Area, a group of four countries similar to the Eurozone:  Namibia, Lesotho, and Eswatini.
 Since the currency is in circulation in each of these countries, I've marked them all as dark blue on the map, but the currency "lives" under South Africa.
 
 South Korea
