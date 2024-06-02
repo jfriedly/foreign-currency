@@ -1,72 +1,72 @@
 {
-    "long_name": "Germany", 
-    "inventory": [
-        {
-            "year": 1969, 
-            "obsolete": true, 
-            "value": 10, 
-            "denomination": "mark", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "pfennig"
-        }, 
-        {
-            "year": 1949, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "mark", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "pfennig"
-        }, 
-        {
-            "year": 1949, 
-            "obsolete": true, 
-            "value": 10, 
-            "denomination": "mark", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pfennig"
-        }, 
-        {
-            "year": 1950, 
-            "obsolete": true, 
-            "value": 10, 
-            "denomination": "mark", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pfennig"
-        }, 
-        {
-            "year": 1987, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "mark", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pfennig"
-        }
-    ], 
-    "short_name": "germany", 
+    "short_name": "germany",
+    "long_name": "Germany",
     "denominations": [
         {
             "name": "mark",
             "code": "DEM",
-            "obsolete": true,
-            "divisions": {
-                "pfennig": {
-                    "subunit": "pfennig", 
-                    "value": 1
-                }, 
-                "mark": {
-                    "subunit": "pfennig", 
-                    "value": 100
-                }
-            }, 
             "subunits": [
                 "mark",
                 "pfennig"
-            ]
+            ],
+            "divisions": {
+                "pfennig": {
+                    "subunit": "pfennig",
+                    "value": 1
+                },
+                "mark": {
+                    "subunit": "pfennig",
+                    "value": 100
+                }
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "mark",
+            "value": 10,
+            "subunit": "pfennig",
+            "year": 1969,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "mark",
+            "value": 1,
+            "subunit": "pfennig",
+            "year": 1949,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "mark",
+            "value": 10,
+            "subunit": "pfennig",
+            "year": 1949,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "mark",
+            "value": 10,
+            "subunit": "pfennig",
+            "year": 1950,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "mark",
+            "value": 5,
+            "subunit": "pfennig",
+            "year": 1987,
+            "owner": "Joel Friedly"
         }
     ]
 }

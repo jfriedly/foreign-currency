@@ -1,36 +1,36 @@
 {
-    "long_name": "Switzerland", 
-    "inventory": [
-        {
-            "year": 1970, 
-            "obsolete": false, 
-            "value": 50, 
-            "denomination": "franken", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "rappen"
-        }
-    ], 
-    "short_name": "switzerland", 
+    "short_name": "switzerland",
+    "long_name": "Switzerland",
     "denominations": [
         {
-            "obsolete": false, 
-            "divisions": {
-                "rappen": {
-                    "subunit": "rappen", 
-                    "value": 1
-                }, 
-                "franken": {
-                    "subunit": "rappen", 
-                    "value": 100
-                }
-            }, 
-            "code": "CHF", 
-            "name": "franken", 
+            "name": "franken",
+            "code": "CHF",
             "subunits": [
                 "franken",
                 "rappen"
-            ]
+            ],
+            "divisions": {
+                "rappen": {
+                    "subunit": "rappen",
+                    "value": 1
+                },
+                "franken": {
+                    "subunit": "rappen",
+                    "value": 100
+                }
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "franken",
+            "value": 50,
+            "subunit": "rappen",
+            "year": 1970,
+            "owner": "Joel Friedly"
         }
     ]
 }

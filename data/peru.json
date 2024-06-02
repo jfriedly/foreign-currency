@@ -1,124 +1,124 @@
 {
-    "long_name": "Peru", 
-    "inventory": [
-        {
-            "year": 1976, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "old soles", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "dineros"
-        }, 
-        {
-            "year": 1976, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "old soles", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "soles"
-        }, 
-        {
-            "year": 1979, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "old soles", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "soles"
-        }, 
-        {
-            "year": 1980, 
-            "obsolete": true, 
-            "value": 50, 
-            "denomination": "old soles", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "soles"
-        }, 
-        {
-            "year": 1979, 
-            "obsolete": true, 
-            "value": 10, 
-            "denomination": "old soles", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "soles"
-        }, 
-        {
-            "year": 1980, 
-            "obsolete": true, 
-            "value": 100, 
-            "denomination": "old soles", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "soles"
-        }
-    ], 
-    "short_name": "peru", 
+    "short_name": "peru",
+    "long_name": "Peru",
     "denominations": [
         {
-            "obsolete": false, 
+            "name": "neuvo soles",
+            "code": "PEN",
+            "subunits": [
+                "soles",
+                "centimos"
+            ],
             "divisions": {
                 "soles": {
-                    "subunit": "centimos", 
+                    "subunit": "centimos",
                     "value": 100
-                }, 
+                },
                 "centimos": {
-                    "subunit": "centimos", 
+                    "subunit": "centimos",
                     "value": 1
-                } 
-            }, 
-            "code": "PEN", 
-            "name": "neuvo soles", 
-            "subunits": [
-                "soles", 
-                "centimos"
-            ]
+                }
+            },
+            "obsolete": false
         },
         {
-            "obsolete": true, 
-            "divisions": {
-                "intis": {
-                    "subunit": "centimos", 
-                    "value": 100
-                }, 
-                "centimos": {
-                    "subunit": "centimos", 
-                    "value": 1
-                } 
-            }, 
-            "code": "PEI", 
-            "name": "inti", 
+            "name": "inti",
+            "code": "PEI",
             "subunits": [
                 "intis",
                 "centimos"
-            ]
+            ],
+            "divisions": {
+                "intis": {
+                    "subunit": "centimos",
+                    "value": 100
+                },
+                "centimos": {
+                    "subunit": "centimos",
+                    "value": 1
+                }
+            },
+            "obsolete": true
         },
         {
-            "obsolete": true, 
+            "name": "old soles",
+            "code": "PEH",
+            "subunits": [
+                "soles",
+                "dineros",
+                "centavos"
+            ],
             "divisions": {
                 "centavos": {
-                    "subunit": "centavos", 
+                    "subunit": "centavos",
                     "value": 1
-                }, 
+                },
                 "soles": {
-                    "subunit": "dineros", 
+                    "subunit": "dineros",
                     "value": 10
-                }, 
+                },
                 "dineros": {
-                    "subunit": "centavos", 
+                    "subunit": "centavos",
                     "value": 10
                 }
-            }, 
-            "code": "PEH", 
-            "name": "old soles", 
-            "subunits": [
-                "soles", 
-                "dineros",
-                "centavos" 
-            ]
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old soles",
+            "value": 5,
+            "subunit": "dineros",
+            "year": 1976,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old soles",
+            "value": 1,
+            "subunit": "soles",
+            "year": 1976,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old soles",
+            "value": 5,
+            "subunit": "soles",
+            "year": 1979,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old soles",
+            "value": 50,
+            "subunit": "soles",
+            "year": 1980,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old soles",
+            "value": 10,
+            "subunit": "soles",
+            "year": 1979,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old soles",
+            "value": 100,
+            "subunit": "soles",
+            "year": 1980,
+            "owner": "Joel Friedly"
         }
     ]
 }

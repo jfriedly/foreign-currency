@@ -1,55 +1,55 @@
 {
-    "long_name": "Uruguay", 
-    "inventory": [
-        {
-            "subunit": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1980, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "neuvo pesos"
-        }
-    ], 
-    "short_name": "uruguay", 
+    "short_name": "uruguay",
+    "long_name": "Uruguay",
     "denominations": [
         {
+            "name": "peso uruguayo",
+            "code": "UYU",
+            "subunits": [
+                "pesos",
+                "centesimos"
+            ],
             "divisions": {
                 "centesimos": {
-                    "subunit": "centesimos", 
+                    "subunit": "centesimos",
                     "value": 1
-                }, 
+                },
                 "pesos": {
-                    "subunit": "centesimos", 
+                    "subunit": "centesimos",
                     "value": 100
                 }
-            }, 
-            "subunits": [
-                "pesos", 
-                "centesimos"
-            ], 
-            "code": "UYU", 
-            "obsolete": false, 
-            "name": "peso uruguayo"
-        }, 
+            },
+            "obsolete": false
+        },
         {
+            "name": "neuvo pesos",
+            "code": "UYN",
+            "subunits": [
+                "pesos",
+                "centesimos"
+            ],
             "divisions": {
                 "centesimos": {
-                    "subunit": "centesimos", 
+                    "subunit": "centesimos",
                     "value": 1
-                }, 
+                },
                 "pesos": {
-                    "subunit": "centesimos", 
+                    "subunit": "centesimos",
                     "value": 100
                 }
-            }, 
-            "subunits": [
-                "pesos", 
-                "centesimos"
-            ], 
-            "code": "UYN", 
-            "obsolete": true, 
-            "name": "neuvo pesos"
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "neuvo pesos",
+            "value": 1,
+            "subunit": "pesos",
+            "year": 1980,
+            "owner": "Joel Friedly"
         }
     ]
 }

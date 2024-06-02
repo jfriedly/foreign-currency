@@ -1,36 +1,36 @@
 {
-    "long_name": "Kyrgyzstan", 
-    "inventory": [
-        {
-            "year": 1993, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "som", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "tyiyn"
-        }
-    ], 
-    "short_name": "kyrgyzstan", 
+    "short_name": "kyrgyzstan",
+    "long_name": "Kyrgyzstan",
     "denominations": [
         {
             "name": "som",
             "code": "KGS",
-            "obsolete": false,
-            "divisions": {
-                "tyiyn": {
-                    "subunit": "tyiyn", 
-                    "value": 1
-                }, 
-                "som": {
-                    "subunit": "tyiyn", 
-                    "value": 100
-                }
-            }, 
             "subunits": [
                 "som",
-                "tyiyn" 
-            ]
+                "tyiyn"
+            ],
+            "divisions": {
+                "tyiyn": {
+                    "subunit": "tyiyn",
+                    "value": 1
+                },
+                "som": {
+                    "subunit": "tyiyn",
+                    "value": 100
+                }
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "som",
+            "value": 1,
+            "subunit": "tyiyn",
+            "year": 1993,
+            "owner": "Joel Friedly"
         }
     ]
 }

@@ -1,36 +1,36 @@
 {
-    "long_name": "Panama", 
-    "inventory": [
-        {
-            "year": 2011, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "balboas", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "balboas"
-        }
-    ], 
-    "short_name": "panama", 
+    "short_name": "panama",
+    "long_name": "Panama",
     "denominations": [
         {
-            "obsolete": false, 
+            "name": "balboas",
+            "code": "PAB",
+            "subunits": [
+                "balboas",
+                "centesimos"
+            ],
             "divisions": {
                 "balboas": {
-                    "subunit": "centesimos", 
+                    "subunit": "centesimos",
                     "value": 100
-                }, 
+                },
                 "centesimos": {
-                    "subunit": "centesimos", 
+                    "subunit": "centesimos",
                     "value": 1
                 }
-            }, 
-            "code": "PAB", 
-            "name": "balboas", 
-            "subunits": [
-                "balboas", 
-                "centesimos"
-            ]
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "balboas",
+            "value": 1,
+            "subunit": "balboas",
+            "year": 2011,
+            "owner": "Joel Friedly"
         }
     ]
 }

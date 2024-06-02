@@ -1,141 +1,141 @@
 {
-    "long_name": "Australia", 
-    "inventory": [
-        {
-            "subunit": "pence", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "year": 1943, 
-            "obsolete": true, 
-            "value": 3, 
-            "denomination": "pounds"
-        }, 
-        {
-            "subunit": "pence", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1943, 
-            "obsolete": true, 
-            "value": 3, 
-            "denomination": "pounds"
-        }, 
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1973, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "dollars"
-        }, 
-        {
-            "subunit": "dollars", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 1995, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "dollars"
-        }, 
-        {
-            "subunit": "dollars", 
-            "piece_type": "coin", 
-            "owner": "Dan Faber", 
-            "year": 2008, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "dollars"
-        }, 
-        {
-            "subunit": "dollars", 
-            "piece_type": "coin", 
-            "owner": "Dan Faber", 
-            "year": 2009, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "dollars"
-        }, 
-        {
-            "subunit": "dollars", 
-            "piece_type": "coin", 
-            "owner": "Dan Faber", 
-            "year": 2006, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "dollars"
-        }, 
-        {
-            "subunit": "dollars", 
-            "piece_type": "coin", 
-            "owner": "Dan Faber", 
-            "year": 1984, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "dollars"
-        }, 
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Dan Faber", 
-            "year": 1971, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "dollars"
-        }, 
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Dan Faber", 
-            "year": 2001, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "dollars"
-        }
-    ], 
-    "short_name": "australia", 
+    "short_name": "australia",
+    "long_name": "Australia",
     "denominations": [
         {
+            "name": "dollars",
+            "code": "AUD",
+            "subunits": [
+                "dollars",
+                "cents"
+            ],
             "divisions": {
                 "cents": {
-                    "subunit": "cents", 
+                    "subunit": "cents",
                     "value": 1
-                }, 
+                },
                 "dollars": {
-                    "subunit": "cents", 
+                    "subunit": "cents",
                     "value": 100
                 }
-            }, 
-            "subunits": [
-                "dollars", 
-                "cents"
-            ], 
-            "code": "AUD", 
-            "obsolete": false, 
-            "name": "dollars"
-        }, 
+            },
+            "obsolete": false
+        },
         {
+            "name": "pounds",
+            "code": "",
+            "subunits": [
+                "pounds",
+                "shillings",
+                "pence"
+            ],
             "divisions": {
                 "pence": {
-                    "subunit": "pence", 
+                    "subunit": "pence",
                     "value": 1
-                }, 
+                },
                 "shillings": {
-                    "subunit": "pence", 
+                    "subunit": "pence",
                     "value": 12
-                }, 
+                },
                 "pounds": {
-                    "subunit": "shillings", 
+                    "subunit": "shillings",
                     "value": 20
                 }
-            }, 
-            "subunits": [
-                "pounds", 
-                "shillings", 
-                "pence"
-            ], 
-            "code": "", 
-            "obsolete": true, 
-            "name": "pounds"
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "pounds",
+            "value": 3,
+            "subunit": "pence",
+            "year": 1943,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "pounds",
+            "value": 3,
+            "subunit": "pence",
+            "year": 1943,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 5,
+            "subunit": "cents",
+            "year": 1973,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 5,
+            "subunit": "dollars",
+            "year": 1995,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 1,
+            "subunit": "dollars",
+            "year": 2008,
+            "owner": "Dan Faber"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 1,
+            "subunit": "dollars",
+            "year": 2009,
+            "owner": "Dan Faber"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 1,
+            "subunit": "dollars",
+            "year": 2006,
+            "owner": "Dan Faber"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 1,
+            "subunit": "dollars",
+            "year": 1984,
+            "owner": "Dan Faber"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 5,
+            "subunit": "cents",
+            "year": 1971,
+            "owner": "Dan Faber"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 10,
+            "subunit": "cents",
+            "year": 2001,
+            "owner": "Dan Faber"
         }
     ]
 }

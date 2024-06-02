@@ -1,36 +1,36 @@
 {
-    "long_name": "Slovenia", 
-    "inventory": [
-        {
-            "year": 1991, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "tolars", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "tolars"
-        }
-    ], 
-    "short_name": "slovenia", 
+    "short_name": "slovenia",
+    "long_name": "Slovenia",
     "denominations": [
         {
-            "obsolete": true, 
+            "name": "tolars",
+            "code": "SIT",
+            "subunits": [
+                "tolars",
+                "stotins"
+            ],
             "divisions": {
                 "tolars": {
-                    "subunit": "stotins", 
+                    "subunit": "stotins",
                     "value": 100
-                }, 
+                },
                 "stotins": {
-                    "subunit": "stotins", 
+                    "subunit": "stotins",
                     "value": 1
                 }
-            }, 
-            "code": "SIT", 
-            "name": "tolars", 
-            "subunits": [
-                "tolars", 
-                "stotins"
-            ]
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "bill",
+            "obsolete": true,
+            "denomination": "tolars",
+            "value": 1,
+            "subunit": "tolars",
+            "year": 1991,
+            "owner": "Joel Friedly"
         }
     ]
 }

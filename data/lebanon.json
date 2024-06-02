@@ -1,36 +1,36 @@
 {
-    "long_name": "Lebanon", 
-    "inventory": [
-        {
-            "subunit": "piastres", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1966, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "pounds"
-        }
-    ], 
-    "short_name": "lebanon", 
+    "short_name": "lebanon",
+    "long_name": "Lebanon",
     "denominations": [
         {
+            "name": "pounds",
+            "code": "LBP",
+            "subunits": [
+                "pounds",
+                "piastres"
+            ],
             "divisions": {
                 "piastres": {
-                    "subunit": "piastres", 
+                    "subunit": "piastres",
                     "value": 1
-                }, 
+                },
                 "pounds": {
-                    "subunit": "piastres", 
+                    "subunit": "piastres",
                     "value": 100
                 }
-            }, 
-            "subunits": [
-                "pounds", 
-                "piastres"
-            ], 
-            "code": "LBP", 
-            "obsolete": false, 
-            "name": "pounds"
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "pounds",
+            "value": 1,
+            "subunit": "piastres",
+            "year": 1966,
+            "owner": "Joel Friedly"
         }
     ]
 }

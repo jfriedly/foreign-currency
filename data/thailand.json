@@ -1,36 +1,36 @@
 {
-    "long_name": "Thailand", 
-    "inventory": [
-        {
-            "subunit": "baht", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1986, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "baht"
-        }
-    ], 
-    "short_name": "thailand", 
+    "short_name": "thailand",
+    "long_name": "Thailand",
     "denominations": [
         {
+            "name": "baht",
+            "code": "THB",
+            "subunits": [
+                "baht",
+                "satang"
+            ],
             "divisions": {
                 "satang": {
-                    "subunit": "satang", 
+                    "subunit": "satang",
                     "value": 1
-                }, 
+                },
                 "baht": {
-                    "subunit": "satang", 
+                    "subunit": "satang",
                     "value": 100
                 }
-            }, 
-            "subunits": [
-                "baht", 
-                "satang"
-            ], 
-            "code": "THB", 
-            "obsolete": false, 
-            "name": "baht"
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "baht",
+            "value": 1,
+            "subunit": "baht",
+            "year": 1986,
+            "owner": "Joel Friedly"
         }
     ]
 }

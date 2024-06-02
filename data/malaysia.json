@@ -1,54 +1,54 @@
 {
-    "long_name": "Malaysia", 
-    "inventory": [
-        {
-            "year": 1991, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "ringgit", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "ringgit"
-        }, 
-        {
-            "year": 1988, 
-            "obsolete": false, 
-            "value": 20, 
-            "denomination": "ringgit", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "sen"
-        }, 
-        {
-            "year": 2000, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "ringgit", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "ringgit"
-        }
-    ], 
-    "short_name": "malaysia", 
+    "short_name": "malaysia",
+    "long_name": "Malaysia",
     "denominations": [
         {
             "name": "ringgit",
             "code": "",
-            "obsolete": false,
+            "subunits": [
+                "ringgit",
+                "sen"
+            ],
             "divisions": {
                 "ringgit": {
-                    "subunit": "sen", 
+                    "subunit": "sen",
                     "value": 100
-                }, 
+                },
                 "sen": {
-                    "subunit": "sen", 
+                    "subunit": "sen",
                     "value": 1
                 }
-            }, 
-            "subunits": [
-                "ringgit", 
-                "sen"
-            ]
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "ringgit",
+            "value": 1,
+            "subunit": "ringgit",
+            "year": 1991,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "ringgit",
+            "value": 20,
+            "subunit": "sen",
+            "year": 1988,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "ringgit",
+            "value": 1,
+            "subunit": "ringgit",
+            "year": 2000,
+            "owner": "Joel Friedly"
         }
     ]
 }

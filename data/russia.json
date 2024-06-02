@@ -1,81 +1,81 @@
 {
-    "long_name": "Russian Federation", 
-    "inventory": [
-        {
-            "subunit": "rubles", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 1998, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "new rubles"
-        }, 
-        {
-            "subunit": "rubles", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2005, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "new rubles"
-        }, 
-        {
-            "subunit": "kopeks", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2005, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "new rubles"
-        }, 
-        {
-            "subunit": "rubles", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 1997, 
-            "obsolete": false, 
-            "value": 50, 
-            "denomination": "new rubles"
-        }, 
-        {
-            "subunit": "rubles", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1997, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "new rubles"
-        }, 
-        {
-            "subunit": "rubles", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2016, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "new rubles"
-        }
-    ], 
-    "short_name": "russia", 
+    "short_name": "russia",
+    "long_name": "Russian Federation",
     "denominations": [
         {
+            "name": "new rubles",
+            "code": "RUB",
+            "subunits": [
+                "rubles",
+                "kopeks"
+            ],
             "divisions": {
                 "rubles": {
-                    "subunit": "kopeks", 
+                    "subunit": "kopeks",
                     "value": 100
-                }, 
+                },
                 "kopeks": {
-                    "subunit": "kopeks", 
+                    "subunit": "kopeks",
                     "value": 1
                 }
-            }, 
-            "subunits": [
-                "rubles", 
-                "kopeks"
-            ], 
-            "code": "RUB", 
-            "obsolete": false, 
-            "name": "new rubles"
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "new rubles",
+            "value": 10,
+            "subunit": "rubles",
+            "year": 1998,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "new rubles",
+            "value": 1,
+            "subunit": "rubles",
+            "year": 2005,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "new rubles",
+            "value": 10,
+            "subunit": "kopeks",
+            "year": 2005,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "new rubles",
+            "value": 50,
+            "subunit": "rubles",
+            "year": 1997,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "new rubles",
+            "value": 5,
+            "subunit": "rubles",
+            "year": 1997,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "new rubles",
+            "value": 10,
+            "subunit": "rubles",
+            "year": 2016,
+            "owner": "Joel Friedly"
         }
     ]
 }

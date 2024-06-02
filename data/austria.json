@@ -1,45 +1,45 @@
 {
-    "long_name": "Austria", 
-    "inventory": [
-        {
-            "year": 1960, 
-            "obsolete": true, 
-            "value": 50, 
-            "denomination": "schilling", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "groschen"
-        }, 
-        {
-            "year": 1972, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "schilling", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "schilling"
-        }
-    ], 
-    "short_name": "austria", 
+    "short_name": "austria",
+    "long_name": "Austria",
     "denominations": [
         {
             "name": "schilling",
             "code": "ATS",
-            "obsolete": true,
+            "subunits": [
+                "schilling",
+                "groschen"
+            ],
             "divisions": {
                 "schilling": {
-                    "subunit": "groschen", 
+                    "subunit": "groschen",
                     "value": 100
-                }, 
+                },
                 "groschen": {
-                    "subunit": "groschen", 
+                    "subunit": "groschen",
                     "value": 1
                 }
-            }, 
-            "subunits": [
-                "schilling", 
-                "groschen"
-            ]
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "schilling",
+            "value": 50,
+            "subunit": "groschen",
+            "year": 1960,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "schilling",
+            "value": 5,
+            "subunit": "schilling",
+            "year": 1972,
+            "owner": "Joel Friedly"
         }
     ]
 }

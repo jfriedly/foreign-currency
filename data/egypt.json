@@ -1,50 +1,50 @@
 {
-    "long_name": "Egypt", 
-    "inventory": [
-        {
-            "subunit": "milliemes", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1966, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "pounds"
-        }, 
-        {
-            "subunit": "milliemes", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1972, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "pounds"
-        }
-    ], 
-    "short_name": "egypt", 
+    "short_name": "egypt",
+    "long_name": "Egypt",
     "denominations": [
         {
+            "name": "pounds",
+            "code": "EGP",
+            "subunits": [
+                "pounds",
+                "piastres",
+                "milliemes"
+            ],
             "divisions": {
                 "milliemes": {
-                    "subunit": "milliemes", 
+                    "subunit": "milliemes",
                     "value": 1
-                }, 
+                },
                 "pounds": {
-                    "subunit": "piastres", 
+                    "subunit": "piastres",
                     "value": 100
-                }, 
+                },
                 "piastres": {
-                    "subunit": "milliemes", 
+                    "subunit": "milliemes",
                     "value": 10
                 }
-            }, 
-            "subunits": [
-                "pounds", 
-                "piastres", 
-                "milliemes"
-            ], 
-            "code": "EGP", 
-            "obsolete": false, 
-            "name": "pounds"
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "pounds",
+            "value": 1,
+            "subunit": "milliemes",
+            "year": 1966,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "pounds",
+            "value": 1,
+            "subunit": "milliemes",
+            "year": 1972,
+            "owner": "Joel Friedly"
         }
     ]
 }

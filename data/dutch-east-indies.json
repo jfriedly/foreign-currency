@@ -1,45 +1,45 @@
 {
-    "long_name": "Dutch East Indies", 
-    "inventory": [
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1941, 
-            "obsolete": true, 
-            "value": 25, 
-            "denomination": "gulden"
-        }, 
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1942, 
-            "obsolete": true, 
-            "value": 10, 
-            "denomination": "gulden"
-        }
-    ], 
-    "short_name": "dutch-east-indies", 
+    "short_name": "dutch-east-indies",
+    "long_name": "Dutch East Indies",
     "denominations": [
         {
+            "name": "gulden",
+            "code": "",
+            "subunits": [
+                "gulden",
+                "cents"
+            ],
             "divisions": {
                 "cents": {
-                    "subunit": "cents", 
+                    "subunit": "cents",
                     "value": 1
-                }, 
+                },
                 "gulden": {
-                    "subunit": "cents", 
+                    "subunit": "cents",
                     "value": 100
                 }
-            }, 
-            "subunits": [
-                "gulden", 
-                "cents"
-            ], 
-            "code": "", 
-            "obsolete": true, 
-            "name": "gulden"
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "gulden",
+            "value": 25,
+            "subunit": "cents",
+            "year": 1941,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "gulden",
+            "value": 10,
+            "subunit": "cents",
+            "year": 1942,
+            "owner": "Joel Friedly"
         }
     ]
 }

@@ -1,45 +1,45 @@
 {
-    "long_name": "Italy", 
-    "inventory": [
-        {
-            "year": 1984, 
-            "obsolete": true, 
-            "value": 10000, 
-            "denomination": "lire", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "lire"
-        }, 
-        {
-            "year": 1970, 
-            "obsolete": true, 
-            "value": 50, 
-            "denomination": "lire", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "lire"
-        }
-    ], 
-    "short_name": "italy", 
+    "short_name": "italy",
+    "long_name": "Italy",
     "denominations": [
         {
             "name": "lire",
             "code": "ITL",
-            "obsolete": true,
-            "divisions": {
-                "centesimi": {
-                    "subunit": "centesimi", 
-                    "value": 1
-                }, 
-                "lire": {
-                    "subunit": "centesimi", 
-                    "value": 100
-                }
-            }, 
             "subunits": [
                 "lire",
                 "centesimi"
-            ]
+            ],
+            "divisions": {
+                "centesimi": {
+                    "subunit": "centesimi",
+                    "value": 1
+                },
+                "lire": {
+                    "subunit": "centesimi",
+                    "value": 100
+                }
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "bill",
+            "obsolete": true,
+            "denomination": "lire",
+            "value": 10000,
+            "subunit": "lire",
+            "year": 1984,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "lire",
+            "value": 50,
+            "subunit": "lire",
+            "year": 1970,
+            "owner": "Joel Friedly"
         }
     ]
 }

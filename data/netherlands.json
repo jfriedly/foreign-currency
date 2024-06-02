@@ -1,45 +1,45 @@
 {
-    "long_name": "Netherlands", 
-    "inventory": [
-        {
-            "year": 1948, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "guilders", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "cents"
-        }, 
-        {
-            "year": 1951, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "guilders", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "cents"
-        }
-    ], 
-    "short_name": "netherlands", 
+    "short_name": "netherlands",
+    "long_name": "Netherlands",
     "denominations": [
         {
-            "obsolete": true, 
-            "divisions": {
-                "cents": {
-                    "subunit": "cents", 
-                    "value": 1
-                }, 
-                "guilders": {
-                    "subunit": "cents", 
-                    "value": 100
-                }
-            }, 
-            "code": "NLG", 
-            "name": "guilders", 
+            "name": "guilders",
+            "code": "NLG",
             "subunits": [
                 "guilders",
                 "cents"
-            ]
+            ],
+            "divisions": {
+                "cents": {
+                    "subunit": "cents",
+                    "value": 1
+                },
+                "guilders": {
+                    "subunit": "cents",
+                    "value": 100
+                }
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "guilders",
+            "value": 1,
+            "subunit": "cents",
+            "year": 1948,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "guilders",
+            "value": 5,
+            "subunit": "cents",
+            "year": 1951,
+            "owner": "Joel Friedly"
         }
     ]
 }

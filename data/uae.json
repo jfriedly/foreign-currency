@@ -1,63 +1,63 @@
 {
-    "long_name": "United Arab Emirates", 
-    "inventory": [
-        {
-            "subunit": "dirhams", 
-            "piece_type": "bill", 
-            "owner": "Dan Faber", 
-            "year": 2006, 
-            "obsolete": false, 
-            "value": 50, 
-            "denomination": "dirhams"
-        }, 
-        {
-            "subunit": "dirhams", 
-            "piece_type": "bill", 
-            "owner": "Dan Faber", 
-            "year": 2007, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "dirhams"
-        }, 
-        {
-            "subunit": "dirhams", 
-            "piece_type": "bill", 
-            "owner": "Dan Faber", 
-            "year": 2001, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "dirhams"
-        }, 
-        {
-            "subunit": "dirhams", 
-            "piece_type": "bill", 
-            "owner": "Dan Faber", 
-            "year": 2009, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "dirhams"
-        }
-    ], 
-    "short_name": "uae", 
+    "short_name": "uae",
+    "long_name": "United Arab Emirates",
     "denominations": [
         {
+            "name": "dirhams",
+            "code": "AED",
+            "subunits": [
+                "dirhams",
+                "fils"
+            ],
             "divisions": {
                 "fils": {
-                    "subunit": "fils", 
+                    "subunit": "fils",
                     "value": 1
-                }, 
+                },
                 "dirhams": {
-                    "subunit": "fils", 
+                    "subunit": "fils",
                     "value": 100
                 }
-            }, 
-            "subunits": [
-                "dirhams", 
-                "fils"
-            ], 
-            "code": "AED", 
-            "obsolete": false, 
-            "name": "dirhams"
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "dirhams",
+            "value": 50,
+            "subunit": "dirhams",
+            "year": 2006,
+            "owner": "Dan Faber"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "dirhams",
+            "value": 10,
+            "subunit": "dirhams",
+            "year": 2007,
+            "owner": "Dan Faber"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "dirhams",
+            "value": 10,
+            "subunit": "dirhams",
+            "year": 2001,
+            "owner": "Dan Faber"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "dirhams",
+            "value": 5,
+            "subunit": "dirhams",
+            "year": 2009,
+            "owner": "Dan Faber"
         }
     ]
 }

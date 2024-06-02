@@ -1,36 +1,36 @@
 {
-    "long_name": "Finland", 
-    "inventory": [
-        {
-            "year": 1990, 
-            "obsolete": true, 
-            "value": 10, 
-            "denomination": "markkaa", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pennia"
-        }
-    ], 
-    "short_name": "finland", 
+    "short_name": "finland",
+    "long_name": "Finland",
     "denominations": [
         {
             "name": "markkaa",
             "code": "FIM",
-            "obsolete": true,
-            "divisions": {
-                "pennia": {
-                    "subunit": "pennia", 
-                    "value": 1
-                }, 
-                "markkaa": {
-                    "subunit": "pennia", 
-                    "value": 100
-                }
-            }, 
             "subunits": [
                 "markkaa",
                 "pennia"
-            ]
+            ],
+            "divisions": {
+                "pennia": {
+                    "subunit": "pennia",
+                    "value": 1
+                },
+                "markkaa": {
+                    "subunit": "pennia",
+                    "value": 100
+                }
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "markkaa",
+            "value": 10,
+            "subunit": "pennia",
+            "year": 1990,
+            "owner": "Joel Friedly"
         }
     ]
 }

@@ -1,72 +1,72 @@
 {
-    "long_name": "India", 
-    "inventory": [
-        {
-            "subunit": "rupees", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 0, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "rupees"
-        }, 
-        {
-            "subunit": "paise", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1972, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "rupees"
-        }, 
-        {
-            "subunit": "paise", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2000, 
-            "obsolete": true, 
-            "value": 25, 
-            "denomination": "rupees"
-        }, 
-        {
-            "subunit": "rupees", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 2018, 
-            "obsolete": false, 
-            "value": 50, 
-            "denomination": "rupees"
-        }, 
-        {
-            "subunit": "rupees", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 2019, 
-            "obsolete": false, 
-            "value": 100, 
-            "denomination": "rupees"
-        }
-    ], 
-    "short_name": "india", 
+    "short_name": "india",
+    "long_name": "India",
     "denominations": [
         {
+            "name": "rupees",
+            "code": "INR",
+            "subunits": [
+                "rupees",
+                "paise"
+            ],
             "divisions": {
                 "rupees": {
-                    "subunit": "paise", 
+                    "subunit": "paise",
                     "value": 100
-                }, 
+                },
                 "paise": {
-                    "subunit": "paise", 
+                    "subunit": "paise",
                     "value": 1
                 }
-            }, 
-            "subunits": [
-                "rupees", 
-                "paise"
-            ], 
-            "code": "INR", 
-            "obsolete": false, 
-            "name": "rupees"
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "rupees",
+            "value": 10,
+            "subunit": "rupees",
+            "year": 0,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "rupees",
+            "value": 1,
+            "subunit": "paise",
+            "year": 1972,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "rupees",
+            "value": 25,
+            "subunit": "paise",
+            "year": 2000,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "rupees",
+            "value": 50,
+            "subunit": "rupees",
+            "year": 2018,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "rupees",
+            "value": 100,
+            "subunit": "rupees",
+            "year": 2019,
+            "owner": "Joel Friedly"
         }
     ]
 }

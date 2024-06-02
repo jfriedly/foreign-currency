@@ -1,63 +1,63 @@
 {
-    "long_name": "Trinidad and Tobago", 
-    "inventory": [
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "dollars", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "dollars"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "dollars", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "dollars"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "dollars", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "dollars"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 20, 
-            "denomination": "dollars", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "dollars"
-        }
-    ], 
-    "short_name": "trinidad-and-tobago", 
+    "short_name": "trinidad-and-tobago",
+    "long_name": "Trinidad and Tobago",
     "denominations": [
         {
-            "obsolete": false, 
-            "divisions": {
-                "cents": {
-                    "subunit": "cents", 
-                    "value": 1
-                }, 
-                "dollars": {
-                    "subunit": "cents", 
-                    "value": 100
-                }
-            }, 
-            "code": "TTD", 
-            "name": "dollars", 
+            "name": "dollars",
+            "code": "TTD",
             "subunits": [
                 "dollars",
                 "cents"
-            ]
+            ],
+            "divisions": {
+                "cents": {
+                    "subunit": "cents",
+                    "value": 1
+                },
+                "dollars": {
+                    "subunit": "cents",
+                    "value": 100
+                }
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 1,
+            "subunit": "dollars",
+            "year": 0,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 5,
+            "subunit": "dollars",
+            "year": 0,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 10,
+            "subunit": "dollars",
+            "year": 0,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 20,
+            "subunit": "dollars",
+            "year": 0,
+            "owner": "Joel Friedly"
         }
     ]
 }

@@ -1,109 +1,109 @@
 {
-    "long_name": "Indonesia", 
-    "inventory": [
-        {
-            "subunit": "sen", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 1964, 
-            "obsolete": true, 
-            "value": 25, 
-            "denomination": "old rupiah"
-        }, 
-        {
-            "subunit": "rupiah", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 2011, 
-            "obsolete": false, 
-            "value": 1000, 
-            "denomination": "new rupiah"
-        }, 
-        {
-            "subunit": "rupiah", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 2012, 
-            "obsolete": false, 
-            "value": 2000, 
-            "denomination": "new rupiah"
-        }, 
-        {
-            "subunit": "rupiah", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 2013, 
-            "obsolete": false, 
-            "value": 5000, 
-            "denomination": "new rupiah"
-        }, 
-        {
-            "subunit": "rupiah", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 2012, 
-            "obsolete": false, 
-            "value": 10000, 
-            "denomination": "new rupiah"
-        }, 
-        {
-            "subunit": "rupiah", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 2012, 
-            "obsolete": false, 
-            "value": 20000, 
-            "denomination": "new rupiah"
-        }, 
-        {
-            "subunit": "rupiah", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 2011, 
-            "obsolete": false, 
-            "value": 100000, 
-            "denomination": "new rupiah"
-        }
-    ], 
-    "short_name": "indonesia", 
+    "short_name": "indonesia",
+    "long_name": "Indonesia",
     "denominations": [
         {
+            "name": "new rupiah",
+            "code": "IDR",
+            "subunits": [
+                "rupiah",
+                "sen"
+            ],
             "divisions": {
                 "sen": {
-                    "subunit": "sen", 
+                    "subunit": "sen",
                     "value": 1
-                }, 
+                },
                 "rupiah": {
-                    "subunit": "sen", 
+                    "subunit": "sen",
                     "value": 100
                 }
-            }, 
-            "subunits": [
-                "rupiah", 
-                "sen"
-            ], 
-            "code": "IDR", 
-            "obsolete": false, 
-            "name": "new rupiah"
-        }, 
+            },
+            "obsolete": false
+        },
         {
+            "name": "old rupiah",
+            "code": "IDR",
+            "subunits": [
+                "rupiah",
+                "sen"
+            ],
             "divisions": {
                 "sen": {
-                    "subunit": "sen", 
+                    "subunit": "sen",
                     "value": 1
-                }, 
+                },
                 "rupiah": {
-                    "subunit": "sen", 
+                    "subunit": "sen",
                     "value": 100
                 }
-            }, 
-            "subunits": [
-                "rupiah", 
-                "sen"
-            ], 
-            "code": "IDR", 
-            "obsolete": true, 
-            "name": "old rupiah"
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "bill",
+            "obsolete": true,
+            "denomination": "old rupiah",
+            "value": 25,
+            "subunit": "sen",
+            "year": 1964,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "new rupiah",
+            "value": 1000,
+            "subunit": "rupiah",
+            "year": 2011,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "new rupiah",
+            "value": 2000,
+            "subunit": "rupiah",
+            "year": 2012,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "new rupiah",
+            "value": 5000,
+            "subunit": "rupiah",
+            "year": 2013,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "new rupiah",
+            "value": 10000,
+            "subunit": "rupiah",
+            "year": 2012,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "new rupiah",
+            "value": 20000,
+            "subunit": "rupiah",
+            "year": 2012,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "new rupiah",
+            "value": 100000,
+            "subunit": "rupiah",
+            "year": 2011,
+            "owner": "Joel Friedly"
         }
     ]
 }

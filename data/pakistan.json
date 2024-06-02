@@ -1,74 +1,74 @@
 {
-    "long_name": "Pakistan", 
-    "inventory": [
-        {
-            "year": 1948, 
-            "obsolete": true, 
-            "value": 4, 
-            "denomination": "old rupees", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "annas"
-        }, 
-        {
-            "year": 1951, 
-            "obsolete": true, 
-            "value": 2, 
-            "denomination": "old rupees", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pice"
-        }
-    ], 
-    "short_name": "pakistan", 
+    "short_name": "pakistan",
+    "long_name": "Pakistan",
     "denominations": [
         {
             "name": "new rupees",
             "code": "PKR",
-            "obsolete": false,
+            "subunits": [
+                "rupees",
+                "paise"
+            ],
             "divisions": {
                 "rupees": {
-                    "subunit": "paise", 
+                    "subunit": "paise",
                     "value": 100
-                }, 
+                },
                 "paise": {
-                    "subunit": "paise", 
+                    "subunit": "paise",
                     "value": 1
                 }
-            }, 
-            "subunits": [
-                "rupees", 
-                "paise"
-            ]
+            },
+            "obsolete": false
         },
         {
-            "obsolete": true, 
+            "name": "old rupees",
+            "code": "",
+            "subunits": [
+                "rupees",
+                "annas",
+                "pice",
+                "pie"
+            ],
             "divisions": {
                 "annas": {
-                    "subunit": "pice", 
+                    "subunit": "pice",
                     "value": 4
-                }, 
+                },
                 "pice": {
-                    "subunit": "pie", 
+                    "subunit": "pie",
                     "value": 3
-                }, 
+                },
                 "rupees": {
-                    "subunit": "annas", 
+                    "subunit": "annas",
                     "value": 16
-                }, 
+                },
                 "pie": {
-                    "subunit": "pie", 
+                    "subunit": "pie",
                     "value": 1
                 }
-            }, 
-            "code": "", 
-            "name": "old rupees", 
-            "subunits": [
-                "rupees", 
-                "annas", 
-                "pice", 
-                "pie"
-            ]
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old rupees",
+            "value": 4,
+            "subunit": "annas",
+            "year": 1948,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old rupees",
+            "value": 2,
+            "subunit": "pice",
+            "year": 1951,
+            "owner": "Joel Friedly"
         }
     ]
 }

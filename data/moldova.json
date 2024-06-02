@@ -1,36 +1,36 @@
 {
-    "long_name": "Moldova", 
-    "inventory": [
-        {
-            "subunit": "bani", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2005, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "lei"
-        }
-    ], 
-    "short_name": "moldova", 
+    "short_name": "moldova",
+    "long_name": "Moldova",
     "denominations": [
         {
+            "name": "lei",
+            "code": "MDL",
+            "subunits": [
+                "lei",
+                "bani"
+            ],
             "divisions": {
                 "lei": {
-                    "subunit": "bani", 
+                    "subunit": "bani",
                     "value": 100
-                }, 
+                },
                 "bani": {
-                    "subunit": "bani", 
+                    "subunit": "bani",
                     "value": 1
                 }
-            }, 
-            "subunits": [
-                "lei", 
-                "bani"
-            ], 
-            "code": "MDL", 
-            "obsolete": false, 
-            "name": "lei"
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "lei",
+            "value": 10,
+            "subunit": "bani",
+            "year": 2005,
+            "owner": "Joel Friedly"
         }
     ]
 }

@@ -1,361 +1,361 @@
 {
-    "long_name": "Mexico", 
-    "inventory": [
-        {
-            "subunit": "pesos", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 1943, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1936, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1936, 
-            "obsolete": true, 
-            "value": 10, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1937, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1937, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1939, 
-            "obsolete": true, 
-            "value": 2, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1939, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1939, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1942, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1942, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1944, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1944, 
-            "obsolete": true, 
-            "value": 50, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1944, 
-            "obsolete": true, 
-            "value": 50, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1968, 
-            "obsolete": true, 
-            "value": 25, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1971, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1971, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1974, 
-            "obsolete": true, 
-            "value": 10, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1979, 
-            "obsolete": true, 
-            "value": 10, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1981, 
-            "obsolete": true, 
-            "value": 10, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1981, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1977, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1978, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "old pesos"
-        }, 
-        {
-            "subunit": "pesos", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 2003, 
-            "obsolete": false, 
-            "value": 20, 
-            "denomination": "neuvo pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2007, 
-            "obsolete": false, 
-            "value": 50, 
-            "denomination": "neuvo pesos"
-        }, 
-        {
-            "subunit": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2004, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "neuvo pesos"
-        }, 
-        {
-            "subunit": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2008, 
-            "obsolete": false, 
-            "value": 2, 
-            "denomination": "neuvo pesos"
-        }, 
-        {
-            "subunit": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1998, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "neuvo pesos"
-        }, 
-        {
-            "subunit": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2008, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "neuvo pesos"
-        }, 
-        {
-            "subunit": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2014, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "neuvo pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2010, 
-            "obsolete": false, 
-            "value": 50, 
-            "denomination": "neuvo pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2001, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "neuvo pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2014, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "neuvo pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2012, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "neuvo pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2013, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "neuvo pesos"
-        }, 
-        {
-            "subunit": "centavos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2013, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "neuvo pesos"
-        }
-    ], 
-    "short_name": "mexico", 
+    "short_name": "mexico",
+    "long_name": "Mexico",
     "denominations": [
         {
+            "name": "neuvo pesos",
+            "code": "MXN",
+            "subunits": [
+                "pesos",
+                "centavos"
+            ],
             "divisions": {
                 "centavos": {
-                    "subunit": "centavos", 
+                    "subunit": "centavos",
                     "value": 1
-                }, 
+                },
                 "pesos": {
-                    "subunit": "centavos", 
+                    "subunit": "centavos",
                     "value": 100
                 }
-            }, 
-            "subunits": [
-                "pesos", 
-                "centavos"
-            ], 
-            "code": "MXN", 
-            "obsolete": false, 
-            "name": "neuvo pesos"
-        }, 
+            },
+            "obsolete": false
+        },
         {
+            "name": "old pesos",
+            "code": "MXP",
+            "subunits": [
+                "pesos",
+                "centavos"
+            ],
             "divisions": {
                 "centavos": {
-                    "subunit": "centavos", 
+                    "subunit": "centavos",
                     "value": 1
-                }, 
+                },
                 "pesos": {
-                    "subunit": "centavos", 
+                    "subunit": "centavos",
                     "value": 100
                 }
-            }, 
-            "subunits": [
-                "pesos", 
-                "centavos"
-            ], 
-            "code": "MXP", 
-            "obsolete": true, 
-            "name": "old pesos"
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "bill",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 1,
+            "subunit": "pesos",
+            "year": 1943,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 5,
+            "subunit": "centavos",
+            "year": 1936,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 10,
+            "subunit": "centavos",
+            "year": 1936,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 5,
+            "subunit": "centavos",
+            "year": 1937,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 5,
+            "subunit": "centavos",
+            "year": 1937,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 2,
+            "subunit": "centavos",
+            "year": 1939,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 1,
+            "subunit": "centavos",
+            "year": 1939,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 1,
+            "subunit": "centavos",
+            "year": 1939,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 1,
+            "subunit": "centavos",
+            "year": 1942,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 1,
+            "subunit": "centavos",
+            "year": 1942,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 5,
+            "subunit": "centavos",
+            "year": 1944,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 50,
+            "subunit": "centavos",
+            "year": 1944,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 50,
+            "subunit": "centavos",
+            "year": 1944,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 25,
+            "subunit": "pesos",
+            "year": 1968,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 1,
+            "subunit": "pesos",
+            "year": 1971,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 1,
+            "subunit": "pesos",
+            "year": 1971,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 10,
+            "subunit": "pesos",
+            "year": 1974,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 10,
+            "subunit": "pesos",
+            "year": 1979,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 10,
+            "subunit": "pesos",
+            "year": 1981,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 5,
+            "subunit": "pesos",
+            "year": 1981,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 1,
+            "subunit": "pesos",
+            "year": 1977,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old pesos",
+            "value": 1,
+            "subunit": "pesos",
+            "year": 1978,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "neuvo pesos",
+            "value": 20,
+            "subunit": "pesos",
+            "year": 2003,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "neuvo pesos",
+            "value": 50,
+            "subunit": "centavos",
+            "year": 2007,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "neuvo pesos",
+            "value": 5,
+            "subunit": "pesos",
+            "year": 2004,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "neuvo pesos",
+            "value": 2,
+            "subunit": "pesos",
+            "year": 2008,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "neuvo pesos",
+            "value": 1,
+            "subunit": "pesos",
+            "year": 1998,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "neuvo pesos",
+            "value": 1,
+            "subunit": "pesos",
+            "year": 2008,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "neuvo pesos",
+            "value": 1,
+            "subunit": "pesos",
+            "year": 2014,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "neuvo pesos",
+            "value": 50,
+            "subunit": "centavos",
+            "year": 2010,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "neuvo pesos",
+            "value": 10,
+            "subunit": "centavos",
+            "year": 2001,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "neuvo pesos",
+            "value": 10,
+            "subunit": "centavos",
+            "year": 2014,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "neuvo pesos",
+            "value": 10,
+            "subunit": "centavos",
+            "year": 2012,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "neuvo pesos",
+            "value": 10,
+            "subunit": "centavos",
+            "year": 2013,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "neuvo pesos",
+            "value": 10,
+            "subunit": "centavos",
+            "year": 2013,
+            "owner": "Joel Friedly"
         }
     ]
 }

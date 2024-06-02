@@ -1,189 +1,189 @@
 {
-    "long_name": "South Africa", 
-    "inventory": [
-        {
-            "subunit": "rand", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2009, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "rand", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1989, 
-            "obsolete": false, 
-            "value": 2, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "rand", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1991, 
-            "obsolete": false, 
-            "value": 2, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "rand", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2002, 
-            "obsolete": false, 
-            "value": 2, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "rand", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2008, 
-            "obsolete": false, 
-            "value": 2, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "rand", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2008, 
-            "obsolete": false, 
-            "value": 2, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "rand", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2009, 
-            "obsolete": false, 
-            "value": 2, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "rand", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2008, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "rand", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2005, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "rand", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1991, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2008, 
-            "obsolete": false, 
-            "value": 50, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2007, 
-            "obsolete": false, 
-            "value": 50, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2008, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2006, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2011, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2003, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "rand", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2005, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "rand"
-        }, 
-        {
-            "subunit": "rand", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2009, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "rand"
-        }
-    ], 
-    "short_name": "south-africa", 
+    "short_name": "south-africa",
+    "long_name": "South Africa",
     "denominations": [
         {
+            "name": "rand",
+            "code": "ZAR",
+            "subunits": [
+                "rand",
+                "cents"
+            ],
             "divisions": {
                 "cents": {
-                    "subunit": "cents", 
+                    "subunit": "cents",
                     "value": 1
-                }, 
+                },
                 "rand": {
-                    "subunit": "cents", 
+                    "subunit": "cents",
                     "value": 100
                 }
-            }, 
-            "subunits": [
-                "rand", 
-                "cents"
-            ], 
-            "code": "ZAR", 
-            "obsolete": false, 
-            "name": "rand"
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 5,
+            "subunit": "rand",
+            "year": 2009,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 2,
+            "subunit": "rand",
+            "year": 1989,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 2,
+            "subunit": "rand",
+            "year": 1991,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 2,
+            "subunit": "rand",
+            "year": 2002,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 2,
+            "subunit": "rand",
+            "year": 2008,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 2,
+            "subunit": "rand",
+            "year": 2008,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 2,
+            "subunit": "rand",
+            "year": 2009,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 1,
+            "subunit": "rand",
+            "year": 2008,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 1,
+            "subunit": "rand",
+            "year": 2005,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 1,
+            "subunit": "rand",
+            "year": 1991,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 50,
+            "subunit": "cents",
+            "year": 2008,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 50,
+            "subunit": "cents",
+            "year": 2007,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 10,
+            "subunit": "cents",
+            "year": 2008,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 10,
+            "subunit": "cents",
+            "year": 2006,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 5,
+            "subunit": "cents",
+            "year": 2011,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 5,
+            "subunit": "cents",
+            "year": 2003,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 5,
+            "subunit": "rand",
+            "year": 2005,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "rand",
+            "value": 1,
+            "subunit": "rand",
+            "year": 2009,
+            "owner": "Joel Friedly"
         }
     ]
 }

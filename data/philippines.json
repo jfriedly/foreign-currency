@@ -1,91 +1,91 @@
 {
-    "long_name": "Philippines", 
-    "inventory": [
-        {
-            "year": 1942, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "japanese occupation pesos", 
-            "piece_type": "bill", 
-            "owner": "Kay Friedly", 
-            "subunit": "centavos"
-        }, 
-        {
-            "year": 1943, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "japanese occupation pesos", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "pesos"
-        }, 
-        {
-            "year": 1949, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "pesos", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "centavos"
-        }, 
-        {
-            "year": 1997, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "pesos", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "pesos"
-        }, 
-        {
-            "year": 2014, 
-            "obsolete": false, 
-            "value": 20, 
-            "denomination": "pesos", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "pesos"
-        }
-    ], 
-    "short_name": "philippines", 
+    "short_name": "philippines",
+    "long_name": "Philippines",
     "denominations": [
         {
-            "obsolete": false, 
-            "divisions": {
-                "centavos": {
-                    "subunit": "centavos", 
-                    "value": 1
-                }, 
-                "pesos": {
-                    "subunit": "centavos", 
-                    "value": 100
-                }
-            }, 
-            "code": "PHP", 
-            "name": "pesos", 
+            "name": "pesos",
+            "code": "PHP",
             "subunits": [
                 "pesos",
-                "centavos" 
-            ]
+                "centavos"
+            ],
+            "divisions": {
+                "centavos": {
+                    "subunit": "centavos",
+                    "value": 1
+                },
+                "pesos": {
+                    "subunit": "centavos",
+                    "value": 100
+                }
+            },
+            "obsolete": false
         },
         {
-            "obsolete": true, 
-            "divisions": {
-                "centavos": {
-                    "subunit": "centavos", 
-                    "value": 1
-                }, 
-                "pesos": {
-                    "subunit": "centavos", 
-                    "value": 100
-                }
-            }, 
-            "code": "", 
-            "name": "japanese occupation pesos", 
+            "name": "japanese occupation pesos",
+            "code": "",
             "subunits": [
                 "pesos",
-                "centavos" 
-            ]
+                "centavos"
+            ],
+            "divisions": {
+                "centavos": {
+                    "subunit": "centavos",
+                    "value": 1
+                },
+                "pesos": {
+                    "subunit": "centavos",
+                    "value": 100
+                }
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "bill",
+            "obsolete": true,
+            "denomination": "japanese occupation pesos",
+            "value": 1,
+            "subunit": "centavos",
+            "year": 1942,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": true,
+            "denomination": "japanese occupation pesos",
+            "value": 5,
+            "subunit": "pesos",
+            "year": 1943,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "pesos",
+            "value": 5,
+            "subunit": "centavos",
+            "year": 1949,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "pesos",
+            "value": 5,
+            "subunit": "pesos",
+            "year": 1997,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "pesos",
+            "value": 20,
+            "subunit": "pesos",
+            "year": 2014,
+            "owner": "Joel Friedly"
         }
     ]
 }

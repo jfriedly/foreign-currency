@@ -1,40 +1,45 @@
 {
+    "short_name": "afghanistan",
+    "long_name": "Afghanistan",
     "denominations": [
         {
             "name": "afghanis",
             "code": "AFN",
-            "subunits": ["afghanis"],
+            "subunits": [
+                "afghanis"
+            ],
             "divisions": {
                 "afghanis": {
-                    "value": 1, 
+                    "value": 1,
                     "subunit": "afghanis"
                 }
-            } 
+            },
+            "obsolete": false
         },
         {
             "name": "old afghanis",
-            "obsolete": true,
             "code": "AFA",
-            "subunits": ["afghanis"],
+            "subunits": [
+                "afghanis"
+            ],
             "divisions": {
                 "afghanis": {
-                    "value": 1, 
+                    "value": 1,
                     "subunit": "afghanis"
                 }
-            } 
+            },
+            "obsolete": true
         }
-    ], 
-    "short_name": "afghanistan", 
+    ],
     "inventory": [
         {
-            "obsolete": true, 
-            "value": 500, 
-            "denomination": "old afghanis", 
+            "piece_type": "bill",
+            "obsolete": true,
+            "denomination": "old afghanis",
+            "value": 500,
             "subunit": "afghanis",
-            "year": 0, 
-            "owner": "Joel Friedly", 
-            "piece_type": "bill"
-        } 
-    ], 
-    "long_name": "Afghanistan"
+            "year": 0,
+            "owner": "Joel Friedly"
+        }
+    ]
 }

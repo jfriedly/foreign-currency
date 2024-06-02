@@ -1,44 +1,45 @@
 {
-    "long_name": "Brazil", 
-    "inventory": [
-        {
-            "year": 2000, 
-            "obsolete": false, 
-            "value": 2, 
-            "denomination": "reais", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "reais"
-        }, 
-        {
-            "year": 2010, 
-            "obsolete": false, 
-            "value": 20, 
-            "denomination": "reais", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "reais"
-        }
-    ], 
-    "short_name": "brazil", 
+    "short_name": "brazil",
+    "long_name": "Brazil",
     "denominations": [
         {
             "name": "reais",
             "code": "BRL",
-            "divisions": {
-                "centavos": {
-                    "subunit": "centavos", 
-                    "value": 1
-                }, 
-                "reais": {
-                    "subunit": "centavos", 
-                    "value": 100
-                }
-            }, 
             "subunits": [
                 "reais",
-                "centavos" 
-            ]
+                "centavos"
+            ],
+            "divisions": {
+                "centavos": {
+                    "subunit": "centavos",
+                    "value": 1
+                },
+                "reais": {
+                    "subunit": "centavos",
+                    "value": 100
+                }
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "reais",
+            "value": 2,
+            "subunit": "reais",
+            "year": 2000,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "reais",
+            "value": 20,
+            "subunit": "reais",
+            "year": 2010,
+            "owner": "Joel Friedly"
         }
     ]
 }

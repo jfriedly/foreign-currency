@@ -1,90 +1,90 @@
 {
-    "long_name": "Spain", 
-    "inventory": [
-        {
-            "subunit": "pesetas", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1975, 
-            "obsolete": true, 
-            "value": 25, 
-            "denomination": "pesetas"
-        }, 
-        {
-            "subunit": "pesetas", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1975, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "pesetas"
-        }, 
-        {
-            "subunit": "pesetas", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1975, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "pesetas"
-        }, 
-        {
-            "subunit": "pesetas", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1975, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "pesetas"
-        }, 
-        {
-            "subunit": "pesetas", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1957, 
-            "obsolete": true, 
-            "value": 25, 
-            "denomination": "pesetas"
-        }, 
-        {
-            "subunit": "pesetas", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1957, 
-            "obsolete": true, 
-            "value": 25, 
-            "denomination": "pesetas"
-        }, 
-        {
-            "subunit": "pesetas", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1957, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "pesetas"
-        }
-    ], 
-    "short_name": "spain", 
+    "short_name": "spain",
+    "long_name": "Spain",
     "denominations": [
         {
+            "name": "pesetas",
+            "code": "ESP",
+            "subunits": [
+                "pesetas",
+                "centimos"
+            ],
             "divisions": {
                 "pesetas": {
-                    "subunit": "centimos", 
+                    "subunit": "centimos",
                     "value": 100
-                }, 
+                },
                 "centimos": {
-                    "subunit": "centimos", 
+                    "subunit": "centimos",
                     "value": 1
                 }
-            }, 
-            "subunits": [
-                "pesetas", 
-                "centimos"
-            ], 
-            "code": "ESP", 
-            "obsolete": true, 
-            "name": "pesetas"
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "pesetas",
+            "value": 25,
+            "subunit": "pesetas",
+            "year": 1975,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "pesetas",
+            "value": 5,
+            "subunit": "pesetas",
+            "year": 1975,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "pesetas",
+            "value": 5,
+            "subunit": "pesetas",
+            "year": 1975,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "pesetas",
+            "value": 5,
+            "subunit": "pesetas",
+            "year": 1975,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "pesetas",
+            "value": 25,
+            "subunit": "pesetas",
+            "year": 1957,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "pesetas",
+            "value": 25,
+            "subunit": "pesetas",
+            "year": 1957,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "pesetas",
+            "value": 5,
+            "subunit": "pesetas",
+            "year": 1957,
+            "owner": "Joel Friedly"
         }
     ]
 }

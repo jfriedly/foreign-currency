@@ -1,36 +1,36 @@
 {
-    "long_name": "East Africa Protectorate", 
-    "inventory": [
-        {
-            "year": 1952, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "shillings", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "cents"
-        }
-    ], 
-    "short_name": "east-africa", 
+    "short_name": "east-africa",
+    "long_name": "East Africa Protectorate",
     "denominations": [
         {
             "name": "shillings",
             "code": "",
-            "obsolete": true,
+            "subunits": [
+                "shillings",
+                "cents"
+            ],
             "divisions": {
                 "shillings": {
-                    "subunit": "cents", 
+                    "subunit": "cents",
                     "value": 100
-                }, 
+                },
                 "cents": {
-                    "subunit": "cents", 
+                    "subunit": "cents",
                     "value": 1
                 }
-            }, 
-            "subunits": [
-                "shillings", 
-                "cents"
-            ]
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "shillings",
+            "value": 5,
+            "subunit": "cents",
+            "year": 1952,
+            "owner": "Joel Friedly"
         }
     ]
 }

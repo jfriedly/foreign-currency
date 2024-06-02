@@ -1,176 +1,176 @@
 {
-    "long_name": "Japan", 
-    "inventory": [
-        {
-            "year": 1943, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "yen", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "yen"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": true, 
-            "value": 50, 
-            "denomination": "yen", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "sen"
-        }, 
-        {
-            "year": 1942, 
-            "obsolete": true, 
-            "value": 10, 
-            "denomination": "yen", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "sen"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "yen", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "sen"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "yen", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "yen"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "yen", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "yen"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "yen", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "yen"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "yen", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "yen"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "yen", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "yen"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "yen", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "yen"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "yen", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "yen"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "yen", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "yen"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "yen", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "yen"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "yen", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "yen"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "yen", 
-            "piece_type": "coin", 
-            "owner": "Kay Friedly", 
-            "subunit": "yen"
-        }, 
-        {
-            "year": 0, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "yen", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "yen"
-        }
-    ], 
-    "short_name": "japan", 
+    "short_name": "japan",
+    "long_name": "Japan",
     "denominations": [
         {
             "name": "yen",
             "code": "JPY",
-            "obsolete": false,
-            "divisions": {
-                "rin": {
-                    "subunit": "rin", 
-                    "value": 1
-                }, 
-                "sen": {
-                    "subunit": "rin", 
-                    "value": 10
-                }, 
-                "yen": {
-                    "subunit": "sen", 
-                    "value": 100
-                }
-            }, 
             "subunits": [
                 "yen",
-                "sen", 
-                "rin" 
-            ]
+                "sen",
+                "rin"
+            ],
+            "divisions": {
+                "rin": {
+                    "subunit": "rin",
+                    "value": 1
+                },
+                "sen": {
+                    "subunit": "rin",
+                    "value": 10
+                },
+                "yen": {
+                    "subunit": "sen",
+                    "value": 100
+                }
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "yen",
+            "value": 5,
+            "subunit": "yen",
+            "year": 1943,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": true,
+            "denomination": "yen",
+            "value": 50,
+            "subunit": "sen",
+            "year": 0,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "yen",
+            "value": 10,
+            "subunit": "sen",
+            "year": 1942,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "yen",
+            "value": 5,
+            "subunit": "sen",
+            "year": 0,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "yen",
+            "value": 1,
+            "subunit": "yen",
+            "year": 0,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "yen",
+            "value": 1,
+            "subunit": "yen",
+            "year": 0,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "yen",
+            "value": 1,
+            "subunit": "yen",
+            "year": 0,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "yen",
+            "value": 1,
+            "subunit": "yen",
+            "year": 0,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "yen",
+            "value": 5,
+            "subunit": "yen",
+            "year": 0,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "yen",
+            "value": 5,
+            "subunit": "yen",
+            "year": 0,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "yen",
+            "value": 5,
+            "subunit": "yen",
+            "year": 0,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "yen",
+            "value": 5,
+            "subunit": "yen",
+            "year": 0,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "yen",
+            "value": 10,
+            "subunit": "yen",
+            "year": 0,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "yen",
+            "value": 10,
+            "subunit": "yen",
+            "year": 0,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "yen",
+            "value": 10,
+            "subunit": "yen",
+            "year": 0,
+            "owner": "Kay Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "yen",
+            "value": 10,
+            "subunit": "yen",
+            "year": 0,
+            "owner": "Joel Friedly"
         }
     ]
 }

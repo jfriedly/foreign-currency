@@ -1,90 +1,90 @@
 {
-    "long_name": "Iceland", 
-    "inventory": [
-        {
-            "subunit": "krona", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 2001, 
-            "obsolete": false, 
-            "value": 500, 
-            "denomination": "krona"
-        }, 
-        {
-            "subunit": "krona", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2008, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "krona"
-        }, 
-        {
-            "subunit": "krona", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2004, 
-            "obsolete": false, 
-            "value": 100, 
-            "denomination": "krona"
-        }, 
-        {
-            "subunit": "krona", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1981, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "krona"
-        }, 
-        {
-            "subunit": "krona", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1992, 
-            "obsolete": false, 
-            "value": 50, 
-            "denomination": "krona"
-        }, 
-        {
-            "subunit": "krona", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2011, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "krona"
-        }, 
-        {
-            "subunit": "krona", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "year": 2001, 
-            "obsolete": false, 
-            "value": 500, 
-            "denomination": "krona"
-        }
-    ], 
-    "short_name": "iceland", 
+    "short_name": "iceland",
+    "long_name": "Iceland",
     "denominations": [
         {
+            "name": "krona",
+            "code": "ISK",
+            "subunits": [
+                "krona",
+                "aurar"
+            ],
             "divisions": {
                 "krona": {
-                    "subunit": "aurar", 
+                    "subunit": "aurar",
                     "value": 100
-                }, 
+                },
                 "aurar": {
-                    "subunit": "aurar", 
+                    "subunit": "aurar",
                     "value": 1
                 }
-            }, 
-            "subunits": [
-                "krona", 
-                "aurar"
-            ], 
-            "code": "ISK", 
-            "obsolete": false, 
-            "name": "krona"
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "krona",
+            "value": 500,
+            "subunit": "krona",
+            "year": 2001,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "krona",
+            "value": 10,
+            "subunit": "krona",
+            "year": 2008,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "krona",
+            "value": 100,
+            "subunit": "krona",
+            "year": 2004,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "krona",
+            "value": 5,
+            "subunit": "krona",
+            "year": 1981,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "krona",
+            "value": 50,
+            "subunit": "krona",
+            "year": 1992,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "krona",
+            "value": 1,
+            "subunit": "krona",
+            "year": 2011,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "krona",
+            "value": 500,
+            "subunit": "krona",
+            "year": 2001,
+            "owner": "Joel Friedly"
         }
     ]
 }

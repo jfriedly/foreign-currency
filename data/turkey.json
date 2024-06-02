@@ -1,64 +1,64 @@
 {
-    "long_name": "Turkey", 
-    "inventory": [
-        {
-            "year": 1960, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "old lira", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "lira"
-        }, 
-        {
-            "year": 1960, 
-            "obsolete": true, 
-            "value": 25, 
-            "denomination": "old lira", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "kurus"
-        }
-    ], 
-    "short_name": "turkey", 
+    "short_name": "turkey",
+    "long_name": "Turkey",
     "denominations": [
         {
-            "obsolete": false, 
+            "name": "new lira",
+            "code": "TRY",
+            "subunits": [
+                "lira",
+                "kurus"
+            ],
             "divisions": {
                 "lira": {
-                    "subunit": "kurus", 
+                    "subunit": "kurus",
                     "value": 100
-                }, 
+                },
                 "kurus": {
-                    "subunit": "kurus", 
+                    "subunit": "kurus",
                     "value": 1
                 }
-            }, 
-            "code": "TRY", 
-            "name": "new lira", 
-            "subunits": [
-                "lira", 
-                "kurus"
-            ]
+            },
+            "obsolete": false
         },
         {
-            "obsolete": true, 
+            "name": "old lira",
+            "code": "TRL",
+            "subunits": [
+                "lira",
+                "kurus"
+            ],
             "divisions": {
                 "lira": {
-                    "subunit": "kurus", 
+                    "subunit": "kurus",
                     "value": 100
-                }, 
+                },
                 "kurus": {
-                    "subunit": "kurus", 
+                    "subunit": "kurus",
                     "value": 1
                 }
-            }, 
-            "code": "TRL", 
-            "name": "old lira", 
-            "subunits": [
-                "lira", 
-                "kurus"
-            ]
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old lira",
+            "value": 1,
+            "subunit": "lira",
+            "year": 1960,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old lira",
+            "value": 25,
+            "subunit": "kurus",
+            "year": 1960,
+            "owner": "Joel Friedly"
         }
     ]
 }

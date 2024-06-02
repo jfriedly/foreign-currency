@@ -1,109 +1,109 @@
 {
-    "long_name": "Venezuela", 
-    "inventory": [
-        {
-            "year": 2007, 
-            "obsolete": false, 
-            "value": 2, 
-            "denomination": "bolivares fuertes", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "bolivares"
-        }, 
-        {
-            "year": 2004, 
-            "obsolete": true, 
-            "value": 500, 
-            "denomination": "old bolivares", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "bolivares"
-        }, 
-        {
-            "year": 1967, 
-            "obsolete": true, 
-            "value": 2, 
-            "denomination": "old bolivares", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "bolivares"
-        }, 
-        {
-            "year": 1977, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "old bolivares", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "bolivares"
-        }, 
-        {
-            "year": 1965, 
-            "obsolete": true, 
-            "value": 50, 
-            "denomination": "old bolivares", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "centimos"
-        }, 
-        {
-            "year": 1977, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "old bolivares", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "centimos"
-        }, 
-        {
-            "year": 1977, 
-            "obsolete": true, 
-            "value": 25, 
-            "denomination": "old bolivares", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "centimos"
-        }
-    ], 
-    "short_name": "venezuela", 
+    "short_name": "venezuela",
+    "long_name": "Venezuela",
     "denominations": [
         {
-            "obsolete": false, 
+            "name": "bolivares fuertes",
+            "code": "VEF",
+            "subunits": [
+                "bolivares",
+                "centimos"
+            ],
             "divisions": {
                 "bolivares": {
-                    "subunit": "centimos", 
+                    "subunit": "centimos",
                     "value": 100
-                }, 
+                },
                 "centimos": {
-                    "subunit": "centimos", 
+                    "subunit": "centimos",
                     "value": 1
                 }
-            }, 
-            "code": "VEF", 
-            "name": "bolivares fuertes", 
-            "subunits": [
-                "bolivares", 
-                "centimos"
-            ]
+            },
+            "obsolete": false
         },
         {
-            "obsolete": true, 
+            "name": "old bolivares",
+            "code": "VEB",
+            "subunits": [
+                "bolivares",
+                "centimos"
+            ],
             "divisions": {
                 "bolivares": {
-                    "subunit": "centimos", 
+                    "subunit": "centimos",
                     "value": 100
-                }, 
+                },
                 "centimos": {
-                    "subunit": "centimos", 
+                    "subunit": "centimos",
                     "value": 1
                 }
-            }, 
-            "code": "VEB", 
-            "name": "old bolivares", 
-            "subunits": [
-                "bolivares", 
-                "centimos"
-            ]
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "bolivares fuertes",
+            "value": 2,
+            "subunit": "bolivares",
+            "year": 2007,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old bolivares",
+            "value": 500,
+            "subunit": "bolivares",
+            "year": 2004,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old bolivares",
+            "value": 2,
+            "subunit": "bolivares",
+            "year": 1967,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old bolivares",
+            "value": 1,
+            "subunit": "bolivares",
+            "year": 1977,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old bolivares",
+            "value": 50,
+            "subunit": "centimos",
+            "year": 1965,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old bolivares",
+            "value": 5,
+            "subunit": "centimos",
+            "year": 1977,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "old bolivares",
+            "value": 25,
+            "subunit": "centimos",
+            "year": 1977,
+            "owner": "Joel Friedly"
         }
     ]
 }

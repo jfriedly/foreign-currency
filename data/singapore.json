@@ -1,45 +1,45 @@
 {
-    "long_name": "Singapore", 
-    "inventory": [
-        {
-            "year": 1987, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "dollars", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "cents"
-        }, 
-        {
-            "year": 1987, 
-            "obsolete": false, 
-            "value": 50, 
-            "denomination": "dollars", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "cents"
-        }
-    ], 
-    "short_name": "singapore", 
+    "short_name": "singapore",
+    "long_name": "Singapore",
     "denominations": [
         {
-            "obsolete": false, 
-            "divisions": {
-                "cents": {
-                    "subunit": "cents", 
-                    "value": 1
-                }, 
-                "dollars": {
-                    "subunit": "cents", 
-                    "value": 100
-                }
-            }, 
-            "code": "SGD", 
-            "name": "dollars", 
+            "name": "dollars",
+            "code": "SGD",
             "subunits": [
                 "dollars",
                 "cents"
-            ]
+            ],
+            "divisions": {
+                "cents": {
+                    "subunit": "cents",
+                    "value": 1
+                },
+                "dollars": {
+                    "subunit": "cents",
+                    "value": 100
+                }
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 10,
+            "subunit": "cents",
+            "year": 1987,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 50,
+            "subunit": "cents",
+            "year": 1987,
+            "owner": "Joel Friedly"
         }
     ]
 }

@@ -1,90 +1,90 @@
 {
-    "long_name": "New Zealand", 
-    "inventory": [
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 1994, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "dollars"
-        }, 
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "year": 2006, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "dollars"
-        }, 
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Dan Faber", 
-            "year": 2006, 
-            "obsolete": false, 
-            "value": 10, 
-            "denomination": "dollars"
-        }, 
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Dan Faber", 
-            "year": 2006, 
-            "obsolete": false, 
-            "value": 20, 
-            "denomination": "dollars"
-        }, 
-        {
-            "subunit": "cents", 
-            "piece_type": "coin", 
-            "owner": "Dan Faber", 
-            "year": 2006, 
-            "obsolete": false, 
-            "value": 50, 
-            "denomination": "dollars"
-        }, 
-        {
-            "subunit": "dollars", 
-            "piece_type": "coin", 
-            "owner": "Dan Faber", 
-            "year": 2000, 
-            "obsolete": false, 
-            "value": 1, 
-            "denomination": "dollars"
-        }, 
-        {
-            "subunit": "dollars", 
-            "piece_type": "bill", 
-            "owner": "Dan Faber", 
-            "year": 0, 
-            "obsolete": false, 
-            "value": 5, 
-            "denomination": "dollars"
-        }
-    ], 
-    "short_name": "new-zealand", 
+    "short_name": "new-zealand",
+    "long_name": "New Zealand",
     "denominations": [
         {
+            "name": "dollars",
+            "code": "NZD",
+            "subunits": [
+                "dollars",
+                "cents"
+            ],
             "divisions": {
                 "cents": {
-                    "subunit": "cents", 
+                    "subunit": "cents",
                     "value": 1
-                }, 
+                },
                 "dollars": {
-                    "subunit": "cents", 
+                    "subunit": "cents",
                     "value": 100
                 }
-            }, 
-            "subunits": [
-                "dollars", 
-                "cents"
-            ], 
-            "code": "NZD", 
-            "obsolete": false, 
-            "name": "dollars"
+            },
+            "obsolete": false
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "dollars",
+            "value": 5,
+            "subunit": "cents",
+            "year": 1994,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 10,
+            "subunit": "cents",
+            "year": 2006,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 10,
+            "subunit": "cents",
+            "year": 2006,
+            "owner": "Dan Faber"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 20,
+            "subunit": "cents",
+            "year": 2006,
+            "owner": "Dan Faber"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 50,
+            "subunit": "cents",
+            "year": 2006,
+            "owner": "Dan Faber"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 1,
+            "subunit": "dollars",
+            "year": 2000,
+            "owner": "Dan Faber"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 5,
+            "subunit": "dollars",
+            "year": 0,
+            "owner": "Dan Faber"
         }
     ]
 }

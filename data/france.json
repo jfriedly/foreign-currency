@@ -1,153 +1,157 @@
 {
-    "long_name": "France", 
-    "inventory": [
-        {
-            "year": 1944, 
-            "obsolete": true, 
-            "value": 2, 
-            "denomination": "us occupation francs", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "francs"
-        }, 
-        {
-            "year": 1942, 
-            "obsolete": true, 
-            "value": 10, 
-            "denomination": "old francs", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "francs"
-        }, 
-        {
-            "year": 1943, 
-            "obsolete": true, 
-            "value": 5, 
-            "denomination": "old francs", 
-            "piece_type": "bill", 
-            "owner": "Joel Friedly", 
-            "subunit": "francs"
-        }, 
-        {
-            "year": 1855, 
-            "obsolete": true, 
-            "value": 10, 
-            "denomination": "second french empire francs", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "centimes"
-        }, 
-        {
-            "year": 1943, 
-            "obsolete": true, 
-            "value": 2, 
-            "denomination": "vichy francs", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "francs"
-        }, 
-        {
-            "year": 1976, 
-            "obsolete": true, 
-            "value": 1, 
-            "denomination": "new francs", 
-            "piece_type": "coin", 
-            "owner": "Joel Friedly", 
-            "subunit": "francs"
-        }
-    ], 
-    "short_name": "france", 
+    "short_name": "france",
+    "long_name": "France",
     "denominations": [
         {
             "name": "new francs",
             "code": "FRF",
-            "obsolete": true,
+            "subunits": [
+                "francs",
+                "centimes"
+            ],
             "divisions": {
                 "francs": {
-                    "subunit": "centimes", 
+                    "subunit": "centimes",
                     "value": 100
-                }, 
+                },
                 "centimes": {
-                    "subunit": "centimes", 
+                    "subunit": "centimes",
                     "value": 1
                 }
-            }, 
-            "subunits": [
-                "francs", 
-                "centimes"
-            ]
+            },
+            "obsolete": true
         },
         {
             "name": "old francs",
-            "obsolete": true,
+            "code": "",
+            "subunits": [
+                "francs",
+                "centimes"
+            ],
             "divisions": {
                 "francs": {
-                    "subunit": "centimes", 
+                    "subunit": "centimes",
                     "value": 100
-                }, 
+                },
                 "centimes": {
-                    "subunit": "centimes", 
+                    "subunit": "centimes",
                     "value": 1
                 }
-            }, 
-            "subunits": [
-                "francs", 
-                "centimes"
-            ]
+            },
+            "obsolete": true
         },
         {
             "name": "us occupation francs",
-            "obsolete": true,
+            "code": "",
+            "subunits": [
+                "francs",
+                "centimes"
+            ],
             "divisions": {
                 "francs": {
-                    "subunit": "centimes", 
+                    "subunit": "centimes",
                     "value": 100
-                }, 
+                },
                 "centimes": {
-                    "subunit": "centimes", 
+                    "subunit": "centimes",
                     "value": 1
                 }
-            }, 
-            "subunits": [
-                "francs", 
-                "centimes"
-            ]
+            },
+            "obsolete": true
         },
         {
             "name": "vichy francs",
-            "obsolete": true,
+            "code": "",
+            "subunits": [
+                "francs",
+                "centimes"
+            ],
             "divisions": {
                 "francs": {
-                    "subunit": "centimes", 
+                    "subunit": "centimes",
                     "value": 100
-                }, 
+                },
                 "centimes": {
-                    "subunit": "centimes", 
+                    "subunit": "centimes",
                     "value": 1
                 }
-            }, 
-            "subunits": [
-                "francs", 
-                "centimes"
-            ]
+            },
+            "obsolete": true
         },
         {
             "name": "second french empire francs",
-            "obsolete": true,
+            "code": "",
+            "subunits": [
+                "francs",
+                "centimes"
+            ],
             "divisions": {
                 "francs": {
-                    "subunit": "centimes", 
+                    "subunit": "centimes",
                     "value": 100
-                }, 
+                },
                 "centimes": {
-                    "subunit": "centimes", 
+                    "subunit": "centimes",
                     "value": 1
                 }
-            }, 
-            "subunits": [
-                "francs", 
-                "centimes"
-            ]
+            },
+            "obsolete": true
+        }
+    ],
+    "inventory": [
+        {
+            "piece_type": "bill",
+            "obsolete": true,
+            "denomination": "us occupation francs",
+            "value": 2,
+            "subunit": "francs",
+            "year": 1944,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": true,
+            "denomination": "old francs",
+            "value": 10,
+            "subunit": "francs",
+            "year": 1942,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": true,
+            "denomination": "old francs",
+            "value": 5,
+            "subunit": "francs",
+            "year": 1943,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "second french empire francs",
+            "value": 10,
+            "subunit": "centimes",
+            "year": 1855,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "vichy francs",
+            "value": 2,
+            "subunit": "francs",
+            "year": 1943,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": true,
+            "denomination": "new francs",
+            "value": 1,
+            "subunit": "francs",
+            "year": 1976,
+            "owner": "Joel Friedly"
         }
     ]
 }
