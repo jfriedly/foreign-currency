@@ -84,8 +84,8 @@ class Country(object):
                 json_data = json.loads(json_file.read())
         except IOError as e:
             if e.errno == 2:
-                print ("Could not find country data for %s in %s" %
-                       (short_name, constants.COUNTRY_DIR))
+                print("Could not find country data for %s in %s" %
+                      (short_name, constants.COUNTRY_DIR))
                 sys.exit(1)
             raise
         return cls.from_dict(json_data)
@@ -259,7 +259,7 @@ class Denomination(object):
         assert set(self.subunits) == set(self.divisions.keys()), (
             "Subunits do not perfectly match division keys")
         subunits_seen = set()
-        for subunit_key, division in self.divisions.iteritems():
+        for subunit_key, division in self.divisions.items():
             assert 'value' in division, "Division must have a value"
             assert 'subunit' in division, "Division must have a subunit"
             subunit = division['subunit']

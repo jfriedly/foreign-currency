@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import argparse
 import os
 import sys
@@ -26,7 +26,7 @@ def parse_bool(instring):
         return True
     if 'n' in instring and not 'y' in instring:
         return False
-    print "Could not parse %s into a boolean" % instring
+    print("Could not parse %s into a boolean", instring)
     prompt = "Try again, or press Ctrl-C to exit [y|n]:  "
     return parse_bool(raw_input(prompt))
 
@@ -107,7 +107,7 @@ def main():
 
     path = os.path.join(constants.COUNTRY_DIR, short_name + ".json")
     if os.path.exists(path):
-        print "Country %s already exists!" % short_name
+        print("Country %s already exists!", short_name)
         sys.exit(1)
 
     read_input(short_name)

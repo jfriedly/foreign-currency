@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """ Generate a map of all the countries that we have currency for
 
 This script uses data from Natural Earth for country borders and plots them

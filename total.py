@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """ Compute and print the total value of present currency for a country
 
 Since denominations often have subunits, we need a way to add these up
@@ -88,8 +88,8 @@ def total(country, denomination=None, count_obsolete=False):
     for piece in country.inventory:
         if piece.denomination == denomination.name:
             if not piece.obsolete and denomination.obsolete:
-                print ("WARN:  piece is not obsolete, but it's "
-                       "denomination is:\n%s" % piece.to_dict())
+                print("WARN:  piece is not obsolete, but it's "
+                      "denomination is:\n%s" % piece.to_dict())
             # A piece may be from the current denomination, but be completely
             # removed from circulation and practically speaking obsolete.  Ex:
             # the 2 fen Chinese bill that I have.  We'll skip counting those.
@@ -140,7 +140,7 @@ def format_country(country, verbose=False):
 def main():
     args = parse_args()
     country = models.Country.load(args.country)
-    print format_country(country, verbose=args.verbose)
+    print(format_country(country, verbose=args.verbose))
 
 
 if __name__ == "__main__":
