@@ -1615,6 +1615,42 @@
             "subunit": "dollars",
             "year": 2008,
             "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 20,
+            "subunit": "dollars",
+            "year": 2012,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "bill",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 5,
+            "subunit": "dollars",
+            "year": 2013,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 2,
+            "subunit": "dollars",
+            "year": 1996,
+            "owner": "Joel Friedly"
+        },
+        {
+            "piece_type": "coin",
+            "obsolete": false,
+            "denomination": "dollars",
+            "value": 1,
+            "subunit": "dollars",
+            "year": 2012,
+            "owner": "Joel Friedly"
         }
     ]
 }
