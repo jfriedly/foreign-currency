@@ -87,15 +87,6 @@
             "obsolete": false,
             "denomination": "yuan",
             "value": 1,
-            "subunit": "yuan",
-            "year": 1999,
-            "owner": "Joel Friedly"
-        },
-        {
-            "piece_type": "bill",
-            "obsolete": false,
-            "denomination": "yuan",
-            "value": 1,
             "subunit": "jiao",
             "year": 1980,
             "owner": "Joel Friedly"
@@ -242,15 +233,6 @@
             "value": 1,
             "subunit": "jiao",
             "year": 2005,
-            "owner": "Joel Friedly"
-        },
-        {
-            "piece_type": "coin",
-            "obsolete": false,
-            "denomination": "yuan",
-            "value": 1,
-            "subunit": "jiao",
-            "year": 2006,
             "owner": "Joel Friedly"
         },
         {

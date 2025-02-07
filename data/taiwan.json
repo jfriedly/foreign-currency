@@ -38,15 +38,6 @@
             "owner": "Joel Friedly"
         },
         {
-            "piece_type": "bill",
-            "obsolete": true,
-            "denomination": "new taiwan dollars",
-            "value": 1,
-            "subunit": "yuan",
-            "year": 1961,
-            "owner": "Joel Friedly"
-        },
-        {
             "piece_type": "coin",
             "obsolete": true,
             "denomination": "new taiwan dollars",
@@ -123,15 +114,6 @@
             "obsolete": false,
             "denomination": "new taiwan dollars",
             "value": 5,
-            "subunit": "yuan",
-            "year": 0,
-            "owner": "Dan Faber"
-        },
-        {
-            "piece_type": "coin",
-            "obsolete": false,
-            "denomination": "new taiwan dollars",
-            "value": 1,
             "subunit": "yuan",
             "year": 0,
             "owner": "Dan Faber"
